@@ -14,7 +14,7 @@ import numpy as np
 
 print("Loading model")
 global sess
-sess = tf.compat.v1.Session(config=tf.compat.v1.ConfigProto(gpu_options=gpuoptions))
+sess = tf.Session()
 set_session(sess)
 global model
 model = load_model('my_cifar10_model.h5')
