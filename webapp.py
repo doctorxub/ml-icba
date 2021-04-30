@@ -43,6 +43,7 @@ x=Dense(128,activation='relu')(x)
 x=Dense(128,activation='relu')(x)
 preds=Dense(len(classes),activation='softmax')(x)
 
+global model
 model=Model(inputs=base_model.input, outputs=preds)
 model.load_weights('model-epoch-002-valacc-0.976103.h5')
 
@@ -51,8 +52,6 @@ print("Loading model")
 global sess
 sess = tf.compat.v1.Session()
 tf.compat.v1.keras.backend.set_session(sess)
-global model
-model = load_model('my_cifar10_model.h5')
 global graph
 graph = tf.compat.v1.get_default_graph()
 
