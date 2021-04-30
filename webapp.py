@@ -16,7 +16,6 @@ import pandas as pd
 from tensorflow.keras.layers import Dense,GlobalAveragePooling2D
 from tensorflow.keras.applications import InceptionResNetV2, VGG16, ResNet50
 from tensorflow.keras.preprocessing import image
-from tensorflow.keras.applications.resnet import preprocess_input
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam, SGD
