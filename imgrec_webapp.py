@@ -19,7 +19,7 @@ set_session(sess)
 global model
 model = load_model('my_cifar10_model.h5')
 global graph
-graph = tf.get_default_graph()
+graph = tf.compat.v1.get_default_graph()
 
 @app.route('/', methods=['GET', 'POST'])
 def main_page():
