@@ -68,7 +68,7 @@ def prediction(filename):
     #Step 1
     my_image = plt.imread(os.path.join('uploads', filename))
     #Step 2
-    my_image_re = resize(my_image, (32,32,3))
+    my_image_re = resize(my_image, (224,224))
 
     #Step 3
     with graph.as_default():
