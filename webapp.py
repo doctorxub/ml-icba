@@ -28,7 +28,6 @@ global model_to_use
 global classes
 global base_model
 global x
-global model
 global preds
 
 classes = ['0', '1', '2', '3', '4', '5']
