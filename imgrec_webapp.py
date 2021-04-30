@@ -6,7 +6,6 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 from tensorflow.keras.models import load_model
-from tensorflow.compat.v1.keras.backend import set_session
 from skimage.transform import resize
 import matplotlib.pyplot as plt
 import tensorflow as tf
@@ -15,7 +14,7 @@ import numpy as np
 print("Loading model")
 global sess
 sess = tf.compat.v1.Session()
-set_session(sess)
+tf.compat.v1.keras.backend.set_session(sess)
 global model
 model = load_model('my_cifar10_model.h5')
 global graph
@@ -39,7 +38,7 @@ def prediction(filename):
 
     #Step 3
     with graph.as_default():
-      set_session(sess)
+      tf.compat.v1.keras.backend.set_session(sess)
       probabilities = model.predict(np.array( [my_image_re,] ))[0,:]
       print(probabilities)
       #Step 4
