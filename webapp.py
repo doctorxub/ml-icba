@@ -12,7 +12,6 @@ import tensorflow as tf
 import numpy as np
 
 
-import pandas as pd
 from tensorflow.keras.layers import Dense,GlobalAveragePooling2D
 from tensorflow.keras.applications import InceptionResNetV2, VGG16, ResNet50
 from tensorflow.keras.preprocessing import image
@@ -42,16 +41,10 @@ x=Dense(128,activation='relu')(x)
 x=Dense(128,activation='relu')(x)
 preds=Dense(len(classes),activation='softmax')(x)
 
-global model
-model = load_model('model-epoch-002-valacc-0.976103.h5')
-model.compile(
-    loss='categorical_crossentropy',
-    optimizer='adam',
-    metrics=['accuracy']
-)
-# model=Model(inputs=base_model.input, outputs=preds)
-# model.load_weights('model-epoch-002-valacc-0.976103.h5')
+model=Model(inputs=base_model.input, outputs=preds)
 
+model_path = 'model-epoch-002-valacc-0.976103.h5'
+model.load_weights(model_path)
 
 print("Loading model")
 global sess
@@ -71,29 +64,16 @@ def main_page():
 
 @app.route('/prediction/<filename>')
 def prediction(filename):
-    #Step 1
-    my_image = plt.imread(os.path.join('uploads', filename))
-    #Step 2
-    my_image = resize(my_image, (224,224))
-    my_image_re = np.reshape(my_image, [1, 224, 224, 3])
-
-    classes = model.predict(my_image_re, batch_size=1)
-    print("model prediction: ")
-    print(classes)
+    img = plt.imread(os.path.join('uploads', filename))
+    img_resized = resize(img, (224,224))
+    img_reshaped = np.reshape(img_resized, [1, 224, 224, 3])
+    classes = model.predict(img_reshaped, batch_size=1)
+    print ('Model prediction:')
+    print(np.round(classes))
 
     max_index = np.argmax(classes, axis=1)
     print("class number: ")
     print(max_index)
-    # #Step 3
-    # with graph.as_default():
-    #   tf.compat.v1.keras.backend.set_session(sess)
-
-    #   ypred_test = model.predict(np.array( [my_image_re,] ))[0,:]
-    #   ypred_labels_test = np.argmax(ypred_test, axis=1)
-    #   print(ypred_labels_test)
-    #   ypred_onehot_test = to_categorical(ypred_labels_test, num_classes=6)
-
-    #   sys.stdout.write('\n\n' + ypred_labels_test + '\n\n')
 
     #Step 5
     return render_template('temp.html', predictions=max_index)
