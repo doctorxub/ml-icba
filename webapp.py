@@ -48,11 +48,11 @@ model.load_weights('model-epoch-002-valacc-0.976103.h5')
 
 
 print("Loading model")
-global sess
-sess = tf.compat.v1.Session()
-tf.compat.v1.keras.backend.set_session(sess)
-global graph
-graph = tf.compat.v1.get_default_graph()
+# global sess
+# sess = tf.compat.v1.Session()
+# tf.compat.v1.keras.backend.set_session(sess)
+# global graph
+# graph = tf.compat.v1.get_default_graph()
 
 @app.route('/', methods=['GET', 'POST'])
 def main_page():
