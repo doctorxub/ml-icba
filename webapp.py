@@ -68,20 +68,28 @@ def prediction(filename):
     #Step 1
     my_image = plt.imread(os.path.join('uploads', filename))
     #Step 2
-    my_image_re = resize(my_image, (224,224))
+    my_image = resize(my_image, (224,224))
+    my_image_re = np.reshape(my_image, [1, 224, 224, 3])
 
-    #Step 3
-    with graph.as_default():
-      tf.compat.v1.keras.backend.set_session(sess)
+    classes = model.predict(my_image_re, batch_size=1)
+    print("model prediction: ")
+    print(classes)
 
-      ypred_test = model.predict(np.array( [my_image_re,] ))[0,:]
-      ypred_labels_test = np.argmax(ypred_test, axis=1)
-      print(ypred_labels_test)
-      ypred_onehot_test = to_categorical(ypred_labels_test, num_classes=6)
+    max_index = np.argmax(classes, axis=1)
+    print("class number: ")
+    print(max_index)
+    # #Step 3
+    # with graph.as_default():
+    #   tf.compat.v1.keras.backend.set_session(sess)
 
-      sys.stdout.write('\n\n' + ypred_labels_test + '\n\n')
+    #   ypred_test = model.predict(np.array( [my_image_re,] ))[0,:]
+    #   ypred_labels_test = np.argmax(ypred_test, axis=1)
+    #   print(ypred_labels_test)
+    #   ypred_onehot_test = to_categorical(ypred_labels_test, num_classes=6)
+
+    #   sys.stdout.write('\n\n' + ypred_labels_test + '\n\n')
 
     #Step 5
-    return render_template('temp.html', predictions=ypred_labels_test)
+    return render_template('temp.html', predictions=max_index)
 
 app.run(host='0.0.0.0', port=2000)
