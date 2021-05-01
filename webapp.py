@@ -19,7 +19,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam, SGD
 from tensorflow.keras.utils import to_categorical
-import sys
+import cv2
 
 
 global model_to_use
@@ -64,10 +64,10 @@ def main_page():
 
 @app.route('/prediction/<filename>')
 def prediction(filename):
-    img = plt.imread(os.path.join('uploads', filename))
-    img_resized = resize(img, (224,224))
-    img_reshaped = np.reshape(img_resized, [1, 224, 224, 3])
-    classes = model.predict(img_reshaped, batch_size=1)
+    img = cv2.imread(os.path.join('uploads', filename))
+    img = cv2.resize(img,(224,224))
+    img = np.reshape(img,[1,224,224,3])
+    classes = model.predict(img, batch_size=1)
     print ('Model prediction:')
     print(np.round(classes))
 
