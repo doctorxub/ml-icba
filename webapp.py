@@ -29,14 +29,25 @@ global x
 global preds
 
 classes = ['0', '1', '2', '3', '4', '5']
-predictions = [
-    {"title": "Cucumber Spider Mite"},
-    {"title": "Cucumber Downy Mildew"},
-    {"title": "Cucumber K Deficient"},
-    {"title": "Tomato Powdery Mildew"},
-    {"title": "Pepper Downy Mildew"},
-    {"title": "Pepper Spider Mite"},
-]
+predictions = []
+predictions[0] = {
+    "title": "Cucumber Spider Mite"
+}
+predictions[1] = {
+    "title": "Cucumber Downy Mildew"
+}
+predictions[2] = {
+    "title": "Cucumber K Deficient"
+}
+predictions[3] = {
+    "title": "Tomato Powdery Mildew"
+}
+predictions[4] = {
+    "title": "Pepper Downy Mildew"
+}
+predictions[5] = {
+    "title": "Pepper Spider Mite"
+}
 
 model_to_use='resnet50'
 
