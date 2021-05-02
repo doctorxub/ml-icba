@@ -77,11 +77,8 @@ def prediction(filename):
     img = cv2.resize(img,(224,224))
     img = np.reshape(img,[1,224,224,3])
     classes = model.predict(img, batch_size=1)
-    print ('Model prediction:')
-    print(np.round(classes))
-
     max_index = np.argmax(classes, axis=1)
-    print("class number: ")
+    print(predictions[max_index])
 
     #Step 5
     return render_template('result.html', predictions=predictions[max_index])
