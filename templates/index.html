@@ -114,8 +114,8 @@
     <h1>Product Name</h1>
     <form method=post enctype=multipart/form-data class="box">
       <div class="box__input">
-        <label for="file" class="custom-label"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label>
-        <input type=file name=file>
+        <label for="file" class="custom-label" id="inputLabel"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label>
+        <input id="fileInput" type=file name=file>
         <input type=submit value="Upload & Classify">
       </div>
     </form>
@@ -123,6 +123,16 @@
       <p><strong>Footer goes here.</strong></p>
     </footer>
   </div>
+
+  <script>
+    'use strict';
+    (function (document, window, index) {
+      document.getElementById('fileInput').onchange = function () {
+        var inputLabel = document.getElementById('inputLabel');
+        inputLabel.innerHTML = 'Selected file: ' + this.value;
+      };
+    })(document, window, 0);
+  </script>
 </body>
 
 </html>
