@@ -80,9 +80,9 @@ def prediction(filename):
     classes = model.predict(img, batch_size=1)
     max_index = np.argmax(classes, axis=1)
     print(predictions[3])
-    print(predictions[max_index])
+    print(predictions[max_index[0]])
 
     #Step 5
-    return render_template('result.html', predictions=predictions[max_index])
+    return render_template('result.html', predictions=predictions[max_index[0]])
 
 app.run(host='0.0.0.0', port=2000)
