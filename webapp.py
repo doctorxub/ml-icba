@@ -30,24 +30,15 @@ global preds
 
 classes = ['0', '1', '2', '3', '4', '5']
 predictions = [None] * 6
-predictions[0] = {
-    "title": "Cucumber Spider Mite"
-}
-predictions[1] = {
-    "title": "Cucumber Downy Mildew"
-}
-predictions[2] = {
-    "title": "Cucumber K Deficient"
-}
-predictions[3] = {
-    "title": "Tomato Powdery Mildew"
-}
-predictions[4] = {
-    "title": "Pepper Downy Mildew"
-}
-predictions[5] = {
-    "title": "Pepper Spider Mite"
-}
+
+predictions = [
+  ["Cucumber Spider Mite", '2018-08-06 10:18:00', '2018-08-06 11:42:00'],
+  ["Cucumber Downy Mildew", '2018-08-06 10:18:00', '2018-08-06 11:42:00'],
+  ["Cucumber K Deficient", '2018-08-06 10:18:00', '2018-08-06 11:42:00'],
+  ["Tomato Powdery Mildew", '2018-08-06 10:18:00', '2018-08-06 11:42:00'],
+  ["Pepper Downy Mildew", '2018-08-06 10:18:00', '2018-08-06 11:42:00'],
+  ["Pepper Spider Mite", '2018-08-06 10:18:00', '2018-08-06 11:42:00']
+]
 
 model_to_use='resnet50'
 
