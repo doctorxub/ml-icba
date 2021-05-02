@@ -27,10 +27,9 @@ global classes
 global base_model
 global x
 global preds
+global predictions
 
 classes = ['0', '1', '2', '3', '4', '5']
-predictions = [None] * 6
-
 predictions = [
   ["Cucumber Spider Mite", '2018-08-06 10:18:00', '2018-08-06 11:42:00'],
   ["Cucumber Downy Mildew", '2018-08-06 10:18:00', '2018-08-06 11:42:00'],
@@ -80,6 +79,7 @@ def prediction(filename):
     img = np.reshape(img,[1,224,224,3])
     classes = model.predict(img, batch_size=1)
     max_index = np.argmax(classes, axis=1)
+    print(predictions[3])
     print(predictions[max_index])
 
     #Step 5
