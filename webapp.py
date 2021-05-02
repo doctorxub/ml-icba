@@ -31,12 +31,12 @@ global predictions
 
 classes = ['0', '1', '2', '3', '4', '5']
 predictions = [
-  ["Cucumber Spider Mite", '2018-08-06 10:18:00', '2018-08-06 11:42:00'],
-  ["Cucumber Downy Mildew", '2018-08-06 10:18:00', '2018-08-06 11:42:00'],
-  ["Cucumber K Deficient", '2018-08-06 10:18:00', '2018-08-06 11:42:00'],
-  ["Tomato Powdery Mildew", '2018-08-06 10:18:00', '2018-08-06 11:42:00'],
-  ["Pepper Downy Mildew", '2018-08-06 10:18:00', '2018-08-06 11:42:00'],
-  ["Pepper Spider Mite", '2018-08-06 10:18:00', '2018-08-06 11:42:00']
+  {'title': 'Cucumber Spider Mite'},
+  {'title': 'Cucumber Downy Mildew'},
+  {'title': 'Cucumber K Deficient'},
+  {'title': 'Tomato Powdery Mildew'},
+  {'title': 'Pepper Downy Mildew'},
+  {'title': 'Pepper Spider Mite'},
 ]
 
 model_to_use='resnet50'
@@ -79,8 +79,6 @@ def prediction(filename):
     img = np.reshape(img,[1,224,224,3])
     classes = model.predict(img, batch_size=1)
     max_index = np.argmax(classes, axis=1)
-    print(predictions[3])
-    print(predictions[max_index[0]])
 
     #Step 5
     return render_template('result.html', predictions=predictions[max_index[0]])
