@@ -45,15 +45,15 @@ def main_page():
 
 @app.route('/prediction/<filename>')
 def prediction(filename):
-    file_path = os.path.join('uploads', filename)
-    img = cv2.imread(file_path)
-    img = cv2.resize(img,(224,224))
-    img = np.reshape(img,[1,224,224,3])
-    classes = model.predict(img, batch_size=1)
-    max_index = np.argmax(classes, axis=1)
     if os.path.exists(file_path):
+        file_path = os.path.join('uploads', filename)
+        img = cv2.imread(file_path)
+        img = cv2.resize(img,(224,224))
+        img = np.reshape(img,[1,224,224,3])
+        classes = model.predict(img, batch_size=1)
+        max_index = np.argmax(classes, axis=1)
         os.remove(file_path)
+        return render_template('result.html', predictions=predictions[max_index[0]])
 
-    return render_template('result.html', predictions=predictions[max_index[0]])
-
+    return render_template('error.html', predictions=predictions[max_index[0]])
 app.run(host='0.0.0.0', port=2000)
