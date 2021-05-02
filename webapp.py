@@ -29,7 +29,7 @@ global x
 global preds
 
 classes = ['0', '1', '2', '3', '4', '5']
-predictions = []
+predictions = [None] * 6
 predictions[0] = {
     "title": "Cucumber Spider Mite"
 }
