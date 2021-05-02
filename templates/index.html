@@ -48,8 +48,7 @@
     }
 
     .container {
-      width: 100%;
-      max-width: 680px; /* 800 */
+      width: 650px;
       text-align: center;
       margin: 0 auto;
     }
@@ -58,15 +57,12 @@
       font-size: 42px;
       font-weight: 300;
       color: #0f3c4b;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
 
     .container footer {
       color: #92b0b3;
-      margin-top: 40px;
-    }
-    .container footer p + p {
-      margin-top: 1em;
+      margin-top: 30px;
     }
     .container footer a:hover,
     .container footer a:focus {
@@ -79,18 +75,13 @@
       color: white;
       padding: 16px 32px;
       text-decoration: none;
-      margin: 4px 2px;
       cursor: pointer;
       border-radius: 10px;
+      margin-top: 5px;
     }
 
     input[type=file] {
-      background-color: #85cbd6;
-      border: none;
-      color: white;
-      text-decoration: none;
-      margin: 4px 2px;
-      cursor: pointer;
+      opacity:0;
       padding: 150px 0;
     }
 
@@ -98,8 +89,16 @@
       background-color: #217d8b;
     }
 
-    .custom-file-input::-webkit-file-upload-button {
-      visibility: hidden;
+    .custom-label {
+      position: absolute;
+      background-color: #85cbd6;
+      border: none;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      padding: 150px 0;
+      border-radius: 10px;
+      width: 650px;
     }
 
     .box__input {
@@ -112,21 +111,16 @@
 
 <body>
   <div class="container" role="main">
-    <h1>Test</h1>
+    <h1>Product Name</h1>
     <form method=post enctype=multipart/form-data class="box">
       <div class="box__input">
-        <input type=file name=file class="custom-file-input">
+        <label for="file" class="custom-label"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label>
+        <input type=file name=file>
         <input type=submit value="Upload & Classify">
       </div>
     </form>
-
     <footer>
-      <p>
-        <strong>Lorem Ipsum</strong>
-      </p>
-      <p>
-        Lorem Ipsum.
-      </p>
+      <p><strong>Footer goes here.</strong></p>
     </footer>
   </div>
 </body>
