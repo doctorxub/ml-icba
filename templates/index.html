@@ -129,7 +129,7 @@
     (function (document, window, index) {
       document.getElementById('fileInput').onchange = function () {
         var inputLabel = document.getElementById('inputLabel');
-        inputLabel.innerHTML = 'Selected file: ' + this.value;
+        inputLabel.innerHTML = 'Selected file: ' + this.value.replace(/.*[\/\\]/, '');
       };
     })(document, window, 0);
   </script>
