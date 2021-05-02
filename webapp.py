@@ -29,6 +29,15 @@ global x
 global preds
 
 classes = ['0', '1', '2', '3', '4', '5']
+predictions = [
+    {"title": "Cucumber Spider Mite"},
+    {"title": "Cucumber Downy Mildew"},
+    {"title": "Cucumber K Deficient"},
+    {"title": "Tomato Powdery Mildew"},
+    {"title": "Pepper Downy Mildew"},
+    {"title": "Pepper Spider Mite"},
+]
+
 model_to_use='resnet50'
 
 base_model=ResNet50(weights='imagenet',include_top=False)
@@ -73,9 +82,8 @@ def prediction(filename):
 
     max_index = np.argmax(classes, axis=1)
     print("class number: ")
-    print(max_index)
 
     #Step 5
-    return render_template('result.html', predictions=max_index)
+    return render_template('result.html', predictions=predictions[max_index])
 
 app.run(host='0.0.0.0', port=2000)
