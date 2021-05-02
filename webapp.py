@@ -19,8 +19,6 @@ predictions = [
   {'title': 'Pepper Spider Mite'},
 ]
 
-model_to_use='resnet50'
-
 base_model=ResNet50(weights='imagenet',include_top=False)
 for layer in base_model.layers:
     layer.trainable=False
@@ -47,11 +45,14 @@ def main_page():
 
 @app.route('/prediction/<filename>')
 def prediction(filename):
-    img = cv2.imread(os.path.join('uploads', filename))
+    file_path = os.path.join('uploads', filename)
+    img = cv2.imread(file_path)
     img = cv2.resize(img,(224,224))
     img = np.reshape(img,[1,224,224,3])
     classes = model.predict(img, batch_size=1)
     max_index = np.argmax(classes, axis=1)
+    if os.path.exists(file_path):
+        os.remove(file_path)
 
     return render_template('result.html', predictions=predictions[max_index[0]])
 
