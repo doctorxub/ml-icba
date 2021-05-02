@@ -76,6 +76,6 @@ def prediction(filename):
     print(max_index)
 
     #Step 5
-    return render_template('temp.html', predictions=max_index)
+    return render_template('result.html', predictions=max_index)
 
 app.run(host='0.0.0.0', port=2000)
