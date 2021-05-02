@@ -53,9 +53,10 @@ def prediction(filename):
         img = np.reshape(img,[1,224,224,3])
         classes = model.predict(img, batch_size=1)
         max_index = np.argmax(classes, axis=1)
+        index = max_index[0]
         os.remove(file_path)
     if index >= 0:
-        return render_template('result.html', predictions=predictions[max_index[index]])
+        return render_template('result.html', predictions=predictions[index])
     else:
         return render_template('error.html', message="This file no longer exists")
 
