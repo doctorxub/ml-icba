@@ -3,19 +3,131 @@
 
 <head>
   <title>Classify your Image!</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style id="" media="all">
+    /* latin */
+    @font-face {
+      font-family: 'Roboto';
+      font-style: italic;
+      font-weight: 300;
+      src: url(/fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TjASc6CsTYl4BO.woff2)
+        format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+        U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 300;
+      src: url(/fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2)
+        format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+        U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      src: url(/fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2)
+        format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+        U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+        U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  </style>
+  <style>
+    body {
+      font-family: Roboto, sans-serif;
+      color: #0f3c4b;
+      background-color: #e5edf1;
+      padding: 0 1.25rem;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 680px; /* 800 */
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .container h1 {
+      font-size: 42px;
+      font-weight: 300;
+      color: #0f3c4b;
+      margin-bottom: 40px;
+    }
+
+    .container footer {
+      color: #92b0b3;
+      margin-top: 40px;
+    }
+    .container footer p + p {
+      margin-top: 1em;
+    }
+    .container footer a:hover,
+    .container footer a:focus {
+      color: #85cbd6;
+    }
+
+    input[type=button], input[type=submit], input[type=reset], input[type=file] {
+      background-color: #85cbd6;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+
+    input[type=file] {
+      background-color: #85cbd6;
+      border: none;
+      color: white;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+      padding: 150px 0;
+    }
+
+    input[type=submit] {
+      background-color: #217d8b;
+    }
+
+    .custom-file-input::-webkit-file-upload-button {
+      visibility: hidden;
+    }
+
+    .box__input {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+
 </head>
 
-<body style="background-color:black">
-  <div id="maintext" style="position:absolute; margin:auto; width:700px; height:200px; text-align:center; top:0; bottom: 0; left: 0; right: 0;">
-    <h1 class="text-light mb-2"> Upload your image to be classified! </h1>
-    <h4 class="text-light mb-5">(Please upload images less than 500kb in size)</h4>
-    <form method=post enctype=multipart/form-data>
-      <p class="text-light">
-        <input type=file name=file>
-        <input type=submit value=Upload>
-      </p>
+<body>
+  <div class="container" role="main">
+    <h1>Test</h1>
+    <form method=post enctype=multipart/form-data class="box">
+      <div class="box__input">
+        <input type=file name=file class="custom-file-input">
+        <input type=submit value="Upload & Classify">
+      </div>
     </form>
+
+    <footer>
+      <p>
+        <strong>Lorem Ipsum</strong>
+      </p>
+      <p>
+        Lorem Ipsum.
+      </p>
+    </footer>
   </div>
 </body>
 
