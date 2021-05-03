@@ -44,10 +44,13 @@ input[type='file'] {
 
 input[type='submit'] {
   background-color: #217d8b;
+  color: white;
+  border: none;
   padding: 20px 50px;
   width: fit-content;
   font-weight: bold;
   margin-top: 5px;
+  border-radius: 8px;
 }
 
 .custom-label {
@@ -59,6 +62,7 @@ input[type='submit'] {
   padding: 100px 0;
   max-height: 125px;
   width: 100%;
+  left: 0;
 }
 
 .box__input {
