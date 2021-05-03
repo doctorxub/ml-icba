@@ -49,8 +49,9 @@ input[type='submit'] {
   padding: 20px 50px;
   width: fit-content;
   font-weight: bold;
-  margin-top: 5px;
+  margin: 5px auto;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .custom-label {
