@@ -49,7 +49,7 @@ def prediction(filename):
     index = -1
     if os.path.exists(file_path):
         img = cv2.imread(file_path)
-        if img.size == 0:
+        if img is None or img.size == 0:
             os.remove(file_path)
             render_template('error.html', message="Unsupported format")
         img = cv2.resize(img,(224,224))
