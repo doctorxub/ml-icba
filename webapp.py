@@ -49,6 +49,9 @@ def prediction(filename):
     index = -1
     if os.path.exists(file_path):
         img = cv2.imread(file_path)
+        if img.size == 0:
+            os.remove(file_path)
+            render_template('error.html', message="Unsupported format")
         img = cv2.resize(img,(224,224))
         img = np.reshape(img,[1,224,224,3])
         classes = model.predict(img, batch_size=1)
