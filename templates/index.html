@@ -11,12 +11,14 @@
 </head>
 <body>
   <div class="container" role="main">
-    <h1>ICBA - Image Classification</h1>
-    <p>Common Diseases & Insect Pests</p>
+    <h1>ICBA</h1>
+    <p>Common Diseases & Insect Pests - Image Classification</p>
     <form method=post enctype=multipart/form-data class="box">
-      <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="16 16 12 12 8 16"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"></path><polyline points="16 16 12 12 8 16"></polyline></svg>
       <div class="box__input">
-        <label for="file" class="custom-label" id="inputLabel"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label>
+        <label for="file" class="custom-label" id="inputLabel">
+          <svg class="uploadSVG" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="16 16 12 12 8 16"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"></path><polyline points="16 16 12 12 8 16"></polyline></svg>
+          <strong>Choose a file</strong><span class="box__dragndrop"> or drag it here.</span>
+        </label>
         <input id="fileInput" type=file name=file>
         <input type=submit value="Upload & Classify">
       </div>

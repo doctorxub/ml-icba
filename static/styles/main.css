@@ -27,6 +27,11 @@ body {
   color: #85cbd6;
 }
 
+.uploadSVG {
+  width: 120px;
+  height: 120px;
+}
+
 input[type='button'],
 input[type='submit'],
 input[type='reset'],
@@ -43,11 +48,12 @@ input[type='file'] {
 
 input[type='file'] {
   opacity: 0;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 input[type='submit'] {
   background-color: #217d8b;
+  font-weight: bold;
 }
 
 .custom-label {
