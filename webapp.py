@@ -39,6 +39,8 @@ def main_page():
     if request.method == 'POST':
         file = request.files['file']
         filename = secure_filename(file.filename)
+        if not filename:
+            return render_template('error.html', message="Please select a file to classify")
         file.save(os.path.join('uploads', filename))
         return redirect(url_for('prediction', filename=filename))
     return render_template('index.html')
