@@ -45,6 +45,8 @@ def main_page():
 
 @app.route('/prediction/<filename>')
 def prediction(filename):
+    if not filename:
+        return render_template('error.html', message="Please select a file to classify")
     file_path = os.path.join('uploads', filename)
     index = -1
     if os.path.exists(file_path):
