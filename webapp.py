@@ -17,11 +17,15 @@ predictions = [
         'disease': 'Spider Mite',
         'sci': 'Tetranychus spp.',
         'hosts': 'Wide range of garden plants, including many vegetables (e.g., beans, eggplant), fruits (e.g., raspberries, currants, pear) and flowers.',
-        'symptoms': """∙ Tiny insects usually found on the back of leaves.
-        ∙ Range in color from red and brown to yellow and green.
-        ∙ Produce webbing, when occur in high population, similar to the spiders.
-        ∙ Infected leaves appear discolored with pale dots, become scorched and drop.""",
-        'control': '∙ Spray Dicofol 18.5 EC @ 2000 ml/ha',
+        'symptoms': '''<ul>
+            <li>Tiny insects usually found on the back of leaves.</li>
+            <li>Range in color from red and brown to yellow and green</li>
+            <li>Produce webbing, when occur in high population, similar to the spiders</li>
+            <li>Infected leaves appear discolored with pale dots, become scorched and drop.</li>
+        </ul>''',
+        'control': '''<ul>
+            <li>Spray Dicofol 18.5 EC @ 2000 ml/ha</li>
+        </ul>''',
         'image': ''
     },
     {
@@ -30,11 +34,15 @@ predictions = [
         'disease': 'Downy Mildew',
         'sci': 'Pseudoperonospora spp.',
         'hosts': 'Many common vegetables including brassicas (cabbage, cauliflower, mustard), carrot, lettuce, onion, spinach, beans, cucumber and cantaloupes',
-        'symptoms': """∙ Angular, pale yellow patches delineated by leaf veins.
-        ∙ Mold-like growth on the underside of the leaf, corresponding to the blotch on the upper surface.
-        ∙ Plants stunted, lack vigor, and die.""",
-        'control': """∙ Seed treatment with (Carboxyn 37.5% + Thiram 37.5% ) or Carbendazim  DS @ 1.5 g/kg of seeds
-        ∙ Spray Mancozeb 0.25% or Matalaxyl 0.15%""",
+        'symptoms': '''<ul>
+            <li>Angular, pale yellow patches delineated by leaf veins.</li>
+            <li>Mold-like growth on the underside of the leaf, corresponding to the blotch on the upper surface.</li>
+            <li>Plants stunted, lack vigor, and die.</li>
+        </ul>''',
+        'control': '''<ul>
+            <li>Seed treatment with (Carboxyn 37.5% + Thiram 37.5% ) or Carbendazim  DS @ 1.5 g/kg of seeds</li>
+            <li>Spray Mancozeb 0.25% or Matalaxyl 0.15%</li>
+        </ul>''',
         'image': ''
     },
     {
@@ -43,8 +51,10 @@ predictions = [
         'disease': 'Nutrient Deficiency',
         'sci': '',
         'hosts': '',
-        'symptoms': """∙ Older leaves may wilt, look scorched.
-        ∙ Interveinal chlorosis begins at the base, scorching inward from leaf margins.""",
+        'symptoms': '''<ul>
+            <li>Older leaves may wilt, look scorched.</li>
+            <li>Interveinal chlorosis begins at the base, scorching inward from leaf margins.</li>
+        </ul>''',
         'control': '',
         'image': ''
     },
@@ -52,12 +62,16 @@ predictions = [
         'title': 'Tomato',
         'type': 'Fungal Disease',
         'disease': 'Powdery Mildew',
-        'sci': """Erysiphe spp.
-        Sphaerotheca spp.""",
+        'sci': '''Erysiphe spp.
+        Sphaerotheca spp.''',
         'hosts': 'Affect all kinds of plants: cereals and grasses, vegetables, ornamentals and fruit trees, broad-leaved shade and forest trees',
-        'symptoms': """∙ Spots or patches of white to grayish, talcum-powder like growth - mostly on the upper sides of the leaves.
-        ∙ Can also affect the bottom sides of leaves, young stems, buds, flowers, and young fruit.""",
-        'control': '∙ Spary Dinocap 0.2% or Tridemorph 0.1% or Chlorothalonil 0.15% or Hexaconazole 0.1% or Wettable sulphur 0.3%',
+        'symptoms': '''<ul>
+            <li>Spots or patches of white to grayish, talcum-powder like growth - mostly on the upper sides of the leaves.</li>
+            <li>Can also affect the bottom sides of leaves, young stems, buds, flowers, and young fruit.</li>
+        </ul>''',
+        'control': '''<ul>
+            <li>Spary Dinocap 0.2% or Tridemorph 0.1% or Chlorothalonil 0.15% or Hexaconazole 0.1% or Wettable sulphur 0.3%</li>
+        </ul>''',
         'image': ''
     },
     {
@@ -66,11 +80,15 @@ predictions = [
         'disease': 'Downy Mildew',
         'sci': 'Pseudoperonospora spp.',
         'hosts': 'Many common vegetables including brassicas (cabbage, cauliflower, mustard), carrot, lettuce, onion, spinach, beans, cucumber and cantaloupes',
-        'symptoms': """∙ Angular, pale yellow patches delineated by leaf veins.
-        ∙ Mold-like growth on the underside of the leaf, corresponding to the blotch on the upper surface.
-        ∙ Plants stunted, lack vigor, and die.""",
-        'control': """∙ Seed treatment with (Carboxyn 37.5% + Thiram 37.5% ) or Carbendazim  DS @ 1.5 g/kg of seeds
-        ∙ Spray Mancozeb 0.25% or Matalaxyl 0.15%""",
+        'symptoms': '''<ul>
+            <li>Angular, pale yellow patches delineated by leaf veins.</li>
+            <li>Mold-like growth on the underside of the leaf, corresponding to the blotch on the upper surface.</li>
+            <li>Plants stunted, lack vigor, and die.</li>
+        </ul>''',
+        'control': '''<ul>
+            <li>Seed treatment with (Carboxyn 37.5% + Thiram 37.5% ) or Carbendazim  DS @ 1.5 g/kg of seeds</li>
+            <li>Spray Mancozeb 0.25% or Matalaxyl 0.15%</li>
+        </ul>''',
         'image': ''
     },
     {
@@ -79,11 +97,15 @@ predictions = [
         'disease': 'Spider Mite',
         'sci': 'Tetranychus spp.',
         'hosts': 'Wide range of garden plants, including many vegetables (e.g., beans, eggplant), fruits (e.g., raspberries, currants, pear) and flowers.',
-        'symptoms': """∙ Tiny insects usually found on the back of leaves.
-        ∙ Range in color from red and brown to yellow and green.
-        ∙ Produce webbing, when occur in high population, similar to the spiders.
-        ∙ Infected leaves appear discolored with pale dots, become scorched and drop.""",
-        'control': '∙ Spray Dicofol 18.5 EC @ 2000 ml/ha',
+        'symptoms': '''<ul>
+            <li>Tiny insects usually found on the back of leaves.</li>
+            <li>Range in color from red and brown to yellow and green.</li>
+            <li>Produce webbing, when occur in high population, similar to the spiders.</li>
+            <li>Infected leaves appear discolored with pale dots, become scorched and drop.</li>
+        </ul>''',
+        'control': '''<ul>
+            <li>Spray Dicofol 18.5 EC @ 2000 ml/ha</li>
+        </ul>''',
         'image': ''
     },
 ]
