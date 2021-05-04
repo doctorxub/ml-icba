@@ -11,8 +11,15 @@
   </head>
   <body>
     <div class="container" role="main">
-      <h1>Result</h1>
-      <h2>{{ predictions.title }}</h2>
+      <h1>Pest / Disease</h1>
+      <h2>{{ predictions.title }} {{ predictions.disease }}</h2>
+      <h4>{{ predictions.type }} <i>{{ predictions.sci }}</i></h4>
+      <div>
+        <div>Photo</div>
+        <div>{{ predictions.hosts }}</div>
+        <div>{{ predictions.symptoms }}</div>
+        <div>{{ predictions.control }}</div>
+      </div>
       <footer>
         <p><strong>International Center for Biosaline Agriculture</strong></p>
         <p>Common Diseases & Insect Pests Image Classification</p>
