@@ -17,8 +17,8 @@
       <div>
         <div>Photo</div>
         <div>{{ predictions.hosts }}</div>
-        <div>{{ predictions.symptoms }}</div>
-        <div>{{ predictions.control }}</div>
+        <div>{{ predictions.symptoms|safe }}</div>
+        <div>{{ predictions.control|safe }}</div>
       </div>
       <footer>
         <p><strong>International Center for Biosaline Agriculture</strong></p>
