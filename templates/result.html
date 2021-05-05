@@ -18,20 +18,24 @@
       </div>
       <div class="information">
         <div class="information_sub sub_one">
-          <div class="photo">Photo</div>
+          <div class="photo"></div>
           <div class="hosts">
-            <div class="coltitle">Hosts</div>
-            {{ predictions.hosts }}
+            <div class="coltitle hoststitle">Hosts</div>
+            <div class="colcontent hostscontent">{{ predictions.hosts }}</div>
           </div>
         </div>
         <div class="information_sub sub_two">
           <div class="symptoms">
-            <div class="coltitle">Symptoms</div>
-            {{ predictions.symptoms|safe }}
+            <div class="coltitle symptomstitle">Symptoms</div>
+            <div class="colcontent symptomscontent">
+              {{ predictions.symptoms|safe }}
+            </div>
           </div>
           <div class="control">
-            <div class="coltitle">Control</div>
-            {{ predictions.control|safe }}
+            <div class="coltitle controltitle">Control</div>
+            <div class="colcontent controlcontent">
+              {{ predictions.control|safe }}
+            </div>
           </div>
         </div>
       </div>
