@@ -31,6 +31,26 @@ body {
   height: 120px;
 }
 
+.information {
+  display: flex;
+  text-align: left;
+}
+
+.information div {
+  margin: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h4 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 input[type='file'] {
   background-color: #85cbd6;
   border: none;
