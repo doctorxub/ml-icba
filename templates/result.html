@@ -17,10 +17,23 @@
         <h4><i>{{ predictions.sci }}</i></h4>
       </div>
       <div class="information">
-        <div>Photo</div>
-        <div>{{ predictions.hosts }}</div>
-        <div>{{ predictions.symptoms|safe }}</div>
-        <div>{{ predictions.control|safe }}</div>
+        <div class="information_sub sub_one">
+          <div class="photo">Photo</div>
+          <div class="hosts">
+            <div class="coltitle">Hosts</div>
+            {{ predictions.hosts }}
+          </div>
+        </div>
+        <div class="information_sub sub_two">
+          <div class="symptoms">
+            <div class="coltitle">Symptoms</div>
+            {{ predictions.symptoms|safe }}
+          </div>
+          <div class="control">
+            <div class="coltitle">Control</div>
+            {{ predictions.control|safe }}
+          </div>
+        </div>
       </div>
       <footer>
         <p><strong>International Center for Biosaline Agriculture</strong></p>

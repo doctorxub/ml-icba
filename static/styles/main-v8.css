@@ -14,7 +14,7 @@ body {
   font-size: 42px;
   font-weight: 300;
   color: #0f3c4b;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
 .container footer {
@@ -34,10 +34,35 @@ body {
 .information {
   display: flex;
   text-align: left;
+  flex-wrap: wrap;
 }
 
-.information div {
-  margin: 10px;
+.information_sub {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sub_one {
+  text-align: center;
+}
+.sub_two {
+  text-align: left;
+}
+
+.information_sub div {
+  padding: 10px;
+}
+
+.photo,
+.hosts,
+.symptoms,
+.control {
+  width: 300px;
+}
+
+.coltitle {
+  margin: 0;
+  text-align: center;
+  padding-top: 10px 0 10px 0;
 }
 
 .header {
@@ -89,4 +114,8 @@ input[type='submit'] {
 .box__input {
   display: flex;
   flex-direction: column;
+}
+
+ul {
+  margin-top: 0;
 }
