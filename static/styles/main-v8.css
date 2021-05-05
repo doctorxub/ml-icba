@@ -49,10 +49,6 @@ body {
   text-align: left;
 }
 
-.information_sub div {
-  padding: 10px;
-}
-
 .photo,
 .hosts,
 .symptoms,
@@ -63,6 +59,11 @@ body {
 .coltitle {
   margin: 0;
   text-align: center;
+  padding: 10px;
+}
+
+.colcontent {
+  padding: 10px;
 }
 
 .header {
