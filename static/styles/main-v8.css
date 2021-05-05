@@ -56,6 +56,25 @@ body {
   width: 300px;
 }
 
+.hosts {
+  background-color: #dddddd;
+}
+.hoststitle {
+  background-color: #cccccc;
+}
+.symptoms {
+  background-color: #cca0a0;
+}
+.symptomstitle {
+  background-color: #bd8282;
+}
+.control {
+  background-color: #b8d4b8;
+}
+.controltitle {
+  background-color: #99c599;
+}
+
 .coltitle {
   margin: 0;
   text-align: center;
