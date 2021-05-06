@@ -54,6 +54,11 @@ body {
 .symptoms,
 .control {
   width: 300px;
+  margin: 0 auto;
+}
+
+.photo {
+  min-height: 300px;
 }
 
 .hosts {
