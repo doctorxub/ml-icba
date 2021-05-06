@@ -63,10 +63,10 @@ body {
   background-color: #cccccc;
 }
 .symptoms {
-  background-color: #cca0a0;
+  background-color: #e0bfbf;
 }
 .symptomstitle {
-  background-color: #bd8282;
+  background-color: #d3a3a3;
 }
 .control {
   background-color: #b8d4b8;
@@ -93,8 +93,7 @@ body {
 }
 
 .header span {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin: 20px;
 }
 
 input[type='file'] {
