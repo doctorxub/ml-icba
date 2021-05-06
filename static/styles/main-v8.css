@@ -79,6 +79,7 @@ body {
   margin: 0;
   text-align: center;
   padding: 10px;
+  font-weight: 600;
 }
 
 .colcontent {
@@ -91,7 +92,7 @@ body {
   justify-content: center;
 }
 
-.header h4 {
+.header span {
   margin-right: 10px;
   margin-left: 10px;
 }
