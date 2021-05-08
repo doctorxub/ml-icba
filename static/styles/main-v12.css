@@ -19,7 +19,7 @@ body {
 
 .container footer {
   color: #92b0b3;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .container footer a:hover,
 .container footer a:focus {
@@ -54,11 +54,9 @@ body {
 .symptoms,
 .control {
   width: 300px;
+  height: 300px;
   margin: 0 auto;
-}
-
-.photo {
-  min-height: 300px;
+  overflow: auto;
 }
 
 .hosts {
@@ -107,7 +105,7 @@ input[type='file'] {
   color: white;
   text-decoration: none;
   cursor: pointer;
-  margin-top: 5px;
+  margin-top: -325px;
   opacity: 0;
   padding: 150px 0;
 }
@@ -116,29 +114,29 @@ input[type='submit'] {
   background-color: #217d8b;
   color: white;
   border: none;
-  padding: 20px 50px;
+  padding: 25px 50px;
   width: fit-content;
   font-weight: bold;
-  margin: 5px auto;
+  margin: 40px ​auto 0 auto;
   border-radius: 8px;
   cursor: pointer;
 }
 
 .custom-label {
-  position: absolute;
-  background-color: #85cbd6;
-  color: white;
+  background-color: #85cbd629;
+  color: #217d8b;
   text-decoration: none;
   cursor: pointer;
   padding: 100px 0;
   max-height: 125px;
   width: 100%;
-  left: 0;
+  border: 1px dashed #217d8b;
 }
 
 .box__input {
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
 }
 
 ul {
