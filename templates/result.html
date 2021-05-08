@@ -19,9 +19,9 @@
       </ul>
       <div class="header">
         {% if confidence >= 90 %}
-        <h3 class="confidence green">{{ confidence }}%</h3>
+        <h3 class="confidence green">Confidence: {{ confidence }}%</h3>
         {% elif confidence >= 70 %}
-        <h3 class="confidence yellow">{{ confidence }}%</h3>
+        <h3 class="confidence yellow">Confidence: {{ confidence }}%</h3>
         {% else %}
         <h3 class="confidence red">Confidence: {{ confidence }}</h3>
         {% endif %}
