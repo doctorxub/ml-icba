@@ -123,8 +123,7 @@ input[type='submit'] {
   padding: 25px 50px;
   width: fit-content;
   font-weight: bold;
-  margin-left: ​auto;
-  margin-right: auto;
+  align-self: center;
   margin-top: 40px;
   margin-bottom: 0;
   border-radius: 8px;
