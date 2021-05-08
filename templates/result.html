@@ -11,11 +11,20 @@
   </head>
   <body>
     <div class="container" role="main">
-      <h1>{{ predictions.title }}: {{ predictions.disease }}</h1>
+      <h1>{{ predictions.title }}</h1>
+      <ul class="ultitle">
+        <li>{{ predictions.disease }}</li>
+        <li>{{ predictions.type }}</li>
+        <li>{{ predictions.sci }}</li>
+      </ul>
       <div class="header">
-        <span>{{ predictions.type }}</span>
-        <span><i>{{ predictions.sci }}</i></span>
-        <span>{{ confidence }}</span>
+        {% if confidence >= 90 %}
+        <h3 class="confidence" class="green">{{ confidence }}%</h3>
+        {% elif confidence >= 70 %}
+        <h3 class="confidence" class="yellow">{{ confidence }}%</h3>
+        {% else %}
+        <h3 class="confidence" class="red">{{ confidence }}%</h3>
+        {% endif %}
       </div>
       <div class="information">
         <div class="information_sub sub_one">
