@@ -26,7 +26,7 @@ predictions = [
         'control': '''<ul>
             <li>Spray Dicofol 18.5 EC @ 2000 ml/ha</li>
         </ul>''',
-        'image': ''
+        'image': 'images/0.jpg'
     },
     {
         'title': 'Cucumber',
@@ -43,7 +43,7 @@ predictions = [
             <li>Seed treatment with (Carboxyn 37.5% + Thiram 37.5% ) or Carbendazim  DS @ 1.5 g/kg of seeds</li>
             <li>Spray Mancozeb 0.25% or Matalaxyl 0.15%</li>
         </ul>''',
-        'image': ''
+        'image': 'images/1.jpg'
     },
     {
         'title': 'Cucumber',
@@ -56,7 +56,7 @@ predictions = [
             <li>Interveinal chlorosis begins at the base, scorching inward from leaf margins.</li>
         </ul>''',
         'control': '',
-        'image': ''
+        'image': 'images/2.jpg'
     },
     {
         'title': 'Tomato',
@@ -72,7 +72,7 @@ predictions = [
         'control': '''<ul>
             <li>Spary Dinocap 0.2% or Tridemorph 0.1% or Chlorothalonil 0.15% or Hexaconazole 0.1% or Wettable sulphur 0.3%</li>
         </ul>''',
-        'image': ''
+        'image': 'images/3.jpg'
     },
     {
         'title': 'Pepper',
@@ -89,7 +89,7 @@ predictions = [
             <li>Seed treatment with (Carboxyn 37.5% + Thiram 37.5% ) or Carbendazim  DS @ 1.5 g/kg of seeds</li>
             <li>Spray Mancozeb 0.25% or Matalaxyl 0.15%</li>
         </ul>''',
-        'image': ''
+        'image': 'images/4.jpg'
     },
     {
         'title': 'Pepper',
@@ -106,7 +106,7 @@ predictions = [
         'control': '''<ul>
             <li>Spray Dicofol 18.5 EC @ 2000 ml/ha</li>
         </ul>''',
-        'image': ''
+        'image': 'images/5.jpg'
     },
 ]
 

@@ -18,7 +18,9 @@
       </div>
       <div class="information">
         <div class="information_sub sub_one">
-          <div class="photo"></div>
+          <div class="photo">
+            <img src="{{ url_for('static',filename=predictions.image) }}"></img>
+          </div>
           <div class="hosts">
             <div class="coltitle hoststitle">Hosts</div>
             <div class="colcontent hostscontent">{{ predictions.hosts }}</div>
