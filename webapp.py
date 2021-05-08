@@ -6,6 +6,7 @@ from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
 from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.models import Model
 import cv2
+import math
 
 app = Flask(__name__)
 
@@ -154,9 +155,10 @@ def prediction(filename):
         classes = model.predict(img, batch_size=1)
         max_index = np.argmax(classes, axis=1)
         index = max_index[0]
+        confidence = math.floor(np.amax(classes) * 100)
         os.remove(file_path)
     if index >= 0:
-        return render_template('result.html', predictions=predictions[index])
+        return render_template('result.html', predictions=predictions[index], confidence=confidence)
     else:
         return render_template('error.html', message="This file no longer exists")
 
