@@ -117,6 +117,7 @@ input[type='file'] {
 
 .goback {
   margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .goback a,
@@ -133,6 +134,8 @@ input[type='submit'] {
   border-radius: 8px;
   cursor: pointer;
   text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 .custom-label {
