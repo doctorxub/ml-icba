@@ -3,6 +3,7 @@ body {
   color: #0f3c4b;
   background-color: #e5edf1;
   padding: 0 1.25rem;
+  letter-spacing: 1px;
 }
 
 .container {
@@ -14,7 +15,7 @@ body {
   font-size: 42px;
   font-weight: 300;
   color: #0f3c4b;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .container footer {
@@ -94,6 +95,9 @@ body {
 .colcontent {
   padding: 10px;
 }
+.colcontent li {
+  line-height: 20px;
+}
 
 .header {
   display: flex;
@@ -102,20 +106,20 @@ body {
 }
 
 .confidence {
-  color: white;
   margin: 5px;
   border-radius: 10px;
   padding: 20px;
+  border: 8px dotted;
 }
 
 .green {
-  background-color: #8fbc8f;
+  border-color: green;
 }
 .yellow {
-  background-color: #d0d253;
+  border-color: yellow;
 }
 .red {
-  background-color: #ec7777;
+  border-color: red;
 }
 
 input[type='file'] {
@@ -177,6 +181,7 @@ ul {
   padding-left: 0;
   list-style-type: none;
   font-size: 18px;
+  margin-top: 10px;
 }
 
 .ultitle li {
