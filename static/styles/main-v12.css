@@ -36,6 +36,7 @@ body {
   text-align: left;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 15px;
 }
 
 .information_sub {
@@ -57,6 +58,10 @@ body {
   height: 300px;
   margin: 0 auto;
   overflow: auto;
+}
+
+.photo {
+  overflow: hidden;
 }
 
 .hosts {
@@ -110,6 +115,7 @@ input[type='file'] {
   padding: 150px 0;
 }
 
+.goback,
 input[type='submit'] {
   background-color: #217d8b;
   color: white;
@@ -117,7 +123,8 @@ input[type='submit'] {
   padding: 25px 50px;
   width: fit-content;
   font-weight: bold;
-  margin: 40px ​auto 0 auto;
+  margin: 40px ​auto;
+  margin-bottom: 0;
   border-radius: 8px;
   cursor: pointer;
 }
