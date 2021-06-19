@@ -27,7 +27,7 @@ predictions = [
             <li>Seed treatment with (Carboxyn 37.5% + Thiram 37.5% ) or Carbendazim  DS @ 1.5 g/kg of seeds</li>
             <li>Spray Mancozeb 0.25% or Matalaxyl 0.15%</li>
         </ul>''',
-        'image': 'images/1.jpg'
+        'image': 'images/0.jpg'
     },
     {
         'title': 'Cucumber',
@@ -42,7 +42,7 @@ predictions = [
         'control': '''<ul>
             <li>Fertilizer with NPK</li>
         </ul>''',
-        'image': 'images/2.jpg'
+        'image': 'images/1.jpg'
     },
     {
         'title': 'Cucumber',
@@ -59,7 +59,7 @@ predictions = [
         'control': '''<ul>
             <li>Spray Dicofol 18.5 EC @ 2000 ml/ha</li>
         </ul>''',
-        'image': 'images/0.jpg'
+        'image': 'images/2.jpg'
     },
     {
         'title': 'Pepper',
@@ -76,7 +76,7 @@ predictions = [
             <li>Seed treatment with (Carboxyn 37.5% + Thiram 37.5% ) or Carbendazim  DS @ 1.5 g/kg of seeds</li>
             <li>Spray Mancozeb 0.25% or Matalaxyl 0.15%</li>
         </ul>''',
-        'image': 'images/4.jpg'
+        'image': 'images/3.jpg'
     },
     {
         'title': 'Pepper',
@@ -93,7 +93,7 @@ predictions = [
         'control': '''<ul>
             <li>Spray Dicofol 18.5 EC @ 2000 ml/ha</li>
         </ul>''',
-        'image': 'images/5.jpg'
+        'image': 'images/4.jpg'
     },
     {
         'title': 'Tomato',
@@ -110,7 +110,7 @@ predictions = [
             <li>Seed treatment with (Carboxyn 37.5% + Thiram 37.5%) or Carbendazim DS @ 1.5 g/kg of seeds</li>
             <li>Foliar spray Mancozeb 0.25) or (Carbendazim 12% +Mancozeb 63%) @ 0.2%</li>
         </ul>''',
-        'image': 'images/3.jpg'
+        'image': 'images/5.jpg'
     },
     {
         'title': 'Tomato',
@@ -120,7 +120,7 @@ predictions = [
         'hosts': 'Healthy Plant',
         'symptoms': '',
         'control': '',
-        'image': 'images/3.jpg'
+        'image': 'images/6.jpg'
     },
     {
         'title': 'Tomato',
@@ -138,7 +138,7 @@ predictions = [
             <li>Control relative humidity by venting greenhouse and pruning.</li>
             <li>Labeled fungicides may help control it.</li>
         </ul>''',
-        'image': 'images/3.jpg'
+        'image': 'images/7.jpg'
     },
     {
         'title': 'Tomato',
@@ -154,7 +154,7 @@ predictions = [
         'control': '''<ul>
             <li>Spary Dinocap 0.2% or Tridemorph 0.1% or Chlorothalonil 0.15% or Hexaconazole 0.1% or Wettable sulphur 0.3%</li>
         </ul>''',
-        'image': 'images/3.jpg'
+        'image': 'images/8.jpg'
     },
 ]
 
