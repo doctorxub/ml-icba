@@ -10,25 +10,8 @@ import math
 
 app = Flask(__name__)
 
-classes = ['0', '1', '2', '3', '4', '5']
+classes = ['0', '1', '2', '3', '4', '5', '6', '7', '8']
 predictions = [
-    {
-        'title': 'Cucumber',
-        'type': 'Sucking Insect',
-        'disease': 'Spider Mite',
-        'sci': 'Tetranychus spp.',
-        'hosts': 'Wide range of garden plants, including many vegetables (e.g., beans, eggplant), fruits (e.g., raspberries, currants, pear) and flowers.',
-        'symptoms': '''<ul>
-            <li>Tiny insects usually found on the back of leaves.</li>
-            <li>Range in color from red and brown to yellow and green</li>
-            <li>Produce webbing, when occur in high population, similar to the spiders</li>
-            <li>Infected leaves appear discolored with pale dots, become scorched and drop.</li>
-        </ul>''',
-        'control': '''<ul>
-            <li>Spray Dicofol 18.5 EC @ 2000 ml/ha</li>
-        </ul>''',
-        'image': 'images/0.jpg'
-    },
     {
         'title': 'Cucumber',
         'type': 'Fungal Disease',
@@ -51,29 +34,32 @@ predictions = [
         'type': 'Potassium (K)',
         'disease': 'Nutrient Deficiency',
         'sci': '',
-        'hosts': '',
+        'hosts': 'Many common vegetables including brassicas (cabbage, cauliflower, mustard), carrot, lettuce, onion, spinach, beans, cucumber and cantaloupes',
         'symptoms': '''<ul>
             <li>Older leaves may wilt, look scorched.</li>
             <li>Interveinal chlorosis begins at the base, scorching inward from leaf margins.</li>
         </ul>''',
-        'control': '',
+        'control': '''<ul>
+            <li>Fertilizer with NPK</li>
+        </ul>''',
         'image': 'images/2.jpg'
     },
     {
-        'title': 'Tomato',
-        'type': 'Fungal Disease',
-        'disease': 'Powdery Mildew',
-        'sci': '''Erysiphe spp.
-        Sphaerotheca spp.''',
-        'hosts': 'Affect all kinds of plants: cereals and grasses, vegetables, ornamentals and fruit trees, broad-leaved shade and forest trees',
+        'title': 'Cucumber',
+        'type': 'Sucking Insect',
+        'disease': 'Spider Mite',
+        'sci': 'Tetranychus spp.',
+        'hosts': 'Wide range of garden plants, including many vegetables (e.g., beans, eggplant), fruits (e.g., raspberries, currants, pear) and flowers.',
         'symptoms': '''<ul>
-            <li>Spots or patches of white to grayish, talcum-powder like growth - mostly on the upper sides of the leaves.</li>
-            <li>Can also affect the bottom sides of leaves, young stems, buds, flowers, and young fruit.</li>
+            <li>Tiny insects usually found on the back of leaves.</li>
+            <li>Range in color from red and brown to yellow and green</li>
+            <li>Produce webbing, when occur in high population, similar to the spiders</li>
+            <li>Infected leaves appear discolored with pale dots, become scorched and drop.</li>
         </ul>''',
         'control': '''<ul>
-            <li>Spary Dinocap 0.2% or Tridemorph 0.1% or Chlorothalonil 0.15% or Hexaconazole 0.1% or Wettable sulphur 0.3%</li>
+            <li>Spray Dicofol 18.5 EC @ 2000 ml/ha</li>
         </ul>''',
-        'image': 'images/3.jpg'
+        'image': 'images/0.jpg'
     },
     {
         'title': 'Pepper',
@@ -109,6 +95,67 @@ predictions = [
         </ul>''',
         'image': 'images/5.jpg'
     },
+    {
+        'title': 'Tomato',
+        'type': 'Fungal Disease',
+        'disease': 'Early Blight',
+        'sci': 'Alternaria solani',
+        'hosts': 'Solanaceous vegetables (tomato, potato, pepper)',
+        'symptoms': '''<ul>
+            <li>Brown to black spots on older leaves, enlarging and developing into concentric rings giving them a ‘target-spot’ appearance.</li>
+            <li>Heavily infected leaves dry up and drop.</li>
+            <li>Fruit lesions large with characteristic concentric rings.</li>
+        </ul>''',
+        'control': '''<ul>
+            <li>Seed treatment with (Carboxyn 37.5% + Thiram 37.5%) or Carbendazim DS @ 1.5 g/kg of seeds</li>
+            <li>Foliar spray Mancozeb 0.25) or (Carbendazim 12% +Mancozeb 63%) @ 0.2%</li>
+        </ul>''',
+        'image': 'images/3.jpg'
+    },
+    {
+        'title': 'Tomato',
+        'type': 'Healthy',
+        'disease': 'No identifiable disease detected',
+        'sci': '',
+        'hosts': 'Healthy Plant',
+        'symptoms': '',
+        'control': '',
+        'image': 'images/3.jpg'
+    },
+    {
+        'title': 'Tomato',
+        'type': 'Fungal Disease',
+        'disease': 'Leaf Mold',
+        'sci': 'Passalora fulva',
+        'hosts': 'Tomatoes',
+        'symptoms': '''<ul>
+            <li>Symptoms start as pale green to yellowish spots on upper leaf surfaces that turn a bright yellow.</li>
+            <li>The spots merge as the disease progresses and the foliage then dies. Infected leaves curl, wither, and often drop from the plant.</li>
+            <li>Flowers, stems, and fruit may be infected, although usually only leaf tissue is affected.</li>
+            <li>When the disease does manifest on the fruit, tomatoes with leaf mold become dark in color, leathery, and rot at the stem end.</li>
+        </ul>''',
+        'control': '''<ul>
+            <li>Control relative humidity by venting greenhouse and pruning.</li>
+            <li>Labeled fungicides may help control it.</li>
+        </ul>''',
+        'image': 'images/3.jpg'
+    },
+    {
+        'title': 'Tomato',
+        'type': 'Fungal Disease',
+        'disease': 'Powdery Mildew',
+        'sci': '''Erysiphe spp.
+        Sphaerotheca spp.''',
+        'hosts': 'Affect all kinds of plants: cereals and grasses, vegetables, ornamentals and fruit trees, broad-leaved shade and forest trees',
+        'symptoms': '''<ul>
+            <li>Spots or patches of white to grayish, talcum-powder like growth - mostly on the upper sides of the leaves.</li>
+            <li>Can also affect the bottom sides of leaves, young stems, buds, flowers, and young fruit.</li>
+        </ul>''',
+        'control': '''<ul>
+            <li>Spary Dinocap 0.2% or Tridemorph 0.1% or Chlorothalonil 0.15% or Hexaconazole 0.1% or Wettable sulphur 0.3%</li>
+        </ul>''',
+        'image': 'images/3.jpg'
+    },
 ]
 
 base_model = ResNet50(weights='imagenet', include_top=False)
@@ -123,7 +170,7 @@ preds = Dense(len(classes), activation='softmax')(x)
 
 model = Model(inputs=base_model.input, outputs=preds)
 
-model_path = 'model-epoch-002-valacc-0.976103.h5'
+model_path = '2021-06-model-epoch-007-valacc-0.974116.h5'
 model.load_weights(model_path)
 
 
