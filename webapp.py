@@ -5,7 +5,7 @@ import numpy as np
 from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
 from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.models import Model
-from file1 import predictions, classes
+from predictions import predictions, classes
 import cv2
 import math
 
