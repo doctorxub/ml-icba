@@ -63,4 +63,9 @@ def prediction(filename):
         return render_template('error.html', message="This file no longer exists")
 
 
+@app.route('/diseases')
+def diseases():
+    return render_template('result.html', predictions=predictions)
+
+
 app.run(host='0.0.0.0', port=2000)
