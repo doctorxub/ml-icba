@@ -65,7 +65,7 @@ def prediction(filename):
 
 @app.route('/diseases')
 def diseases():
-    return render_template('result.html', predictions=predictions)
+    return render_template('diseases.html', predictions=predictions)
 
 
 app.run(host='0.0.0.0', port=2000)
