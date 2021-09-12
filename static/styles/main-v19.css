@@ -38,7 +38,7 @@ body {
   text-align: left;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 35px;
 }
 
 .information_sub {
@@ -64,6 +64,7 @@ body {
 
 .photo {
   overflow: hidden;
+  background: #f0f0f0;
 }
 
 .hosts {
