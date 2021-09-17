@@ -133,8 +133,7 @@ diseases_list = [
         'title': 'Tomato',
         'type': 'Fungal Disease',
         'disease': 'Powdery Mildew',
-        'sci': '''Erysiphe spp.
-        Sphaerotheca spp.''',
+        'sci': 'Erysiphe spp, Sphaerotheca spp',
         'hosts': 'Affect all kinds of plants: cereals and grasses, vegetables, ornamentals and fruit trees, broad-leaved shade and forest trees',
         'symptoms': [
             'Spots or patches of white to grayish, talcum-powder like growth - mostly on the upper sides of the leaves.',
