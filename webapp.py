@@ -35,7 +35,7 @@ def deprecate_main_page():
         if not filename:
             return render_template('error.html', message="Please select a file to classify")
         file.save(os.path.join('uploads', filename))
-        return redirect(url_for('prediction', filename=filename))
+        return redirect(url_for('deprecate_prediction', filename=filename))
     return render_template('index.html')
 
 @app.route('/prediction/<filename>')
@@ -66,7 +66,7 @@ def deprecate_diseases():
     return render_template('diseases.html', predictions=predictions)
 
 @app.route('/api/upload', methods=['GET', 'POST'])
-def upload():
+def upload_image():
     if request.method == 'POST':
         file = request.files['file']
         filename = secure_filename(file.filename)
@@ -76,7 +76,7 @@ def upload():
         return jsonify(success=1, filename=filename)
     return jsonify(success=0, message='Bad request')
 
-@app.route('/api/prediction/<filename>')
+@app.route('/api/predict/<filename>')
 def predict(filename):
     if not filename:
         return render_template('error.html', message="Please select a file to classify")
