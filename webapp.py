@@ -1,5 +1,5 @@
 import os
-from flask import Flask, request, redirect, url_for, render_template
+from flask import Flask, request, redirect, url_for, render_template, jsonify
 from werkzeug.utils import secure_filename
 import numpy as np
 from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
@@ -38,7 +38,6 @@ def main_page():
         return redirect(url_for('prediction', filename=filename))
     return render_template('index.html')
 
-
 @app.route('/prediction/<filename>')
 def prediction(filename):
     if not filename:
@@ -62,10 +61,46 @@ def prediction(filename):
     else:
         return render_template('error.html', message="This file no longer exists")
 
-
 @app.route('/diseases')
 def diseases():
     return render_template('diseases.html', predictions=predictions)
 
+@app.route('/api/upload', methods=['GET', 'POST'])
+def main_page():
+    if request.method == 'POST':
+        file = request.files['file']
+        filename = secure_filename(file.filename)
+        if not filename:
+            return jsonify(success=0, message='Please select a file to classify')
+        file.save(os.path.join('uploads', filename))
+        return jsonify(success=1, filename=filename)
+    return jsonify(success=0, message='Bad request')
+
+@app.route('/api/prediction/<filename>')
+def prediction(filename):
+    if not filename:
+        return render_template('error.html', message="Please select a file to classify")
+    file_path = os.path.join('uploads', filename)
+    index = -1
+    if os.path.exists(file_path):
+        img = cv2.imread(file_path)
+        if img is None or img.size == 0:
+            os.remove(file_path)
+            return render_template('error.html', message="Unsupported format")
+        img = cv2.resize(img, (224, 224))
+        img = np.reshape(img, [1, 224, 224, 3])
+        classes = model.predict(img, batch_size=1)
+        max_index = np.argmax(classes, axis=1)
+        index = max_index[0]
+        confidence = math.floor(np.amax(classes) * 100)
+        os.remove(file_path)
+    if index >= 0:
+        return jsonify(success=1, predictions=predictions[index], confidence=confidence)
+    else:
+        return jsonify(success=0, message='This file no longer exists')
+
+@app.route('/api/diseases')
+def diseases():
+    return jsonify(success=1, predictions=predictions)
 
 app.run(host='0.0.0.0', port=2000)
