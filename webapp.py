@@ -28,7 +28,7 @@ model.load_weights(model_path)
 
 
 @app.route('/', methods=['GET', 'POST'])
-def main_page():
+def deprecate_main_page():
     if request.method == 'POST':
         file = request.files['file']
         filename = secure_filename(file.filename)
@@ -39,7 +39,7 @@ def main_page():
     return render_template('index.html')
 
 @app.route('/prediction/<filename>')
-def prediction(filename):
+def deprecate_prediction(filename):
     if not filename:
         return render_template('error.html', message="Please select a file to classify")
     file_path = os.path.join('uploads', filename)
@@ -62,11 +62,11 @@ def prediction(filename):
         return render_template('error.html', message="This file no longer exists")
 
 @app.route('/diseases')
-def diseases():
+def deprecate_diseases():
     return render_template('diseases.html', predictions=predictions)
 
 @app.route('/api/upload', methods=['GET', 'POST'])
-def main_page():
+def upload():
     if request.method == 'POST':
         file = request.files['file']
         filename = secure_filename(file.filename)
@@ -77,7 +77,7 @@ def main_page():
     return jsonify(success=0, message='Bad request')
 
 @app.route('/api/prediction/<filename>')
-def prediction(filename):
+def predict(filename):
     if not filename:
         return render_template('error.html', message="Please select a file to classify")
     file_path = os.path.join('uploads', filename)
