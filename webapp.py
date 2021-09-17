@@ -5,7 +5,7 @@ import numpy as np
 from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
 from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.models import Model
-from predictions import predictions, classes
+from predictions import diseases_list, deprecate_predictions, classes
 import cv2
 import math
 
@@ -57,13 +57,13 @@ def deprecate_prediction(filename):
         confidence = math.floor(np.amax(classes) * 100)
         os.remove(file_path)
     if index >= 0:
-        return render_template('result.html', predictions=predictions[index], confidence=confidence)
+        return render_template('result.html', predictions=deprecate_predictions[index], confidence=confidence)
     else:
         return render_template('error.html', message="This file no longer exists")
 
 @app.route('/diseases')
 def deprecate_diseases():
-    return render_template('diseases.html', predictions=predictions)
+    return render_template('diseases.html', predictions=deprecate_predictions)
 
 @app.route('/api/upload', methods=['GET', 'POST'])
 def upload_image():
@@ -95,12 +95,12 @@ def predict(filename):
         confidence = math.floor(np.amax(classes) * 100)
         os.remove(file_path)
     if index >= 0:
-        return jsonify(success=1, predictions=predictions[index], confidence=confidence)
+        return jsonify(success=1, disease=diseases_list[index], confidence=confidence)
     else:
         return jsonify(success=0, message='This file no longer exists')
 
 @app.route('/api/diseases')
 def diseases():
-    return jsonify(success=1, predictions=predictions)
+    return jsonify(success=1, diseases=diseases_list)
 
 app.run(host='0.0.0.0', port=2000)
