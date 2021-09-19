@@ -2,6 +2,7 @@ classes = ['0', '1', '2', '3', '4', '5', '6', '7', '8']
 
 diseases_list = [
     {
+        'id': 1,
         'title': 'Cucumber',
         'type': 'Fungal Disease',
         'disease': 'Downy Mildew',
@@ -19,6 +20,7 @@ diseases_list = [
         'image': 'images/0.jpg'
     },
     {
+        'id': 2,
         'title': 'Cucumber',
         'type': 'Potassium (K)',
         'disease': 'Nutrient Deficiency',
@@ -34,6 +36,7 @@ diseases_list = [
         'image': 'images/1.jpg'
     },
     {
+        'id': 3,
         'title': 'Cucumber',
         'type': 'Sucking Insect',
         'disease': 'Spider Mite',
@@ -51,6 +54,7 @@ diseases_list = [
         'image': 'images/2.jpg'
     },
     {
+        'id': 4,
         'title': 'Pepper',
         'type': 'Fungal Disease',
         'disease': 'Downy Mildew',
@@ -68,6 +72,7 @@ diseases_list = [
         'image': 'images/3.jpg'
     },
     {
+        'id': 5,
         'title': 'Pepper',
         'type': 'Sucking Insect',
         'disease': 'Spider Mite',
@@ -85,6 +90,7 @@ diseases_list = [
         'image': 'images/4.jpg'
     },
     {
+        'id': 6,
         'title': 'Tomato',
         'type': 'Fungal Disease',
         'disease': 'Early Blight',
@@ -102,6 +108,7 @@ diseases_list = [
         'image': 'images/5.jpg'
     },
     {
+        'id': 7,
         'title': 'Tomato',
         'type': 'Healthy',
         'disease': 'No identifiable disease detected',
@@ -112,6 +119,7 @@ diseases_list = [
         'image': 'images/6.jpg'
     },
     {
+        'id': 8,
         'title': 'Tomato',
         'type': 'Fungal Disease',
         'disease': 'Leaf Mold',
@@ -130,6 +138,7 @@ diseases_list = [
         'image': 'images/7.jpg'
     },
     {
+        'id': 9,
         'title': 'Tomato',
         'type': 'Fungal Disease',
         'disease': 'Powdery Mildew',
