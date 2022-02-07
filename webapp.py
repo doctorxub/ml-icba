@@ -5,102 +5,190 @@ import numpy as np
 from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
 from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.models import Model
-from predictions import diseases_list, deprecate_predictions, classes
+from icba_predictions import icba_diseases_list, icba_html_predictions
+from ctfc_predictions import ctfc_diseases_list, ctfc_html_predictions
 import cv2
 import math
 
 app = Flask(__name__)
 
-base_model = ResNet50(weights='imagenet', include_top=False)
-for layer in base_model.layers:
-    layer.trainable = False
-
-x = base_model.output
-x = GlobalAveragePooling2D()(x)
-x = Dense(128, activation='relu')(x)
-x = Dense(128, activation='relu')(x)
-preds = Dense(len(classes), activation='softmax')(x)
-
-model = Model(inputs=base_model.input, outputs=preds)
-
-model_path = '2021-06-model-epoch-007-valacc-0.974116.h5'
-model.load_weights(model_path)
-
-
-@app.route('/', methods=['GET', 'POST'])
-def deprecate_main_page():
-    if request.method == 'POST':
-        file = request.files['file']
-        filename = secure_filename(file.filename)
-        if not filename:
-            return render_template('error.html', message="Please select a file to classify")
-        file.save(os.path.join('uploads', filename))
-        return redirect(url_for('deprecate_prediction', filename=filename))
+@app.route('/', methods=['GET'])
+def render_main_page():
     return render_template('index.html')
 
-@app.route('/prediction/<filename>')
-def deprecate_prediction(filename):
+# ----------------------------------------------------------
+# ICBA
+# ----------------------------------------------------------
+icba_base_model = ResNet50(weights='imagenet', include_top=False)
+for layer in icba_base_model.layers:
+    layer.trainable = False
+
+icba_x = icba_base_model.output
+icba_x = GlobalAveragePooling2D()(icba_x)
+icba_x = Dense(128, activation='relu')(icba_x)
+icba_x = Dense(128, activation='relu')(icba_x)
+icba_preds = Dense(9, activation='softmax')(icba_x)
+
+icba_model = Model(inputs=icba_base_model.input, outputs=icba_preds)
+
+icba_model_path = 'static/models/icba/2021-06-model-epoch-007-valacc-0.974116.h5'
+icba_model.load_weights(icba_model_path)
+
+def icba_predict(filename):
+    result = {'index': -1, 'confidence': 0, 'errorMsg': ''}
+
     if not filename:
-        return render_template('error.html', message="Please select a file to classify")
+        result['errorMsg'] = "Please select a file to classify"
+        return result
+
     file_path = os.path.join('uploads', filename)
-    index = -1
+
     if os.path.exists(file_path):
         img = cv2.imread(file_path)
         if img is None or img.size == 0:
             os.remove(file_path)
-            return render_template('error.html', message="Unsupported format")
+            result['errorMsg'] = "Unsupported format"
+            return result
         img = cv2.resize(img, (224, 224))
         img = np.reshape(img, [1, 224, 224, 3])
-        classes = model.predict(img, batch_size=1)
+        classes = icba_model.predict(img, batch_size=1)
         max_index = np.argmax(classes, axis=1)
-        index = max_index[0]
-        confidence = math.floor(np.amax(classes) * 100)
+        result['index'] = max_index[0]
+        result['confidence'] = math.floor(np.amax(classes) * 100)
         os.remove(file_path)
-    if index >= 0:
-        return render_template('result.html', predictions=deprecate_predictions[index], confidence=confidence)
-    else:
-        return render_template('error.html', message="This file no longer exists")
+    
+    if result['index'] < 0:
+        result['errorMsg'] = "This file no longer exists"
 
-@app.route('/diseases')
-def deprecate_diseases():
-    return render_template('diseases.html', predictions=deprecate_predictions)
+    return result
 
-@app.route('/api/upload', methods=['GET', 'POST'])
-def upload_image():
+@app.route('/icba', methods=['GET', 'POST'])
+def render_icba_main_page():
     if request.method == 'POST':
         file = request.files['file']
         filename = secure_filename(file.filename)
         if not filename:
-            return jsonify(success=0, message='Please select a file to classify')
+            return render_template('icba/error.html', message="Please select a file to classify")
         file.save(os.path.join('uploads', filename))
-        return jsonify(success=1, filename=filename)
-    return jsonify(success=0, message='Bad request')
+        return redirect(url_for('render_icba_predict', filename=filename))
+    return render_template('icba/index.html')
+
+@app.route('/icba/predict/<filename>')
+def render_icba_predict(filename):
+    result = icba_predict(filename)
+    i = result.get('index')
+    c = result.get('confidence')
+
+    if i < 0:
+        return render_template('icba/error.html', message=result.get('errorMsg'))
+    return render_template('icba/result.html', predictions=icba_html_predictions[i], confidence=c)
+
+@app.route('/icba/diseases')
+def render_icba_diseases():
+    return render_template('icba/diseases.html', predictions=icba_html_predictions)
+
+@app.route('/api/upload', methods=['POST'])
+def upload_image():
+    file = request.files['file']
+    filename = secure_filename(file.filename)
+    if not filename:
+        return jsonify(success=0, message='Please select a file to classify')
+    file.save(os.path.join('uploads', filename))
+    return jsonify(success=1, filename=filename)
 
 @app.route('/api/predict/<filename>')
 def predict(filename):
+    result = icba_predict(filename)
+    i = result.get('index')
+    c = result.get('confidence')
+
+    if i < 0:
+        return jsonify(success=0, message=result.get('errorMsg'))
+    return jsonify(success=1, disease=icba_diseases_list[i], confidence=c)
+
+@app.route('/api/diseases')
+def diseases():
+    return jsonify(success=1, diseases=icba_diseases_list)
+# ----------------------------------------------------------
+
+# ----------------------------------------------------------
+# CTFC
+# ----------------------------------------------------------
+# TODO set up ctfc model
+
+def ctfc_predict(filename):
+    result = {'index': -1, 'confidence': 0, 'errorMsg': ''}
+
     if not filename:
-        return jsonify(success=0, message='Please select a file to classify')
+        result['errorMsg'] = "Please select a file to classify"
+        return result
+
     file_path = os.path.join('uploads', filename)
-    index = -1
+
     if os.path.exists(file_path):
         img = cv2.imread(file_path)
         if img is None or img.size == 0:
             os.remove(file_path)
-            return jsonify(success=0, message='Unsupported format')
-        img = cv2.resize(img, (224, 224))
-        img = np.reshape(img, [1, 224, 224, 3])
-        classes = model.predict(img, batch_size=1)
-        max_index = np.argmax(classes, axis=1)
-        index = max_index[0]
-        confidence = math.floor(np.amax(classes) * 100)
-        os.remove(file_path)
-    if index >= 0:
-        return jsonify(success=1, disease=diseases_list[index], confidence=confidence)
-    else:
-        return jsonify(success=0, message='This file no longer exists')
+            result['errorMsg'] = "Unsupported format"
+            return result
 
-@app.route('/api/diseases')
+        # TODO ctfc model prediction algorithm
+        
+        result['index'] = 1
+        result['confidence'] = 99
+        os.remove(file_path)
+    
+    if result['index'] < 0:
+        result['errorMsg'] = "This file no longer exists"
+
+    return result
+@app.route('/ctfc', methods=['GET', 'POST'])
+def render_ctfc_main_page():
+    if request.method == 'POST':
+        file = request.files['file']
+        filename = secure_filename(file.filename)
+        if not filename:
+            return render_template('ctfc/error.html', message="Please select a file to classify")
+        file.save(os.path.join('uploads', filename))
+        return redirect(url_for('render_ctfc_predict', filename=filename))
+    return render_template('ctfc/index.html')
+
+@app.route('/ctfc/predict/<filename>')
+def render_ctfc_predict(filename):
+    result = ctfc_predict(filename)
+    i = result.get('index')
+    c = result.get('confidence')
+
+    if i < 0:
+        return render_template('ctfc/error.html', message=result.get('errorMsg'))
+    return render_template('ctfc/result.html', predictions=ctfc_html_predictions[i], confidence=c)
+
+@app.route('/ctfc/diseases')
+def render_ctfc_diseases():
+    return render_template('ctfc/diseases.html', predictions=ctfc_html_predictions)
+
+@app.route('/api/ctfc/upload', methods=['POST'])
+def upload_image():
+    file = request.files['file']
+    filename = secure_filename(file.filename)
+    if not filename:
+        return jsonify(success=0, message='Please select a file to classify')
+    file.save(os.path.join('uploads', filename))
+    return jsonify(success=1, filename=filename)
+
+@app.route('/api/ctfc/predict/<filename>')
+def predict(filename):
+    result = ctfc_predict(filename)
+    i = result.get('index')
+    c = result.get('confidence')
+
+    if i < 0:
+        return jsonify(success=0, message=result.get('errorMsg'))
+    return jsonify(success=1, disease=ctfc_diseases_list[i], confidence=c)
+
+@app.route('/api/ctfc/diseases')
 def diseases():
-    return jsonify(success=1, diseases=diseases_list)
+    return jsonify(success=1, diseases=ctfc_diseases_list)
+# ----------------------------------------------------------
 
 app.run(host='0.0.0.0', port=2000)
