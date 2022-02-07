@@ -88,7 +88,7 @@ def render_icba_diseases():
     return render_template('icba/diseases.html', predictions=icba_html_predictions)
 
 @app.route('/api/upload', methods=['POST'])
-def upload_image():
+def icba_upload_image():
     file = request.files['file']
     filename = secure_filename(file.filename)
     if not filename:
@@ -97,7 +97,7 @@ def upload_image():
     return jsonify(success=1, filename=filename)
 
 @app.route('/api/predict/<filename>')
-def predict(filename):
+def icba_api_predict(filename):
     result = icba_predict(filename)
     i = result.get('index')
     c = result.get('confidence')
@@ -107,7 +107,7 @@ def predict(filename):
     return jsonify(success=1, disease=icba_diseases_list[i], confidence=c)
 
 @app.route('/api/diseases')
-def diseases():
+def icba_diseases():
     return jsonify(success=1, diseases=icba_diseases_list)
 # ----------------------------------------------------------
 
@@ -168,7 +168,7 @@ def render_ctfc_diseases():
     return render_template('ctfc/diseases.html', predictions=ctfc_html_predictions)
 
 @app.route('/api/ctfc/upload', methods=['POST'])
-def upload_image():
+def ctfc_upload_image():
     file = request.files['file']
     filename = secure_filename(file.filename)
     if not filename:
@@ -177,7 +177,7 @@ def upload_image():
     return jsonify(success=1, filename=filename)
 
 @app.route('/api/ctfc/predict/<filename>')
-def predict(filename):
+def ctfc_api_predict(filename):
     result = ctfc_predict(filename)
     i = result.get('index')
     c = result.get('confidence')
@@ -187,7 +187,7 @@ def predict(filename):
     return jsonify(success=1, disease=ctfc_diseases_list[i], confidence=c)
 
 @app.route('/api/ctfc/diseases')
-def diseases():
+def ctfc_diseases():
     return jsonify(success=1, diseases=ctfc_diseases_list)
 # ----------------------------------------------------------
 
