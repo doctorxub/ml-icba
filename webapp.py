@@ -1,5 +1,6 @@
 import os
 from flask import Flask, request, redirect, url_for, render_template, jsonify
+from waitress import serve
 from werkzeug.utils import secure_filename
 import numpy as np
 from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
@@ -11,8 +12,6 @@ import cv2
 import math
 
 app = Flask(__name__)
-def create_app():
-    return app
 
 @app.route('/', methods=['GET'])
 def render_main_page():
@@ -192,3 +191,6 @@ def ctfc_api_predict(filename):
 def ctfc_diseases():
     return jsonify(success=1, diseases=ctfc_diseases_list)
 # ----------------------------------------------------------
+
+if __name__ == "__main__":
+    serve(app, host="0.0.0.0", port=2000)
