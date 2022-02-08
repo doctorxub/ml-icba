@@ -6,6 +6,11 @@ body {
   letter-spacing: 1px;
 }
 
+.main_page {
+  display: flex;
+  width: fit-content;
+}
+
 .container {
   text-align: center;
   margin: 0 auto;
