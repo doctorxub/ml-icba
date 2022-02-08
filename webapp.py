@@ -190,5 +190,3 @@ def ctfc_api_predict(filename):
 def ctfc_diseases():
     return jsonify(success=1, diseases=ctfc_diseases_list)
 # ----------------------------------------------------------
-
-app.run(host='0.0.0.0', port=2000)
