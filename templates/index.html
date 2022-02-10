@@ -6,26 +6,43 @@
   <link
     rel="stylesheet"
     type="text/css"
-    href="{{ url_for('static',filename='styles/main-v21.css') }}"
+    href="{{ url_for('static',filename='styles/main-v19.css') }}"
   />
 </head>
 <body>
-  <div class="container main_page" role="main">
-    <div style="width: 250px;">
-      <h1><a href="https://doctorxub.com/icba">ICBA</a></h1>
-      <footer>
-        <p><strong>Common Diseases & Insect Pests Image Classification</strong></p>
-        <p>International Center for Biosaline Agriculture</p>
-      </footer>
-    </div>
-    <div style="width: 30px;"></div>
-    <div style="width: 250px;">
-      <h1>CTFC</h1>
-      <footer>
-        <p><strong>Count pinecones from UAV images</strong></p>
-        <p>Catalan Technologic Forest Center</p>
-      </footer>
-    </div>
+  <div class="container" role="main">
+    <h1>ICBA</h1>
+    <p>Classify <a href="https://doctorxub.com/diseases">Common Diseases</a> & Insect Pests</p>
+    <form method=post enctype=multipart/form-data class="box">
+      <div class="box__input">
+        <label for="file" class="custom-label" id="inputLabel">
+          <svg class="uploadSVG" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="16 16 12 12 8 16"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"></path><polyline points="16 16 12 12 8 16"></polyline></svg>
+          <br />
+          <strong>Choose a file</strong><span class="box__dragndrop"> or drag it here.</span>
+        </label>
+        <input id="fileInput" type=file name=file>
+        <input type=submit value="Upload & Classify">
+      </div>
+    </form>
+    <footer>
+      <p><strong>International Center for Biosaline Agriculture</strong></p>
+      <p>Common Diseases & Insect Pests Image Classification</p>
+    </footer>
   </div>
+
+  <script>
+    'use strict';
+    (function (document, window, index) {
+      document.getElementById('fileInput').onchange = function () {
+        var inputLabel = document.getElementById('inputLabel');
+        var filename = this.value.replace(/.*[\/\\]/, '');
+        inputLabel.innerHTML = '<svg class="uploadSVG" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="16 16 12 12 8 16"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"></path><polyline points="16 16 12 12 8 16"></polyline></svg>';
+        inputLabel.innerHTML += '<br /><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here.</span>';
+        if (filename) {
+          inputLabel.innerHTML += '<p>Selected: ' + filename + "</p>";
+        }
+      };
+    })(document, window, 0);
+  </script>
 </body>
 </html>
