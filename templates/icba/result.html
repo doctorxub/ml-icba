@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Classify your Image!</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='styles/main-v21.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container" role="main">
+      <h1>{{ predictions.title }}</h1>
+      <ul class="ultitle">
+        <li>{{ predictions.disease }}</li>
+        <li>{{ predictions.type }}</li>
+        <li>{{ predictions.sci }}</li>
+      </ul>
+      <div class="header">
+        {% if confidence >= 90 %}
+        <h3 class="confidence green">Confidence: {{ confidence }}%</h3>
+        {% elif confidence >= 70 %}
+        <h3 class="confidence yellow">Confidence: {{ confidence }}%</h3>
+        {% else %}
+        <h3 class="confidence red">Confidence: {{ confidence }}</h3>
+        {% endif %}
+      </div>
+      <div class="information">
+        <div class="information_sub sub_one">
+          <div class="photo">
+            <img src="{{ url_for('static',filename=predictions.image) }}"></img>
+          </div>
+          <div class="hosts">
+            <div class="coltitle hoststitle">Hosts</div>
+            <div class="colcontent hostscontent">{{ predictions.hosts }}</div>
+          </div>
+        </div>
+        <div class="information_sub sub_two">
+          <div class="symptoms">
+            <div class="coltitle symptomstitle">Symptoms</div>
+            <div class="colcontent symptomscontent">
+              {{ predictions.symptoms|safe }}
+            </div>
+          </div>
+          <div class="control">
+            <div class="coltitle controltitle">Control</div>
+            <div class="colcontent controlcontent">
+              {{ predictions.control|safe }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="goback">
+        <a href="../../icba">
+          Upload New Image
+        </a>
+      </div>
+      <footer>
+        <p><strong>International Center for Biosaline Agriculture</strong></p>
+        <p>Common Diseases & Insect Pests Image Classification</p>
+      </footer>
+    </div>
+  </body>
+</html>
