@@ -1,6 +1,10 @@
+from icba_predictions_fr import icba_diseases_list_fr
+from icba_predictions_ar import icba_diseases_list_ar
+
 icba_diseases_list = [
     {
         'id': 0,
+
         'type': 'Cucumber',
         'pathogen': 'Healthy',
         'name': '',
@@ -12,10 +16,36 @@ icba_diseases_list = [
         'pest_management': [],
         'bio_control': [],
         'geo': '',
+
+        'type_fr': icba_diseases_list_fr[0].type,
+        'pathogen_fr': icba_diseases_list_fr[0].pathogen,
+        'name_fr': icba_diseases_list_fr[0].name,
+        'sci_name_fr': icba_diseases_list_fr[0].sci_name,
+        'local_name_fr': icba_diseases_list_fr[0].local_name,
+        'symptoms_fr': icba_diseases_list_fr[0].symptoms,
+        'conditions_fr': icba_diseases_list_fr[0].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[0].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[0].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[0].bio_control,
+        'geo_fr': icba_diseases_list_fr[0].geo,
+
+        'type_ar': icba_diseases_list_ar[0].type,
+        'pathogen_ar': icba_diseases_list_ar[0].pathogen,
+        'name_ar': icba_diseases_list_ar[0].name,
+        'sci_name_ar': icba_diseases_list_ar[0].sci_name,
+        'local_name_ar': icba_diseases_list_ar[0].local_name,
+        'symptoms_ar': icba_diseases_list_ar[0].symptoms,
+        'conditions_ar': icba_diseases_list_ar[0].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[0].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[0].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[0].bio_control,
+        'geo_ar': icba_diseases_list_ar[0].geo,
+
         'image': 'images/cucumber-healthy.jpg'
     },
     {
         'id': 1,
+
         'type': 'Cucumber',
         'pathogen': 'Deficiency',
         'name': 'Potassium',
@@ -36,10 +66,36 @@ icba_diseases_list = [
         'pest_management': [],
         'bio_control': [],
         'geo': 'All Tunisia, UAE and Egypt',
+
+        'type_fr': icba_diseases_list_fr[1].type,
+        'pathogen_fr': icba_diseases_list_fr[1].pathogen,
+        'name_fr': icba_diseases_list_fr[1].name,
+        'sci_name_fr': icba_diseases_list_fr[1].sci_name,
+        'local_name_fr': icba_diseases_list_fr[1].local_name,
+        'symptoms_fr': icba_diseases_list_fr[1].symptoms,
+        'conditions_fr': icba_diseases_list_fr[1].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[1].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[1].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[1].bio_control,
+        'geo_fr': icba_diseases_list_fr[1].geo,
+
+        'type_ar': icba_diseases_list_ar[1].type,
+        'pathogen_ar': icba_diseases_list_ar[1].pathogen,
+        'name_ar': icba_diseases_list_ar[1].name,
+        'sci_name_ar': icba_diseases_list_ar[1].sci_name,
+        'local_name_ar': icba_diseases_list_ar[1].local_name,
+        'symptoms_ar': icba_diseases_list_ar[1].symptoms,
+        'conditions_ar': icba_diseases_list_ar[1].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[1].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[1].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[1].bio_control,
+        'geo_ar': icba_diseases_list_ar[1].geo,
+
         'image': 'images/cucumber-k-deficient.jpg'
     },
     {
         'id': 2,
+
         'type': 'Cucumber',
         'pathogen': 'Fungal Diseases',
         'name': 'Mildew',
@@ -68,10 +124,36 @@ icba_diseases_list = [
             'Bacillus subtilis'
         ],
         'geo': 'All Tunisia, UAE and Egypt',
+
+        'type_fr': icba_diseases_list_fr[2].type,
+        'pathogen_fr': icba_diseases_list_fr[2].pathogen,
+        'name_fr': icba_diseases_list_fr[2].name,
+        'sci_name_fr': icba_diseases_list_fr[2].sci_name,
+        'local_name_fr': icba_diseases_list_fr[2].local_name,
+        'symptoms_fr': icba_diseases_list_fr[2].symptoms,
+        'conditions_fr': icba_diseases_list_fr[2].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[2].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[2].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[2].bio_control,
+        'geo_fr': icba_diseases_list_fr[2].geo,
+
+        'type_ar': icba_diseases_list_ar[2].type,
+        'pathogen_ar': icba_diseases_list_ar[2].pathogen,
+        'name_ar': icba_diseases_list_ar[2].name,
+        'sci_name_ar': icba_diseases_list_ar[2].sci_name,
+        'local_name_ar': icba_diseases_list_ar[2].local_name,
+        'symptoms_ar': icba_diseases_list_ar[2].symptoms,
+        'conditions_ar': icba_diseases_list_ar[2].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[2].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[2].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[2].bio_control,
+        'geo_ar': icba_diseases_list_ar[2].geo,
+
         'image': 'images/cucumber-downy-mildew.jpg'
     },
     {
         'id': 3,
+
         'type': 'Cucumber',
         'pathogen': 'Bacteria Diseases',
         'name': 'Bacteria wilt',
@@ -97,10 +179,36 @@ icba_diseases_list = [
         ],
         'bio_control': [],
         'geo': 'Tunisia and Egypt',
+
+        'type_fr': icba_diseases_list_fr[3].type,
+        'pathogen_fr': icba_diseases_list_fr[3].pathogen,
+        'name_fr': icba_diseases_list_fr[3].name,
+        'sci_name_fr': icba_diseases_list_fr[3].sci_name,
+        'local_name_fr': icba_diseases_list_fr[3].local_name,
+        'symptoms_fr': icba_diseases_list_fr[3].symptoms,
+        'conditions_fr': icba_diseases_list_fr[3].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[3].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[3].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[3].bio_control,
+        'geo_fr': icba_diseases_list_fr[3].geo,
+
+        'type_ar': icba_diseases_list_ar[3].type,
+        'pathogen_ar': icba_diseases_list_ar[3].pathogen,
+        'name_ar': icba_diseases_list_ar[3].name,
+        'sci_name_ar': icba_diseases_list_ar[3].sci_name,
+        'local_name_ar': icba_diseases_list_ar[3].local_name,
+        'symptoms_ar': icba_diseases_list_ar[3].symptoms,
+        'conditions_ar': icba_diseases_list_ar[3].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[3].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[3].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[3].bio_control,
+        'geo_ar': icba_diseases_list_ar[3].geo,
+
         'image': 'images/cucumber-bacteria-wilt.jpg'
     },
     {
         'id': 4,
+
         'type': 'Cucumber',
         'pathogen': 'Insects and Pests',
         'name': 'Mites',
@@ -129,10 +237,36 @@ icba_diseases_list = [
             'Sulfur 80%'
         ],
         'geo': 'All Tunisia, UAE and Egypt',
+
+        'type_fr': icba_diseases_list_fr[4].type,
+        'pathogen_fr': icba_diseases_list_fr[4].pathogen,
+        'name_fr': icba_diseases_list_fr[4].name,
+        'sci_name_fr': icba_diseases_list_fr[4].sci_name,
+        'local_name_fr': icba_diseases_list_fr[4].local_name,
+        'symptoms_fr': icba_diseases_list_fr[4].symptoms,
+        'conditions_fr': icba_diseases_list_fr[4].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[4].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[4].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[4].bio_control,
+        'geo_fr': icba_diseases_list_fr[4].geo,
+
+        'type_ar': icba_diseases_list_ar[4].type,
+        'pathogen_ar': icba_diseases_list_ar[4].pathogen,
+        'name_ar': icba_diseases_list_ar[4].name,
+        'sci_name_ar': icba_diseases_list_ar[4].sci_name,
+        'local_name_ar': icba_diseases_list_ar[4].local_name,
+        'symptoms_ar': icba_diseases_list_ar[4].symptoms,
+        'conditions_ar': icba_diseases_list_ar[4].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[4].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[4].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[4].bio_control,
+        'geo_ar': icba_diseases_list_ar[4].geo,
+
         'image': 'images/cucumber-spider-mites.jpg'
     },
     {
         'id': 5,
+
         'type': 'Pepper',
         'pathogen': 'Healthy',
         'name': '',
@@ -144,10 +278,36 @@ icba_diseases_list = [
         'pest_management': [],
         'bio_control': [],
         'geo': '',
+
+        'type_fr': icba_diseases_list_fr[5].type,
+        'pathogen_fr': icba_diseases_list_fr[5].pathogen,
+        'name_fr': icba_diseases_list_fr[5].name,
+        'sci_name_fr': icba_diseases_list_fr[5].sci_name,
+        'local_name_fr': icba_diseases_list_fr[5].local_name,
+        'symptoms_fr': icba_diseases_list_fr[5].symptoms,
+        'conditions_fr': icba_diseases_list_fr[5].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[5].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[5].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[5].bio_control,
+        'geo_fr': icba_diseases_list_fr[5].geo,
+
+        'type_ar': icba_diseases_list_ar[5].type,
+        'pathogen_ar': icba_diseases_list_ar[5].pathogen,
+        'name_ar': icba_diseases_list_ar[5].name,
+        'sci_name_ar': icba_diseases_list_ar[5].sci_name,
+        'local_name_ar': icba_diseases_list_ar[5].local_name,
+        'symptoms_ar': icba_diseases_list_ar[5].symptoms,
+        'conditions_ar': icba_diseases_list_ar[5].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[5].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[5].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[5].bio_control,
+        'geo_ar': icba_diseases_list_ar[5].geo,
+
         'image': 'images/pepper-healthy.jpg'
     },
     {
         'id': 6,
+
         'type': 'Pepper',
         'pathogen': 'Fungal diseases',
         'name': 'Mildew',
@@ -176,10 +336,36 @@ icba_diseases_list = [
             'Bacillus subtilis'
         ],
         'geo': 'Tunisia and Egypt',
+
+        'type_fr': icba_diseases_list_fr[6].type,
+        'pathogen_fr': icba_diseases_list_fr[6].pathogen,
+        'name_fr': icba_diseases_list_fr[6].name,
+        'sci_name_fr': icba_diseases_list_fr[6].sci_name,
+        'local_name_fr': icba_diseases_list_fr[6].local_name,
+        'symptoms_fr': icba_diseases_list_fr[6].symptoms,
+        'conditions_fr': icba_diseases_list_fr[6].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[6].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[6].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[6].bio_control,
+        'geo_fr': icba_diseases_list_fr[6].geo,
+
+        'type_ar': icba_diseases_list_ar[6].type,
+        'pathogen_ar': icba_diseases_list_ar[6].pathogen,
+        'name_ar': icba_diseases_list_ar[6].name,
+        'sci_name_ar': icba_diseases_list_ar[6].sci_name,
+        'local_name_ar': icba_diseases_list_ar[6].local_name,
+        'symptoms_ar': icba_diseases_list_ar[6].symptoms,
+        'conditions_ar': icba_diseases_list_ar[6].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[6].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[6].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[6].bio_control,
+        'geo_ar': icba_diseases_list_ar[6].geo,
+
         'image': 'images/pepper-downy-mildew.jpg'
     },
     {
         'id': 7,
+
         'type': 'Pepper',
         'pathogen': 'Virus',
         'name': 'Tomato Yellow Leaf Curl Virus (TYLCV)',
@@ -200,10 +386,36 @@ icba_diseases_list = [
             'Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium'
         ],
         'geo': 'All Tunisia, UAE and Egypt',
+
+        'type_fr': icba_diseases_list_fr[7].type,
+        'pathogen_fr': icba_diseases_list_fr[7].pathogen,
+        'name_fr': icba_diseases_list_fr[7].name,
+        'sci_name_fr': icba_diseases_list_fr[7].sci_name,
+        'local_name_fr': icba_diseases_list_fr[7].local_name,
+        'symptoms_fr': icba_diseases_list_fr[7].symptoms,
+        'conditions_fr': icba_diseases_list_fr[7].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[7].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[7].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[7].bio_control,
+        'geo_fr': icba_diseases_list_fr[7].geo,
+
+        'type_ar': icba_diseases_list_ar[7].type,
+        'pathogen_ar': icba_diseases_list_ar[7].pathogen,
+        'name_ar': icba_diseases_list_ar[7].name,
+        'sci_name_ar': icba_diseases_list_ar[7].sci_name,
+        'local_name_ar': icba_diseases_list_ar[7].local_name,
+        'symptoms_ar': icba_diseases_list_ar[7].symptoms,
+        'conditions_ar': icba_diseases_list_ar[7].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[7].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[7].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[7].bio_control,
+        'geo_ar': icba_diseases_list_ar[7].geo,
+
         'image': 'images/pepper-tylcv.jpg'
     },
     {
         'id': 8,
+
         'type': 'Pepper',
         'pathogen': 'Fungal diseases',
         'name': 'Sooty mold',
@@ -226,10 +438,36 @@ icba_diseases_list = [
         ],
         'bio_control': [],
         'geo': 'All Tunisia, UAE and Egypt',
+
+        'type_fr': icba_diseases_list_fr[8].type,
+        'pathogen_fr': icba_diseases_list_fr[8].pathogen,
+        'name_fr': icba_diseases_list_fr[8].name,
+        'sci_name_fr': icba_diseases_list_fr[8].sci_name,
+        'local_name_fr': icba_diseases_list_fr[8].local_name,
+        'symptoms_fr': icba_diseases_list_fr[8].symptoms,
+        'conditions_fr': icba_diseases_list_fr[8].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[8].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[8].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[8].bio_control,
+        'geo_fr': icba_diseases_list_fr[8].geo,
+
+        'type_ar': icba_diseases_list_ar[8].type,
+        'pathogen_ar': icba_diseases_list_ar[8].pathogen,
+        'name_ar': icba_diseases_list_ar[8].name,
+        'sci_name_ar': icba_diseases_list_ar[8].sci_name,
+        'local_name_ar': icba_diseases_list_ar[8].local_name,
+        'symptoms_ar': icba_diseases_list_ar[8].symptoms,
+        'conditions_ar': icba_diseases_list_ar[8].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[8].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[8].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[8].bio_control,
+        'geo_ar': icba_diseases_list_ar[8].geo,
+
         'image': 'images/pepper-mold.jpg'
     },
     {
         'id': 9,
+
         'type': 'Pepper',
         'pathogen': 'Insects and Pests',
         'name': 'Spider mite',
@@ -258,10 +496,36 @@ icba_diseases_list = [
             'Sulfur 80%'
         ],
         'geo': 'All Tunisia, UAE and Egypt',
+
+        'type_fr': icba_diseases_list_fr[9].type,
+        'pathogen_fr': icba_diseases_list_fr[9].pathogen,
+        'name_fr': icba_diseases_list_fr[9].name,
+        'sci_name_fr': icba_diseases_list_fr[9].sci_name,
+        'local_name_fr': icba_diseases_list_fr[9].local_name,
+        'symptoms_fr': icba_diseases_list_fr[9].symptoms,
+        'conditions_fr': icba_diseases_list_fr[9].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[9].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[9].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[9].bio_control,
+        'geo_fr': icba_diseases_list_fr[9].geo,
+
+        'type_ar': icba_diseases_list_ar[9].type,
+        'pathogen_ar': icba_diseases_list_ar[9].pathogen,
+        'name_ar': icba_diseases_list_ar[9].name,
+        'sci_name_ar': icba_diseases_list_ar[9].sci_name,
+        'local_name_ar': icba_diseases_list_ar[9].local_name,
+        'symptoms_ar': icba_diseases_list_ar[9].symptoms,
+        'conditions_ar': icba_diseases_list_ar[9].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[9].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[9].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[9].bio_control,
+        'geo_ar': icba_diseases_list_ar[9].geo,
+
         'image': 'images/pepper-spider-mites.jpg'
     },
     {
         'id': 10,
+
         'type': 'Pepper',
         'pathogen': 'Insects and Pests',
         'name': 'Leafhopper',
@@ -286,10 +550,36 @@ icba_diseases_list = [
         ],
         'bio_control': [],
         'geo': 'Tunisia and Egypt',
+
+        'type_fr': icba_diseases_list_fr[10].type,
+        'pathogen_fr': icba_diseases_list_fr[10].pathogen,
+        'name_fr': icba_diseases_list_fr[10].name,
+        'sci_name_fr': icba_diseases_list_fr[10].sci_name,
+        'local_name_fr': icba_diseases_list_fr[10].local_name,
+        'symptoms_fr': icba_diseases_list_fr[10].symptoms,
+        'conditions_fr': icba_diseases_list_fr[10].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[10].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[10].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[10].bio_control,
+        'geo_fr': icba_diseases_list_fr[10].geo,
+
+        'type_ar': icba_diseases_list_ar[10].type,
+        'pathogen_ar': icba_diseases_list_ar[10].pathogen,
+        'name_ar': icba_diseases_list_ar[10].name,
+        'sci_name_ar': icba_diseases_list_ar[10].sci_name,
+        'local_name_ar': icba_diseases_list_ar[10].local_name,
+        'symptoms_ar': icba_diseases_list_ar[10].symptoms,
+        'conditions_ar': icba_diseases_list_ar[10].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[10].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[10].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[10].bio_control,
+        'geo_ar': icba_diseases_list_ar[10].geo,
+
         'image': 'images/pepper-leaf-hoper.jpg'
     },
     {
         'id': 11,
+
         'type': 'Pepper',
         'pathogen': 'Insects and Pests',
         'name': 'Aphids',
@@ -329,10 +619,36 @@ icba_diseases_list = [
             'Natural enemies such as parasitic wasps, lady beetle adults and larvae,  lacewing larvae, soldier beetles, and syrphid fly larvae.'
         ],
         'geo': 'All Tunisia, UAE and Egypt',
+
+        'type_fr': icba_diseases_list_fr[11].type,
+        'pathogen_fr': icba_diseases_list_fr[11].pathogen,
+        'name_fr': icba_diseases_list_fr[11].name,
+        'sci_name_fr': icba_diseases_list_fr[11].sci_name,
+        'local_name_fr': icba_diseases_list_fr[11].local_name,
+        'symptoms_fr': icba_diseases_list_fr[11].symptoms,
+        'conditions_fr': icba_diseases_list_fr[11].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[11].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[11].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[11].bio_control,
+        'geo_fr': icba_diseases_list_fr[11].geo,
+
+        'type_ar': icba_diseases_list_ar[11].type,
+        'pathogen_ar': icba_diseases_list_ar[11].pathogen,
+        'name_ar': icba_diseases_list_ar[11].name,
+        'sci_name_ar': icba_diseases_list_ar[11].sci_name,
+        'local_name_ar': icba_diseases_list_ar[11].local_name,
+        'symptoms_ar': icba_diseases_list_ar[11].symptoms,
+        'conditions_ar': icba_diseases_list_ar[11].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[11].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[11].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[11].bio_control,
+        'geo_ar': icba_diseases_list_ar[11].geo,
+
         'image': 'images/pepper-aphid.jpg'
     },
     {
         'id': 12,
+
         'type': 'Tomato',
         'pathogen': 'Healthy',
         'name': '',
@@ -344,10 +660,36 @@ icba_diseases_list = [
         'pest_management': [],
         'bio_control': [],
         'geo': '',
+
+        'type_fr': icba_diseases_list_fr[12].type,
+        'pathogen_fr': icba_diseases_list_fr[12].pathogen,
+        'name_fr': icba_diseases_list_fr[12].name,
+        'sci_name_fr': icba_diseases_list_fr[12].sci_name,
+        'local_name_fr': icba_diseases_list_fr[12].local_name,
+        'symptoms_fr': icba_diseases_list_fr[12].symptoms,
+        'conditions_fr': icba_diseases_list_fr[12].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[12].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[12].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[12].bio_control,
+        'geo_fr': icba_diseases_list_fr[12].geo,
+
+        'type_ar': icba_diseases_list_ar[12].type,
+        'pathogen_ar': icba_diseases_list_ar[12].pathogen,
+        'name_ar': icba_diseases_list_ar[12].name,
+        'sci_name_ar': icba_diseases_list_ar[12].sci_name,
+        'local_name_ar': icba_diseases_list_ar[12].local_name,
+        'symptoms_ar': icba_diseases_list_ar[12].symptoms,
+        'conditions_ar': icba_diseases_list_ar[12].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[12].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[12].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[12].bio_control,
+        'geo_ar': icba_diseases_list_ar[12].geo,
+
         'image': 'images/tomato-healthy.jpg'
     },
     {
         'id': 13,
+
         'type': 'Tomato',
         'pathogen': 'Deficiency',
         'name': 'Phosphorus',
@@ -371,10 +713,36 @@ icba_diseases_list = [
         ],
         'bio_control': [],
         'geo': 'All Tunisia, UAE and Egypt',
+
+        'type_fr': icba_diseases_list_fr[13].type,
+        'pathogen_fr': icba_diseases_list_fr[13].pathogen,
+        'name_fr': icba_diseases_list_fr[13].name,
+        'sci_name_fr': icba_diseases_list_fr[13].sci_name,
+        'local_name_fr': icba_diseases_list_fr[13].local_name,
+        'symptoms_fr': icba_diseases_list_fr[13].symptoms,
+        'conditions_fr': icba_diseases_list_fr[13].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[13].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[13].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[13].bio_control,
+        'geo_fr': icba_diseases_list_fr[13].geo,
+
+        'type_ar': icba_diseases_list_ar[13].type,
+        'pathogen_ar': icba_diseases_list_ar[13].pathogen,
+        'name_ar': icba_diseases_list_ar[13].name,
+        'sci_name_ar': icba_diseases_list_ar[13].sci_name,
+        'local_name_ar': icba_diseases_list_ar[13].local_name,
+        'symptoms_ar': icba_diseases_list_ar[13].symptoms,
+        'conditions_ar': icba_diseases_list_ar[13].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[13].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[13].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[13].bio_control,
+        'geo_ar': icba_diseases_list_ar[13].geo,
+
         'image': 'images/tomato-p-deficient.jpg'
     },
     {
         'id': 14,
+
         'type': 'Tomato',
         'pathogen': 'Fungal diseases',
         'name': 'Powdery mildew',
@@ -404,10 +772,36 @@ icba_diseases_list = [
             'Sulfur  80%'
         ],
         'geo': 'North and center of Tunisia, UAE and Egypt',
+
+        'type_fr': icba_diseases_list_fr[14].type,
+        'pathogen_fr': icba_diseases_list_fr[14].pathogen,
+        'name_fr': icba_diseases_list_fr[14].name,
+        'sci_name_fr': icba_diseases_list_fr[14].sci_name,
+        'local_name_fr': icba_diseases_list_fr[14].local_name,
+        'symptoms_fr': icba_diseases_list_fr[14].symptoms,
+        'conditions_fr': icba_diseases_list_fr[14].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[14].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[14].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[14].bio_control,
+        'geo_fr': icba_diseases_list_fr[14].geo,
+
+        'type_ar': icba_diseases_list_ar[14].type,
+        'pathogen_ar': icba_diseases_list_ar[14].pathogen,
+        'name_ar': icba_diseases_list_ar[14].name,
+        'sci_name_ar': icba_diseases_list_ar[14].sci_name,
+        'local_name_ar': icba_diseases_list_ar[14].local_name,
+        'symptoms_ar': icba_diseases_list_ar[14].symptoms,
+        'conditions_ar': icba_diseases_list_ar[14].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[14].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[14].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[14].bio_control,
+        'geo_ar': icba_diseases_list_ar[14].geo,
+
         'image': 'images/tomato-powdery-mildew.jpg'
     },
     {
         'id': 15,
+
         'type': 'Tomato',
         'pathogen': 'Fungal diseases',
         'name': 'Early blight',
@@ -435,10 +829,36 @@ icba_diseases_list = [
             'Bacillus amyloliquefaciens (strain D747)'
         ],
         'geo': 'North and center of Tunisia, UAE and Egypt',
+
+        'type_fr': icba_diseases_list_fr[15].type,
+        'pathogen_fr': icba_diseases_list_fr[15].pathogen,
+        'name_fr': icba_diseases_list_fr[15].name,
+        'sci_name_fr': icba_diseases_list_fr[15].sci_name,
+        'local_name_fr': icba_diseases_list_fr[15].local_name,
+        'symptoms_fr': icba_diseases_list_fr[15].symptoms,
+        'conditions_fr': icba_diseases_list_fr[15].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[15].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[15].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[15].bio_control,
+        'geo_fr': icba_diseases_list_fr[15].geo,
+
+        'type_ar': icba_diseases_list_ar[15].type,
+        'pathogen_ar': icba_diseases_list_ar[15].pathogen,
+        'name_ar': icba_diseases_list_ar[15].name,
+        'sci_name_ar': icba_diseases_list_ar[15].sci_name,
+        'local_name_ar': icba_diseases_list_ar[15].local_name,
+        'symptoms_ar': icba_diseases_list_ar[15].symptoms,
+        'conditions_ar': icba_diseases_list_ar[15].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[15].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[15].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[15].bio_control,
+        'geo_ar': icba_diseases_list_ar[15].geo,
+
         'image': 'images/tomato-blight.jpg'
     },
     {
         'id': 16,
+
         'type': 'Tomato',
         'pathogen': 'Fungal diseases',
         'name': 'Leaf mold',
@@ -470,10 +890,36 @@ icba_diseases_list = [
         ],
         'bio_control': [],
         'geo': 'All Tunisia, UAE and Egypt',
+
+        'type_fr': icba_diseases_list_fr[16].type,
+        'pathogen_fr': icba_diseases_list_fr[16].pathogen,
+        'name_fr': icba_diseases_list_fr[16].name,
+        'sci_name_fr': icba_diseases_list_fr[16].sci_name,
+        'local_name_fr': icba_diseases_list_fr[16].local_name,
+        'symptoms_fr': icba_diseases_list_fr[16].symptoms,
+        'conditions_fr': icba_diseases_list_fr[16].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[16].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[16].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[16].bio_control,
+        'geo_fr': icba_diseases_list_fr[16].geo,
+
+        'type_ar': icba_diseases_list_ar[16].type,
+        'pathogen_ar': icba_diseases_list_ar[16].pathogen,
+        'name_ar': icba_diseases_list_ar[16].name,
+        'sci_name_ar': icba_diseases_list_ar[16].sci_name,
+        'local_name_ar': icba_diseases_list_ar[16].local_name,
+        'symptoms_ar': icba_diseases_list_ar[16].symptoms,
+        'conditions_ar': icba_diseases_list_ar[16].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[16].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[16].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[16].bio_control,
+        'geo_ar': icba_diseases_list_ar[16].geo,
+
         'image': 'images/tomato-leaf-mold.jpg'
     },
     {
         'id': 17,
+
         'type': 'Tomato',
         'pathogen': 'Virus',
         'name': 'Tomato yellow leaf curl virus (TYLCV)',
@@ -500,10 +946,36 @@ icba_diseases_list = [
             'Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium'
         ],
         'geo': 'All Tunisia, UAE and Egypt',
+
+        'type_fr': icba_diseases_list_fr[17].type,
+        'pathogen_fr': icba_diseases_list_fr[17].pathogen,
+        'name_fr': icba_diseases_list_fr[17].name,
+        'sci_name_fr': icba_diseases_list_fr[17].sci_name,
+        'local_name_fr': icba_diseases_list_fr[17].local_name,
+        'symptoms_fr': icba_diseases_list_fr[17].symptoms,
+        'conditions_fr': icba_diseases_list_fr[17].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[17].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[17].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[17].bio_control,
+        'geo_fr': icba_diseases_list_fr[17].geo,
+
+        'type_ar': icba_diseases_list_ar[17].type,
+        'pathogen_ar': icba_diseases_list_ar[17].pathogen,
+        'name_ar': icba_diseases_list_ar[17].name,
+        'sci_name_ar': icba_diseases_list_ar[17].sci_name,
+        'local_name_ar': icba_diseases_list_ar[17].local_name,
+        'symptoms_ar': icba_diseases_list_ar[17].symptoms,
+        'conditions_ar': icba_diseases_list_ar[17].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[17].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[17].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[17].bio_control,
+        'geo_ar': icba_diseases_list_ar[17].geo,
+
         'image': 'images/tomato-tylcv.jpg'
     },
     {
         'id': 18,
+
         'type': 'Tomato',
         'pathogen': 'Insects and Pests',
         'name': 'The tomato leaf miner',
@@ -543,10 +1015,36 @@ icba_diseases_list = [
             'Spinosade'
         ],
         'geo': 'All Tunisia, UAE and Egypt',
+
+        'type_fr': icba_diseases_list_fr[18].type,
+        'pathogen_fr': icba_diseases_list_fr[18].pathogen,
+        'name_fr': icba_diseases_list_fr[18].name,
+        'sci_name_fr': icba_diseases_list_fr[18].sci_name,
+        'local_name_fr': icba_diseases_list_fr[18].local_name,
+        'symptoms_fr': icba_diseases_list_fr[18].symptoms,
+        'conditions_fr': icba_diseases_list_fr[18].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[18].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[18].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[18].bio_control,
+        'geo_fr': icba_diseases_list_fr[18].geo,
+
+        'type_ar': icba_diseases_list_ar[18].type,
+        'pathogen_ar': icba_diseases_list_ar[18].pathogen,
+        'name_ar': icba_diseases_list_ar[18].name,
+        'sci_name_ar': icba_diseases_list_ar[18].sci_name,
+        'local_name_ar': icba_diseases_list_ar[18].local_name,
+        'symptoms_ar': icba_diseases_list_ar[18].symptoms,
+        'conditions_ar': icba_diseases_list_ar[18].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[18].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[18].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[18].bio_control,
+        'geo_ar': icba_diseases_list_ar[18].geo,
+
         'image': 'images/tomato-tuta-absoluta.jpg'
     },
     {
         'id': 19,
+
         'type': 'Tomato',
         'pathogen': 'Salinity',
         'name': '',
@@ -566,10 +1064,36 @@ icba_diseases_list = [
             'In some cases, selecting salt-tolerant crops may be needed in addition to managing soils.'
         ],
         'geo': 'Common in all of the Mediterranean coastal areas, and also sometimes inland.',
+
+        'type_fr': icba_diseases_list_fr[19].type,
+        'pathogen_fr': icba_diseases_list_fr[19].pathogen,
+        'name_fr': icba_diseases_list_fr[19].name,
+        'sci_name_fr': icba_diseases_list_fr[19].sci_name,
+        'local_name_fr': icba_diseases_list_fr[19].local_name,
+        'symptoms_fr': icba_diseases_list_fr[19].symptoms,
+        'conditions_fr': icba_diseases_list_fr[19].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[19].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[19].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[19].bio_control,
+        'geo_fr': icba_diseases_list_fr[19].geo,
+
+        'type_ar': icba_diseases_list_ar[19].type,
+        'pathogen_ar': icba_diseases_list_ar[19].pathogen,
+        'name_ar': icba_diseases_list_ar[19].name,
+        'sci_name_ar': icba_diseases_list_ar[19].sci_name,
+        'local_name_ar': icba_diseases_list_ar[19].local_name,
+        'symptoms_ar': icba_diseases_list_ar[19].symptoms,
+        'conditions_ar': icba_diseases_list_ar[19].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[19].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[19].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[19].bio_control,
+        'geo_ar': icba_diseases_list_ar[19].geo,
+
         'image': 'images/tomato-salinity.jpg'
     },
     {
         'id': 20,
+
         'type': 'Quinoa',
         'pathogen': 'Virus',
         'name': 'Tomato yellow leaf curl virus (TYLCV)',
@@ -596,6 +1120,31 @@ icba_diseases_list = [
             'Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium'
         ],
         'geo': 'All Tunisia, UAE and Egypt',
+
+        'type_fr': icba_diseases_list_fr[20].type,
+        'pathogen_fr': icba_diseases_list_fr[20].pathogen,
+        'name_fr': icba_diseases_list_fr[20].name,
+        'sci_name_fr': icba_diseases_list_fr[20].sci_name,
+        'local_name_fr': icba_diseases_list_fr[20].local_name,
+        'symptoms_fr': icba_diseases_list_fr[20].symptoms,
+        'conditions_fr': icba_diseases_list_fr[20].conditions,
+        'chemical_control_fr': icba_diseases_list_fr[20].chemical_control,
+        'pest_management_fr': icba_diseases_list_fr[20].pest_management_fr,
+        'bio_control_fr': icba_diseases_list_fr[20].bio_control,
+        'geo_fr': icba_diseases_list_fr[20].geo,
+
+        'type_ar': icba_diseases_list_ar[20].type,
+        'pathogen_ar': icba_diseases_list_ar[20].pathogen,
+        'name_ar': icba_diseases_list_ar[20].name,
+        'sci_name_ar': icba_diseases_list_ar[20].sci_name,
+        'local_name_ar': icba_diseases_list_ar[20].local_name,
+        'symptoms_ar': icba_diseases_list_ar[20].symptoms,
+        'conditions_ar': icba_diseases_list_ar[20].conditions,
+        'chemical_control_ar': icba_diseases_list_ar[20].chemical_control,
+        'pest_management_ar': icba_diseases_list_ar[20].pest_management_fr,
+        'bio_control_ar': icba_diseases_list_ar[20].bio_control,
+        'geo_ar': icba_diseases_list_ar[20].geo,
+
         'image': 'images/quinoa-tylcv.jpg'
     },
 ]

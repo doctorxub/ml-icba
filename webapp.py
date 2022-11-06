@@ -6,8 +6,8 @@ from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
 from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.models import Model
 from icba_predictions import icba_diseases_list, icba_html_predictions
-from icba_predictions_fr import icba_diseases_list_fr, icba_html_predictions_fr
-from icba_predictions_ar import icba_diseases_list_ar, icba_html_predictions_ar
+from icba_predictions_fr import icba_html_predictions_fr
+from icba_predictions_ar import icba_html_predictions_ar
 import cv2
 import math
 
@@ -107,31 +107,10 @@ def icba_api_predict(filename):
         return jsonify(success=0, message=result.get('errorMsg'))
     return jsonify(success=1, disease=icba_diseases_list[i], confidence=c)
 
-@app.route('/api/predict/<filename>/<lang>')
-def icba_api_predict_lang(filename, lang):
-    result = icba_predict(filename)
-    i = result.get('index')
-    c = result.get('confidence')
-
-    if i < 0:
-        return jsonify(success=0, message=result.get('errorMsg'))
-    if lang == 'fr':
-        return jsonify(success=1, disease=icba_diseases_list_fr[i], confidence=c)
-    if lang == 'ar':
-        return jsonify(success=1, disease=icba_diseases_list_ar[i], confidence=c)
-    return jsonify(success=1, disease=icba_diseases_list[i], confidence=c)
-
 @app.route('/api/diseases')
 def icba_diseases():
     return jsonify(success=1, diseases=icba_diseases_list)
 
-@app.route('/api/diseases/<lang>')
-def icba_diseases_lang(lang):
-    if lang == 'fr':
-        return jsonify(success=1, diseases=icba_diseases_list_fr)
-    if lang == 'ar':
-        return jsonify(success=1, diseases=icba_diseases_list_ar)
-    return jsonify(success=1, diseases=icba_diseases_list)
 # ----------------------------------------------------------
 
 # ----------------------------------------------------------
