@@ -26,7 +26,7 @@ icba_x = icba_base_model.output
 icba_x = GlobalAveragePooling2D()(icba_x)
 icba_x = Dense(128, activation='relu')(icba_x)
 icba_x = Dense(128, activation='relu')(icba_x)
-icba_preds = Dense(9, activation='softmax')(icba_x)
+icba_preds = Dense(21, activation='softmax')(icba_x)
 
 icba_model = Model(inputs=icba_base_model.input, outputs=icba_preds)
 
