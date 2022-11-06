@@ -1,8 +1,8 @@
 icba_diseases_list_fr = [
     {
         'id': 0,
-        'type': 'Cucumber',
-        'pathogen': 'Healthy',
+        'type': 'Concombre',
+        'pathogen': 'En bonne santé',
         'name': '',
         'sci_name': '',
         'local_name': '',
@@ -16,125 +16,125 @@ icba_diseases_list_fr = [
     },
     {
         'id': 1,
-        'type': 'Cucumber',
-        'pathogen': 'Deficiency',
+        'type': 'Concombre',
+        'pathogen': 'Deficience',
         'name': 'Potassium',
         'sci_name': 'Potassium',
         'local_name': '',
         'symptoms': [
-            'Growth is stunted, internodes remain short and leaves small.',
-            'Leaves are bronzed and discolored yellowish green at the margins; the main veins are sunken.'
+            'La croissance est rabougrie, les entre-nœuds restent courts et les feuilles petites.',
+            'Les feuilles sont bronzées et décolorées vert jaunâtre sur les marges ; les veines principales sont enfoncées.'
         ],
-        'conditions': 'Aeration deficit, compaction, high soil pH (especially with plants adapted to acidic soil).',
+        'conditions': 'Déficit d`aération, tassement, pH du sol élevé (surtout avec des plantes adaptées aux sols acides).',
         'chemical_control': [
-            '1. Adjust the nutrient solution via reducing Ca and Mg concentrations and increasing K concentrations by:',
-            'A. Increase potassium nitrate (KNO3) concentration;',
-            'B. Add potassium sulfate (K2SO4); or',
-            'C. If sodium chloride (NaCl) is not present in the irrigation water or nutrient solution, apply potassium chloride (KCl).',
-            '2. Spray foliar applications of 2% potassium sulfate (K2SO4).'
+            '1. Ajustez la solution nutritive en réduisant les concentrations de Ca et de Mg et en augmentant les concentrations de K en:',
+            'A. Augmenter la concentration de nitrate de potassium (KNO3);',
+            'B. Ajouter du sulfate de potassium (K2SO4) ; ou',
+            'C. Si le chlorure de sodium (NaCl) n`est pas présent dans l`eau d`irrigation ou la solution nutritive, appliquer du chlorure de potassium (KCl).',
+            '2. Pulvériser des applications foliaires de sulfate de potassium à 2 % (K2SO4).'
         ],
         'pest_management': [],
         'bio_control': [],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/cucumber-k-deficient.jpg'
     },
     {
         'id': 2,
-        'type': 'Cucumber',
-        'pathogen': 'Fungal Diseases',
-        'name': 'Mildew',
+        'type': 'Concombre',
+        'pathogen': 'Maladie Fongique',
+        'name': 'Mildiau',
         'sci_name': 'Pseudoperonospora cubensis',
         'local_name': 'Marth zonzar, Mildiou',
         'symptoms': [
-            'Leaf: on the upper side, the spots are yellow and angular, then turn brown and can form large brown patches that eventually kill the leaves. On the underside, the spots are brown and covered with sporangia with a purplish-brown tint to the leaf blade. Attacks target old leaves and progress to young leaves.',
-            'Fruit: the size and quantity of fruit produced are reduced.'
+            'Feuille : à la face supérieure, les taches sont jaunes et angulaires, puis deviennent brunes et peuvent former de larges plages brunes qui finissent par faire mourir les feuilles. À la face inférieure, les taches sont brunes et se couvrent de sporanges avec une teinte brun-violacé au limbe. Les attaque ciblent les vieilles feuilles et progressent vers les jeunes feuilles.',
+            'Fruit : le calibre et la quantité de fruits produits sont réduits.'
         ],
-        'conditions': 'Wet, heavy or compact ground',
+        'conditions': 'Terrains humides, lourds ou compacts',
         'chemical_control': [
-            'Demethomorph + Mancozeb',
+            'Déméthomorphe + Mancozèbe',
             'Folpet',
-            'Cyazofamid'
+            'Cyazofamide'
         ],
         'pest_management': [
-            'Avoid overhead watering',
-            'Remove and destroy infected plants and weeds and ensure good ventilation between plants',
-            'Fungicides and resistant cultivars are also available'
+            'Eviter l`arrosage par aspersion',
+            'éliminer et détruire les plantes et les mauvaises herbes infectées et assurer une bonne aération entre les plantes',
+            'Des fongicides et des cultivars résistants sont également disponibles.'
         ],
         'bio_control': [
-            'Copper octanoate',
-            'Copper oxychloride',
-            'Copper sulphate (copper tribasic)',
-            'Peracitic acid',
+            'Octanoate de cuivre',
+            'oxychlorure de cuivre',
+            'sulphate de cuivre (cuivre tribasique)',
+            'acide péracitique',
             'Bacillus subtilis'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/cucumber-downy-mildew.jpg'
     },
     {
         'id': 3,
-        'type': 'Cucumber',
-        'pathogen': 'Bacteria Diseases',
-        'name': 'Bacteria wilt',
+        'type': 'Concombre',
+        'pathogen': 'Maladies bactériennes',
+        'name': 'Flétrissement bactérien',
         'sci_name': 'Erwinia tracheiphila or Curtobacterium flaccumfaciens pv. flaccumfaciens',
         'local_name': '',
         'symptoms': [
-            'Leaves first appear dull green, wilt during the day and recover at night.',
-            'Leaves eventually yellow and brown at the margins, completely wither and die.',
-            'The speed of wilting varies by crop. Cucumbers wilt and die rapidly.',
-            'Wilt progresses down the vine until the entire vine wilts or dies.'
+            'Les feuilles apparaissent d`abord vert terne, se flétrissent pendant la journée et se rétablissent la nuit.',
+            'Les feuilles finissent par jaunir et brunir sur les marges, se fanent complètement et meurent.',
+            'La vitesse de flétrissement varie selon la culture. Les concombres flétrissent et meurent rapidement.',
+            'Le flétrissement progresse le long du groupe des feuilles jusqu`à ce que toute la plante flétrisse ou meure.'
         ],
-        'conditions': 'In hot, wet weather and wilting is very quick',
+        'conditions': 'Climat chaud et humide, le flétrissement est très rapide',
         'chemical_control': [
-            'Pesticides will not cure a cucurbit plant infected with bacterial disease.',
-            'Dust plants with insecticide in the spring before the cucumber beetles have a chance to lay eggs (April-June).',
-            'Apply pyrethrin or carbaryl (Sevin). Try an insecticide-bait combination such as Adios that has cucurbitacin, the beetle attractant, and a small amount of carbaryl (Sevin).'
+            'Les pesticides ne guériront pas une plante de cucurbitacées infectée par une maladie bactérienne.',
+            'Saupoudrez les plants d`insecticide au printemps avant que les coléoptères du concombre n`aient la chance de pondre (avril-juin).',
+            'Appliquer de la pyréthrine ou du carbaryl (Sevin). Essayez une combinaison insecticide-appât comme Adios qui contient de la cucurbitacine, l`attractif des coléoptères, et une petite quantité de carbaryl (Sevin).'
         ],
         'pest_management': [
-            '1. Protect plants with netting.',
-            '2. Remove and destroy plant material when symptoms of wilting are first noticed.',
-            '3. Grow susceptible crops on rotation every third year.',
-            '4. Avoid planting cucurbits next to corn.'
+            '1. Protégez les plantes avec des filets.',
+            '2. Retirez et détruisez le matériel végétal lorsque les premiers symptômes de flétrissement sont remarqués.',
+            '3. Faites pousser des cultures sensibles en rotation tous les trois ans.',
+            '4. Évitez de planter des cucurbitacées à côté du maïs.'
         ],
         'bio_control': [],
-        'geo': 'Tunisia and Egypt',
+        'geo': 'Tunisie et Egypte',
         'image': 'images/cucumber-bacteria-wilt.jpg'
     },
     {
         'id': 4,
-        'type': 'Cucumber',
-        'pathogen': 'Insects and Pests',
-        'name': 'Mites',
+        'type': 'Concombre',
+        'pathogen': 'Insectes et Ravageurs',
+        'name': 'Acariens',
         'sci_name': 'Acari',
         'local_name': 'Routilla',
         'symptoms': [
-            'The leaves: roll up, thicken and turn brownish. Corky brown areas appear between the main veins on the underside of the leaf. Young foliage is deformed. Slowed growth and dieback of shoots can be observed when the population density of the mite is high.',
-            'Fruits: damage caused by mites induce a silvery tint to the fruits, the appearance of brown areas, and less chance of fruiting plants.'
+            'Les feuilles: s`enroulent, s`épaississent et deviennent brunatres. Des zones brunes liégeuses apparaissent entre les nervures principales sur l`envers de la feuille. Le jeune feuillage est déformé. Une croissance ralentie et un dépérissement des pousses peuvent etre observés lorsque la densité de population de l`acarien est importante.',
+            'Les fruits: Les dégats alimentaires causés par les acariens provoquent une teinte argentée des fruits, l`apparaition de zones brunes liégeuses et moins de chance de fructifications des plants.'
         ],
-        'conditions': 'High temperature',
+        'conditions': 'Température élevée',
         'chemical_control': [
             'Hexythiazox 10%',
             'Spirodiclofen 240 g/L'
         ],
         'pest_management': [
-            'Burn all residues immediately after the end of the previous harvest',
-            'Make the right choice of plants, they must be in good health and strong',
-            'Thoroughly clean the plot so as not to provide refuges for pests',
-            'Continuous monitoring: An intervention carried out at the beginning of an infestation will have every chance of effectively controlling the pests so as to keep them at a minimum level with low quantities of pesticides',
-            'Avoid applying a pesticide on flowering plants or in very hot weather during the day',
-            'Apply insecticides to all parts of the crop plants and ensure that any pests on the plants are hit in a sufficiently large dose'
+            'Brûler tous les résidus tout de suite à la fin de la récolte précédente.',
+            'Faire le bon choix des plants, ils doivent être en bon état sanitaire et forts.',
+            'Bien nettoyer la parcelle pour ne pas offrir de refuges aux ravageurs',
+            'Surveillance continue : Une intervention menée dès le début d`une infestation aura toutes les chances de contrôler efficacement les nuisibles de manière à les maintenir à un seuil minimum avec de faibles quantités de pesticides.',
+            'Eviter d`appliquer un pesticide sur des plantes fleurissantes ou par temps très chaud au cours de la journée',
+            'Appliquer les insecticides sur toutes les parties des plantes cultivées et veiller à ce que tout ravageur étant sur les plantes soit atteint d`une dose suffisamment importante ;'
         ],
         'bio_control': [
             'Borax 10g/l',
             'Farnesol 1.6g/l + Nerolidol 4g/l + Geraniol 4g/l',
-            'Sulfur 80%'
+            'Soufre 80%'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/cucumber-spider-mites.jpg'
     },
     {
         'id': 5,
-        'type': 'Pepper',
-        'pathogen': 'Healthy',
+        'type': 'Poivron',
+        'pathogen': 'En bonne santé',
         'name': '',
         'sci_name': '',
         'local_name': '',
@@ -148,162 +148,159 @@ icba_diseases_list_fr = [
     },
     {
         'id': 6,
-        'type': 'Pepper',
-        'pathogen': 'Fungal diseases',
-        'name': 'Mildew',
+        'type': 'Poivron',
+        'pathogen': 'Maladie Fongique',
+        'name': 'Mildiau',
         'sci_name': 'Pseudoperonospora cubensis',
         'local_name': 'Marth zonzar, Mildiou',
         'symptoms': [
-            'Leaf: on the upper side, the spots are yellow and angular, then turn brown and can form large brown patches that eventually kill the leaves. On the underside, the spots are brown and covered with sporangia with a purplish-brown tint to the leaf blade. Attacks target old leaves and progress to young leaves.',
-            'Fruit: the size and quantity of fruit produced are reduced.'
+            'Feuille : à la face supérieure, les taches sont jaunes et angulaires, puis deviennent brunes et peuvent former de larges plages brunes qui finissent par faire mourir les feuilles. À la face inférieure, les taches sont brunes et se couvrent de sporanges avec une teinte brun-violacé au limbe. Les attaque ciblent les vieilles feuilles et progressent vers les jeunes feuilles.',
+            'Fruit : le calibre et la quantité de fruits produits sont réduits.'
         ],
-        'conditions': 'Wet, heavy or compact ground',
+        'conditions': 'Terrains humides, lourds ou compacts',
         'chemical_control': [
-            'Demethomorph + Mancozeb',
+            'Déméthomorphe + Mancozèbe',
             'Folpet',
-            'Cyazofamid'
+            'Cyazofamide'
         ],
         'pest_management': [
-            'Avoid overhead watering',
-            'Remove and destroy infected plants and weeds and ensure good ventilation between plants',
-            'Fungicides and resistant cultivars are also available.'
+            'Eviter l`arrosage par aspersion',
+            'éliminer et détruire les plantes et les mauvaises herbes infectées et assurer une bonne aération entre les plantes.',
+            'Des fongicides et des cultivars résistants sont également disponibles..'
         ],
         'bio_control': [
-            'Copper octanoate',
-            'Copper oxychloride',
-            'Copper sulphate (copper tribasic)',
-            'Peracitic acid',
+            'Octanoate de cuivre',
+            'oxychlorure de cuivre',
+            'sulphate de cuivre (cuivre tribasique)',
+            'acide péracitique',
             'Bacillus subtilis'
         ],
-        'geo': 'Tunisia and Egypt',
+        'geo': 'Tunisie et Egypte',
         'image': 'images/pepper-downy-mildew.jpg'
     },
     {
         'id': 7,
-        'type': 'Pepper',
+        'type': 'Poivron',
         'pathogen': 'Virus',
-        'name': 'Tomato Yellow Leaf Curl Virus (TYLCV)',
+        'name': 'Virus de l`enroulement des feuilles jaunes de la tomate (TYLCV)',
         'sci_name': 'Tomato Yellow Leaf Curl Virus ',
         'local_name': '',
         'symptoms': [
-            'Cupping, twisting, and mottling.',
-            'Yellow leaf margin, upward leaf curling, and stunting.'
+            'Ventouses, torsions et marbrures.',
+            'Marge des feuilles jaunes, enroulement des feuilles vers le haut et rabougrissement.'
         ],
-        'conditions': 'High temperatures',
+        'conditions': 'Hautes températures',
         'chemical_control': [
-            'Imidacloprid, Cyazypyr, Flupyradifurone, Pymetrozine, Pyrifluquinazon, Pyrethroid combination: zeta-cypermethrin and bifenthrin'
+            'Imidaclopride, Cyazypyr, Flupyradifurone, Pymétrozine, Pyrifluquinazone, Combinaison pyréthrinoïde : zêta-cyperméthrine et bifenthrine'
         ],
         'pest_management': [
-            'The presence of whiteflies should be checked daily. A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it. Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.'
+            'La présence d`aleurodes doit être vérifiée quotidiennement. Un piège peut être fabriqué avec un morceau de carton de 12 pouces x 12 pouces peint en jaune vif et étalé de la vaseline ou du Biotac dessus. Les plantes qui présentent des signes du virus après 3 à 4 semaines de repiquage doivent être ensachées, déracinées et brûlées.'
         ],
         'bio_control': [
-            'Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium'
+            'Enterobacter asburiae BQ9, une rhizobactérie favorisant la croissance des plantes'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/pepper-tylcv.jpg'
     },
     {
         'id': 8,
-        'type': 'Pepper',
-        'pathogen': 'Fungal diseases',
-        'name': 'Sooty mold',
+        'type': 'Poivron',
+        'pathogen': 'Maladie Fongique',
+        'name': 'Fumée',
         'sci_name': 'Capnodium citri',
         'local_name': '',
         'symptoms': [
-            'Wherever honeydew lands: leaves, twigs and fruits.',
-            'Leaves are covered with a blackish powdery substance, like black soot.'
+            'Partout où le miellat atterrit : feuilles, brindilles et fruits.',
+            'Les feuilles sont recouvertes d`une substance poudreuse noirâtre, comme de la suie noire.'
         ],
-        'conditions': 'When conditions are wet, the spores germinate and sooty mold grows on the medium available. Warm temperatures and dry weather increase the prevalence of sooty molds. Under dry conditions, less rain is available to remove or dilute honeydew concentrations suitable for sooty mold growth on leaves and other surfaces.',
+        'conditions': 'Lorsque les conditions sont humides, les spores germent et la fumagine se développe sur le milieu disponible. Les températures chaudes et le temps sec augmentent la prévalence des moisissures fuligineuses. Dans des conditions sèches, moins de pluie est disponible pour éliminer ou diluer les concentrations de miellat propices à la croissance de la fumagine sur les feuilles et autres surfaces.',
         'chemical_control': [
-            'Remove or treat the honeydew producing insects and the sooty mould will disappear.',
-            'Sucking insects that excrete honeydew, (aphids, mealybugs, leafhoppers, and soft scales).'
+            'Retirez ou traitez les insectes producteurs de miellat et la fumagine disparaîtra.',
+            'Insectes suceurs qui excrètent du miellat (pucerons, cochenilles, cicadelles et cochenilles molles).'
         ],
         'pest_management': [
-            'Best method to remove the mold is to soak affected plants in a water and detergent mixture.',
-            'Use 1 tablespoon of household liquid detergent per gallon of water and spray it on the plants.',
-            'Wait 15 minutes, then wash the detergent solution off with a strong stream of water.',
-            'You may have to repeat this treatment a number of times over a few weeks.'
+            'La meilleure méthode pour éliminer la moisissure consiste à faire tremper les plantes affectées dans un mélange d`eau et de détergent.',
+            'Utilisez 1 cuillère à soupe de détergent liquide ménager par gallon d`eau et vaporisez-le sur les plantes.',
+            'Attendez 15 minutes, puis rincez la solution détergente avec un fort jet d`eau.',
+            'Vous devrez peut-être répéter ce traitement plusieurs fois pendant quelques semaines.'
         ],
         'bio_control': [],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/pepper-mold.jpg'
     },
     {
         'id': 9,
-        'type': 'Pepper',
-        'pathogen': 'Insects and Pests',
-        'name': 'Spider mite',
+        'type': 'Poivron',
+        'pathogen': 'Insectes et Ravageurs',
+        'name': 'Acariens',
         'sci_name': 'Acari',
         'local_name': 'Routilla',
         'symptoms': [
-            'Leaves: roll up, thicken and turn brownish.Corky brown areas appear between the main veins on the underside of the leaf. Young foliage is deformed. Slowed growth and shoot dieback may be observed when the mite population density is high.',
-            'Fruits: The nutritional damage caused by the mites causes a silvery tint of the fruits, the appearance of corky brown areas and less chance of fruiting of the plants.'
+            'Feuilles : s`enroulent, s`épaississent et deviennent brunâtres. Des zones marron liégeuses apparaissent entre les nervures principales sur la face inférieure de la feuille. Le jeune feuillage est déformé. Un ralentissement de la croissance et un dépérissement des pousses peuvent être observés lorsque la densité de population d`acariens est élevée.',
+            'Fruits : les dommages nutritionnels causés par les acariens provoquent une teinte argentée des fruits, l`apparition de zones brunes liégeuses et une diminution des chances de fructification des plantes.'
         ],
-        'conditions': 'High temperature',
+        'conditions': 'Température élevée',
         'chemical_control': [
             'Hexythiazox 10%',
             'Spirodiclofen 240 g/L'
         ],
         'pest_management': [
-            'Burn all residues immediately after the end of the previous harvest',
-            'Make the right choice of plants, they must be in good health and strong',
-            'Thoroughly clean the plot so as not to provide refuges for pests',
-            'Continuous monitoring: An intervention carried out at the beginning of an infestation will have every chance of effectively controlling the pests so as to keep them at a minimum level with low quantities of pesticides',
-            'Avoid applying a pesticide on flowering plants or in very hot weather during the day',
-            'Apply insecticides to all parts of the crop plants and ensure that any pests on the plants are hit in a sufficiently large dose'
+            'Brûler tous les résidus tout de suite à la fin de la récolte précédente.',
+            'Faire le bon choix des plants, ils doivent être en bon état sanitaire et forts.',
+            'Bien nettoyer la parcelle pour ne pas offrir de refuges aux ravageurs',
+            'Surveillance continue : Une intervention menée dès le début d`une infestation aura toutes les chances de contrôler efficacement les nuisibles de manière à les maintenir à un seuil minimum avec de faibles quantités de pesticides.',
+            'Eviter d`appliquer un pesticide sur des plantes fleurissantes ou par temps très chaud au cours de la journée',
+            'Appliquer les insecticides sur toutes les parties des plantes cultivées et veiller à ce que tout ravageur étant sur les plantes soit atteint d`une dose suffisamment importante ;'
         ],
         'bio_control': [
             'Borax 10g/l',
             'Farnesol + Nerolidol +Geraniol 1,6g/l 4g/l +4g/l',
-            'Sulfur 80%'
+            'Soufre 80%'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/pepper-spider-mites.jpg'
     },
     {
         'id': 10,
-        'type': 'Pepper',
-        'pathogen': 'Insects and Pests',
-        'name': 'Leafhopper',
+        'type': 'Poivron',
+        'pathogen': 'Insectes et Ravageurs',
+        'name': 'Cicadelle',
         'sci_name': 'Cicadellidae',
         'local_name': '',
         'symptoms': [
-            'Leaves to develop pale specks.',
-            'Leaves and shoot tips fed upon by an abundance of leafhoppers may turn yellow then brown and curl and die.',
-            'Leafhoppers also excrete honeydew on which blackish sooty mold grows.',
-            'This can foul foliage, fruit, and surfaces underneath infested plants.',
-            'Plants becoming stunted and distorted.'
+            'Feuilles développent des taches pâles.',
+            'Les feuilles et les extrémités des pousses nourries par une abondance de cicadelles peuvent jaunir puis brunir et s`enrouler et mourir.',
+            'Les cicadelles excrètent également du miellat sur lequel pousse de la fumagine noirâtre.',
+            'Cela peut encrasser le feuillage, les fruits et les surfaces sous les plantes infestées.',
+            'Les plantes deviennent rabougries et déformées.'
         ],
         'conditions': '',
         'chemical_control': [
-            'Insecticide application in gardens and landscapes generally is not effective for preventing plant diseases vectored by leafhoppers because they can transmit the virus to a new host before the leafhoppers are killed by the insecticide.',
-            'If nymphs are abundant early in the growing season, green shoots and the underside of leaves can be thoroughly sprayed with horticultural oil, insecticidal soap, or neem oil to provide some control.'
+            'L`application d`insecticides dans les jardins et les paysages n`est généralement pas efficace pour prévenir les maladies des plantes transmises par les cicadelles, car elles peuvent transmettre le virus à un nouvel hôte avant que les cicadelles ne soient tuées par l`insecticide.',
+            'Si les nymphes sont abondantes au début de la saison de croissance, les pousses vertes et le dessous des feuilles peuvent être soigneusement pulvérisés avec de l`huile horticole, du savon insecticide ou de l`huile de neem pour fournir un certain contrôle.'
         ],
         'pest_management': [
-            'Removing weed hosts and other alternative hosts can reduce the abundance of leafhoppers that migrate to plants that are more desired in gardens and landscapes.',
-            'Use floating row covers, or reemay fabric. Reemay is a white mesh, breathable fabric to cover plants and reduce feeding by beet leafhopper and other insects.',
-            'Destroy and remove plant debris.'
+            'L`élimination des mauvaises herbes hôtes et d`autres hôtes alternatifs peut réduire l`abondance des cicadelles qui migrent vers les plantes les plus recherchées dans les jardins et les paysages.',
+            'Utilisez des couvertures flottantes ou du tissu Reemay. Reemay est un tissu en maille blanche et respirant pour couvrir les plantes et réduire l`alimentation par la cicadelle de la betterave et d`autres insectes.',
+            'Détruisez et enlevez les débris végétaux.'
         ],
         'bio_control': [],
-        'geo': 'Tunisia and Egypt',
+        'geo': 'Tunisie et Egypte',
         'image': 'images/pepper-leaf-hoper.jpg'
     },
     {
         'id': 11,
-        'type': 'Pepper',
-        'pathogen': 'Insects and Pests',
+        'type': 'Poivron',
+        'pathogen': 'Insectes et Ravageurs',
         'name': 'Aphids',
         'sci_name': 'Aphidoidea',
-        'local_name': 'North Tunisia: zili, North West: Zviti, South: Menn',
+        'local_name': 'Nord Tunisie: zili, Nord ouest: Zviti, Sud: Menn',
         'symptoms': [
-            'In large numbers, aphids weaken plants by sucking up the sap they feed on, and cause leaf distortion, twisting and curling, yellowing and withering'
+            'En grand nombre, les pucerons affaiblissent les plantes en prélevant la sève dont ils se nourrissent, et provoquent des déformations des feuilles.',
+            'Les pucerons produisent également du miellat, c`est-à-dire des déjections sucrées qui favorisent l`apparition d`un dépôt noir dû à un champignon, la fumagine, qui empêche la photosynthèse ce qui se traduit par une réduction de la croissance des plantes.'
         ],
-        'conditions': 'Warm and dry weather',
+        'conditions': 'Au printemp et automne',
         'chemical_control': [
-            'Systemic insecticides, including imidacloprid.',
-            'Insecticidal soaps and oils are the best choices for most situations.',
-            'Oils: Horticultural Oils, Sesame Oil',
-            'Neem products: Neem oil, Azadirachtin, Capsaicin, Canola oil',
             'Chlorantraniliprole + lambdacyhalothrine 100g/l+ 50g/l',
             'Chlorpyriphos- Eéthyl400g/l',
             'Deltamethrine 100g/l',
@@ -312,28 +309,25 @@ icba_diseases_list_fr = [
             'Thiamétoxam+Lambda-cyhalothrine 141g/l+106g/l'
         ],
         'pest_management': [
-            'Elimination of weeds by hoeing',
-            'Practice a good crop rotation',
-            'Overhead irrigation can reduce infestation by killing aphids with water.',
-            'Detect attacks at the initial stage of the crop to limit early virus transmission or direct damage by a large population of aphids.',
-            'Uproot the plants as soon as they stop producing',
-            'Treatment with selective insecticides as soon as attacks are detected on young plants.',
-            'Over fertilizing a plant can enhance aphid population growth, high levels of nitrogen fertilizer favor aphid reproduction, so never use more nitrogen than necessary, use smaller amounts of fertilizer throughout the growing season.',
-            'Slow-release fertilizers such as organic fertilizers or urea-based time-release formulations.',
-            'Reduce losses by growing seedlings under protective covers, silver-colored reflective mulches have been successfully used to reduce transmission of aphid-borne viruses, strong spray of water.',
+            'Elimination des adventices par binage',
+            'Pratiquer un bon assolement',
+            'L`irrigation par aspersion peut réduire l`infestation en éliminant les pucerons avec l`eau.',
+            'Détecter les attaques au stade initial de la culture pour limiter une transmission précoce des virus ou des dommages directs par une grande population de pucerons.',
+            'Arracher les plants dès qu`ils ont cessé de produire',
+            'Traitement à l`aide d`insecticides sélectifs dès que les attaques sont détectées sur les jeunes plantes.',
         ],
         'bio_control': [
-            'Beauveria bassiana.',
-            'Biological control by natural enemies (predators, parasitoids, and pathogens) can have a significant impact on aphid populations.',
-            'Natural enemies such as parasitic wasps, lady beetle adults and larvae,  lacewing larvae, soldier beetles, and syrphid fly larvae.'
+            'huile de canola',
+            'huile minérale',
+            'sel de potassium d`acide gras'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/pepper-aphid.jpg'
     },
     {
         'id': 12,
-        'type': 'Tomato',
-        'pathogen': 'Healthy',
+        'type': 'Tomate',
+        'pathogen': 'En bonne santé',
         'name': '',
         'sci_name': '',
         'local_name': '',
@@ -347,193 +341,193 @@ icba_diseases_list_fr = [
     },
     {
         'id': 13,
-        'type': 'Tomato',
-        'pathogen': 'Deficiency',
-        'name': 'Phosphorus',
-        'sci_name': 'Phosphorus',
+        'type': 'Tomate',
+        'pathogen': 'Deficience',
+        'name': 'Phosphore',
+        'sci_name': 'Phosphore',
         'local_name': '',
         'symptoms': [
-            'Older leaves showing some necrotic spots.',
-            'Plants are dwarfed or stunted, develop very slowly.',
-            'Leaf purpling is the most common symptom, particularly the leaf veins.',
-            'Distinct purpling of the stem, petiole and the under sides of the leaves.',
-            'Leaves on young plants turn purplish and the undersides of the leaves on older plants turn reddish-purple.',
-            'Under severe deficiency conditions there is a tendency for leaves to develop a blue-gray luster.',
-            'In deficient plants, yields are poor, and the plants are weak.'
+            'Feuilles plus âgées montrant quelques taches nécrotiques.',
+            'Les plantes sont rabougries ou rabougries, se développent très lentement.',
+            'Le pourpre des feuilles est le symptôme le plus courant, en particulier les nervures des feuilles.',
+            'Pourpre distinct de la tige, du pétiole et du dessous des feuilles.',
+            'Les feuilles des jeunes plantes deviennent violacées et le dessous des feuilles des plantes plus âgées devient rouge-violet.',
+            'Dans des conditions de carence sévère, les feuilles ont tendance à développer un éclat bleu-gris.',
+            'Dans les plantes déficientes, les rendements sont faibles et les plantes sont faibles.'
         ],
-        'conditions': 'The pH level in the soil or substrate being too low. Temperature of the root zone and if it falls below 15 degrees Celsius.',
+        'conditions': 'TLe niveau de pH dans le sol ou le substrat est trop bas. Température de la zone racinaire et si elle tombe en dessous de 15 degrés Celsius.',
         'chemical_control': [
-            'Balanced liquid feed fertilizers in greenhouses and pots.'
+            'Engrais alimentaires liquides équilibrés dans les serres et les pots.'
         ],
         'pest_management': [
-            'The problem will be alleviated in early field plantings with plastic mulch.'
+            'Le problème sera atténué dans les premières plantations sur le terrain avec du paillis de plastique.'
         ],
         'bio_control': [],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/tomato-p-deficient.jpg'
     },
     {
         'id': 14,
-        'type': 'Tomato',
-        'pathogen': 'Fungal diseases',
-        'name': 'Powdery mildew',
+        'type': 'Tomate',
+        'pathogen': 'Maladie Fongique',
+        'name': ' L`oïdium',
         'sci_name': 'Oidiopsis taurica',
         'local_name': 'jayara, Marth Elbakhara',
         'symptoms': [
-            'The affected parts turn brown later, become necrotic in the center, dry out and tear easily.',
-            'The attacked leaves lose their consistency and the leaf blade may fold upwards',
-            'Leaf: on the upper side, presence of pale green to yellow spots, of a circular to angular shape, which is covered with a white down of mycelium and conidia.'
+            'Les parties atteintes brunissent ultérieurement, se nécrosent au centre, se dessèchent et se déchirent facilement.',
+            'Les feuilles attaquées perdent leur consistance et le limbe peut se replier vers le haut',
+            'Feuille : à la face supérieure, présence des taches vert pâle à jaunes, d`une forme circulaire à angulaire, qui se couvrent d`un duvet blanc de mycélium et de conidies. '
         ],
-        'conditions': 'Wet, heavy or compact ground',
+        'conditions': 'Terrains humides, lourds ou compacts',
         'chemical_control': [
             'Penconazole  100g/l',
             'azoxystrobin+difénoconazole'
         ],
         'pest_management': [
-            'Choice of plot: recommended rotation, avoid plots close to other solanaceae or those that are poorly drained or have too much organic matter.',
-            'Cultural management: implement all the measures to prevent excess moisture (ventilate the shelters as much as possible, favor the drip irrigation system, programming of the appropriate sprinkler irrigation, etc.).',
-            'Reason fertilization (avoid excess) and regularly remove plant debris present on the ground.',
-            'Crop maintenance: Eliminate weeds susceptible to the disease as well as as much plant debris as possible at the end of the crop. Bury crop residues deep into the soil.',
-            'Choose tolerant varieties.',
-            'Avoid sowing densities that are too tight.',
-            'Eliminate all diseased leaves to reduce potential contamination.'
+            'Choix de la parcelle : rotation recommandée, éviter les parcelles à proximité de d`autres solanacées ou celles mal drainées ou trop pourvues en matière organique.',
+            'Conduite culturale: mettre en œuvre toutes les mesures permettant d`éviter l`excès d`humidité (aérer au maximum les abris, privilégier le système d`arrosage au goutte à goutte, programmation de l`arrosage par aspersion adaptée…). ',
+            'Raisonner la fertilisation (éviter les excès) et éliminer régulièrement les débris végétaux présent au sol.',
+            'Entretien de la culture: Eliminer les adventices sensibles à la maladie ainsi que le maximum de débris végétaux en ﬁn de culture. Enfouir profondément les résidus de culture dans le sol.',
+            'Choisir des variétés tolérantes.',
+            'Eviter les densités de semis trop serrées.',
+            'Eliminer toutes les feuilles malades pour essayer de diminuer la contamination potentielle.'
         ],
         'bio_control': [
-            'Citric acid 16% + mint oil 0,8%+ Adjuvant 48%',
-            'Sulfur  80%'
+            'Acide cytrique 16% + Huile de menthe 0,8%+ Adjuvant 48%',
+            'Soufre  80%'
         ],
-        'geo': 'North and center of Tunisia, UAE and Egypt',
+        'geo': 'Nord et centre de la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/tomato-powdery-mildew.jpg'
     },
     {
         'id': 15,
-        'type': 'Tomato',
-        'pathogen': 'Fungal diseases',
-        'name': 'Early blight',
+        'type': 'Tomate',
+        'pathogen': 'Maladie Fongique',
+        'name': 'L`Alternariose',
         'sci_name': 'Alternaria solani',
         'local_name': 'Alternariose',
         'symptoms': [
-            'On adult plants, black necrotic spots 4 to 7 mm in diameter appear, growing in concentric circles surrounded by a yellow halo.',
-            'On the stems, we can see elliptical brown, gray  and concentric spots.',
-            'On the fruits, we see black spots, sunken, 1 to 2 cm which are positioned at the base of the calyx. Other fungi can colonize these spots and cause wet rots.'
+            'Sur plantes adultes, apparaissent des tâches nécrotiques noires de 4 à 7mm de dia-mètre, s`agrandissant en cercles concentriques entourés d`un halo jaune.',
+            'Sur les tiges, on peut voir des tâches elliptiques brunes, grises, concentriques.',
+            'Sur les fruits, on voit des tâches noires, déprimées, de 1 à 2 cm qui sont positionnées à la base du calice. D`autres champignons peuvent coloniser ces tâches et causer des pourritures humides.'
         ],
-        'conditions': 'High humidity and temperature between 18 and 25°C.',
+        'conditions': 'Hygrométrie élevée et température entre 18 et 25°C.',
         'chemical_control': [
-            'Azoxystrobin',
-            'captan',
+            'Azoxystrobine',
+            'captane',
             'chlorothalonil'
         ],
         'pest_management': [
-            'Eliminate crop residues after harvest.',
-            'Use less susceptible varieties as well as healthy seeds.',
-            'Avoid tight plantings to promote aeration.',
-            'Avoid excess nitrogen.'
+            'Eliminer les reliquats de culture après récolte.',
+            'Eliminer les reliquats de Utiliser des variétés peu sensibles ainsi que des semences saines. culture après récolte.',
+            'Eviter les plantations serrées pour favoriser l`aération.',
+            'Eviter les excès d`azote.'
         ],
         'bio_control': [
-            'Bacillus mycoides strain J',
-            'Bacillus amyloliquefaciens (strain D747)'
+            'Bacillus mycoides isolat J',
+            'Bacillus amyloliquefaciens (souche D747)'
         ],
-        'geo': 'North and center of Tunisia, UAE and Egypt',
+        'geo': 'Nord et centre de la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/tomato-blight.jpg'
     },
     {
         'id': 16,
-        'type': 'Tomato',
-        'pathogen': 'Fungal diseases',
-        'name': 'Leaf mold',
+        'type': 'Tomate',
+        'pathogen': 'Maladie Fongique',
+        'name': 'Moisissure de feuille de tomate',
         'sci_name': 'Passalora fulva',
         'local_name': '',
         'symptoms': [
-            'The oldest leaves are infected first.',
-            'Pale greenish-yellow spots, usually less than 1/4 inch, with no definite margins, form on the upper sides of leaves.',
-            'Olive-green to brown velvety mold forms on the lower leaf surface below leaf spots.',
-            'Leaf spots grow together and turn brown. Leaves wither and die but often remain attached to the plant.',
-            'Infected blossoms turn black and fall off.',
-            'Fruit infections start as a smooth black irregular area on the stem end of the fruit. As the disease progresses, the infected area becomes sunken, dry and leathery.'
+            'Les feuilles les plus anciennes sont infectées en premier.',
+            'Des taches jaune verdâtre pâle, généralement inférieures à 1/4 de pouce, sans marges définies, se forment sur les faces supérieures des feuilles.',
+            'Une moisissure veloutée vert olive à brune se forme sur la face inférieure des feuilles sous les taches foliaires.',
+            'Les taches foliaires poussent ensemble et brunissent. Les feuilles se flétrissent et meurent mais restent souvent attachées à la plante.',
+            'Les fleurs infectées deviennent noires et tombent.',
+            'Les infections des fruits commencent par une zone lisse et irrégulière noire à l`extrémité de la tige du fruit. Au fur et à mesure que la maladie progresse, la zone infectée devient enfoncée, sèche et coriace.'
         ],
-        'conditions': 'The disease is driven by high relative humidity (greater than 85%).',
+        'conditions': 'La maladie est provoquée par une humidité relative élevée (supérieure à 85%).',
         'chemical_control': [
-            'For organic growers, copper-based product  gave some level of control.  When using copper hydroxide for tomato leaf mold, make sure the product is labeled for organic use.',
-            'Formulations with higher percentages of copper will be more effective but have an increased re-entry interval (REI / the amount of time you must wait between applying and re-entering the area for safety reasons).',
-            'It is important to alternate between different chemical families to avoid the development of pathogen resistance to particular active ingredients.'
+            'Pour les producteurs biologiques, le produit à base de cuivre a donné un certain niveau de contrôle. Lorsque vous utilisez de l`hydroxyde de cuivre pour la moisissure des feuilles de tomate, assurez-vous que le produit est étiqueté pour une utilisation biologique.',
+            'Les formulations avec des pourcentages plus élevés de cuivre seront plus efficaces mais auront un intervalle de rentrée augmenté (REI / le temps que vous devez attendre entre l`application et la rentrée dans la zone pour des raisons de sécurité).',
+            'Il est important d`alterner entre différentes familles chimiques pour éviter le développement de résistances pathogènes à des principes actifs particuliers.'
         ],
         'pest_management': [
-            'Use drip irrigation and avoid watering foliage.',
-            'Space plants to provide good air movement between rows and individual plants.',
-            'Stake, string or prune to increase airflow in and around the plant.',
-            'Sterilize stakes, ties, trellises, etc. with 10%% household bleach or commercial sanitizer.',
-            'Circulate air in greenhouses or tunnels with vents and fans and by rolling up high tunnel sides to reduce humidity around plants.',
-            'Keep night temperatures in greenhouses higher than outside temperatures to avoid dew formation on the foliage.',
-            'Remove crop residue at the end of the season. Burn it or bury it away from tomato production areas.',
-            'Clean the high tunnel or greenhouse walls and benches at the end of the season with a commercial sanitizer.'
+            'Utilisez l`irrigation goutte à goutte et évitez d`arroser le feuillage.',
+            'Espacez les plantes pour assurer une bonne circulation de l`air entre les rangées et les plantes individuelles.',
+            'Tuteurer, ficeller ou tailler pour augmenter le flux d`air dans et autour de la plante.',
+            'Stérilisez les piquets, les attaches, les treillis, etc. avec 10 % d`eau de javel ou de désinfectant commercial.',
+            'Faites circuler l`air dans les serres ou les tunnels avec des évents et des ventilateurs et en enroulant les côtés hauts du tunnel pour réduire l`humidité autour des plantes.',
+            'Gardez les températures nocturnes dans les serres plus élevées que les températures extérieures pour éviter la formation de rosée sur le feuillage.',
+            'Enlevez les résidus de culture à la fin de la saison. Brûlez-le ou enterrez-le loin des zones de production de tomates.',
+            'Nettoyer les murs et bancs du haut tunnel ou de la serre à la fin de la saison avec un désinfectant commercial.'
         ],
         'bio_control': [],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/tomato-leaf-mold.jpg'
     },
     {
         'id': 17,
-        'type': 'Tomato',
+        'type': 'Tomate',
         'pathogen': 'Virus',
-        'name': 'Tomato yellow leaf curl virus (TYLCV)',
+        'name': 'Virus de l`enroulement des feuilles jaunes de la tomate (TYLCV)',
         'sci_name': 'Tomato yellow leaf curl virus',
         'local_name': '',
         'symptoms': [
-            'Small leaves, and show strong crumpling and interveinal and marginal yellowing.',
-            'Leaves severe necrosis and blighting of leaves. In these circumstance, fruits will be exposed to sunlight causing sunscalding.',
-            'Curl upwards and towards the middle of the leaf.',
-            'In seedlings, the shoots become shortened. Flower drop.',
-            'Stunted and erect or upright plant growth.',
-            'Fruit: Reduced but not affected.'
+            'Les feuilles sont petites et présentent un fort froissement et un jaunissement entre les nervures et les marges.',
+            'Laisse une nécrose sévère et une brûlure des feuilles. Dans ces circonstances, les fruits seront exposés à la lumière du soleil provoquant des brûlures de soleil.',
+            'Curl vers le haut et vers le milieu de la feuille.',
+            'Chez les semis, les pousses se raccourcissent. Goutte de fleurs.',
+            'Croissance des plantes rabougries et dressées ou dressées.',
+            'Fruit : Réduit mais pas affecté.'
         ],
-        'conditions': 'High temperatures',
+        'conditions': 'Hautes températures',
         'chemical_control': [
-            'Imidacloprid, Cyazypyr, Flupyradifurone, Pymetrozine, Pyrifluquinazon, Pyrethroid combination: zeta-cypermethrin and bifenthrin'
+            'Imidaclopride, Cyazypyr, Flupyradifurone, Pymétrozine, Pyrifluquinazone, Combinaison pyréthrinoïde : zêta-cyperméthrine et bifenthrine'
         ],
         'pest_management': [
-            'The presence of whiteflies should be checked daily.',
-            'A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it.',
-            'Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.'
+            'La présence d`aleurodes doit être vérifiée quotidiennement.',
+            'Un piège peut être fabriqué avec un morceau de carton de 12 pouces x 12 pouces peint en jaune vif et étalé de la vaseline ou du Biotac dessus.',
+            'Les plantes qui présentent des signes du virus après 3 à 4 semaines de repiquage doivent être ensachées, déracinées et brûlées.'
         ],
         'bio_control': [
-            'Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium'
+            'Enterobacter asburiae BQ9, une rhizobactérie favorisant la croissance des plantes'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/tomato-tylcv.jpg'
     },
     {
         'id': 18,
-        'type': 'Tomato',
-        'pathogen': 'Insects and Pests',
-        'name': 'The tomato leaf miner',
+        'type': 'Tomate',
+        'pathogen': 'Insectes et Ravageurs',
+        'name': 'La chenille mineuse de la tomate ',
         'sci_name': 'Tuta absoluta',
         'local_name': 'touta',
         'symptoms': [
-            'Completely eaten leaves',
-            'Reduced photosynthesis and production',
-            'Development of secondary pathogens leading to fruit rot.'
+            'des feuilles complètement consommées',
+            'une réduction de la photosynthèse et de la production',
+            'le développement de pathogènes secondaires conduisant à la pourriture des fruits..'
         ],
         'conditions': 'hygrométries importantes (80-90%)',
         'chemical_control': [
-            'Azadiradtin 32g/l',
-            'Azadirachtin (0.03%) + 90.5% Neem oil 0.3g/l',
+            'Azadiradtine 32g/l',
+            'Azadirachtine (0.03%) + 90.5% Huile de neem 0.3g/l',
             'Chlorantraniliprole',
-            'Abamectin 45g/l+ 18g/l',
+            'Abamectine 45g/l+ 18g/l',
             'Metaflumizone 240g/l'
         ],
         'pest_management': [
-            'Use healthy seedlings when planting',
-            'Weed around the plots to remove wild plants that can harbor eggs and caterpillars;',
-            'Deep plowing destroys deep-buried pupae',
-            'Crop rotation is desirable with other non-host plants of the pest.',
-            'A crawl period of the order of 4 to 6 weeks is recommended between two host cultures of T. absoluta.',
-            'Varietal resistance: some varieties are more attractive and therefore more susceptible to T. absoluta',
-            'Elimination by fire or deep burial of the attacked leaves and stems to destroy the caterpillars and prevent them from completing their cycle (never put the plants in the compost)',
-            'After harvest, harvest waste must be collected immediately and incinerated.',
-            'Plot hygiene by eliminating crop debris either by burning immediately or by burying more than 50 cm deep in the ground;',
-            'Monitoring Tuta absoluta populations by regularly observing the plants to detect possible leafminer attacks;',
-            'Treatments with a chemical insecticide are recommended as soon as one plant in five has a live larva.',
-            'Monitoring: Water traps fitted with sex pheromones help track population levels.'
+            'Utiliser des plants sains lors de la plantation',
+            'Faire un désherbage autour des parcelles pour supprimer les plantes sauvages qui peuvent abriter des œufs et des chenilles;',
+            'Le labour profond détruit les chrysalides enterrées profondeur',
+            'Une rotation des cultures est souhaitable avec d`autres plantes non hôtes du ravageur.',
+            ' Une période de vide sanitaire de l`ordre de 4 à 6 semaines est recommandée entre deux cultures hôtes de T. absoluta.',
+            'Résistance variétale : certaines variétés sont plus attractives et donc plus sensibles à T. absoluta',
+            'Elimination par le feu ou enfouissement profond des feuilles et des tiges attaquées pour détruire les chenilles et éviter qu`elles finissent leur cycle (ne jamais mettre les plants au compost)',
+            'Aprés récolte, il faut ramasser immédiatement les déchets de récolte et les incinérer.',
+            'L`hygiène des parcelles en éliminant les débris des cultures soit en brulant immédiatement, soit en enterrant profondément à plus de 50 cm dans le sol;',
+            'La surveillance des populations de Tuta absoluta par l`observation régulière des plants pour détecter d`éventuelles attaques de la mineuse;',
+            'Les traitements avec un insecticide chimique sont conseillés dès qu`un plant sur cinq présente une larve vivante.',
+            'Surveillance : les pièges à eau équipés de phéromones sexuelles aident à suivre le niveau de la population.'
         ],
         'bio_control': [
             '(E,Z.Z)-3,8,11 Tetradecatrien 1-y acetat (E,Z)-3,8 Tetradecatrien1- y acetate ===30 traps/ha',
@@ -541,60 +535,60 @@ icba_diseases_list_fr = [
             'Verticillium lacanii',
             'Spinosade'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/tomato-tuta-absoluta.jpg'
     },
     {
         'id': 19,
-        'type': 'Tomato',
-        'pathogen': 'Salinity',
-        'name': 'Salinity',
-        'sci_name': 'Salinity',
-        'local_name': 'Salinity',
+        'type': 'Tomate',
+        'pathogen': 'Salinité',
+        'name': '',
+        'sci_name': '',
+        'local_name': '',
         'symptoms': [
-            'Tomato is moderately sensitive to salinity. Salt stress has three fold effects which reduces water potential and causes ion imbalance and toxicity.'
+            'La tomate est modérément sensible à la salinité. Le stress salin a trois effets qui réduisent le potentiel hydrique et provoquent un déséquilibre ionique et une toxicité.'
         ],
-        'conditions': 'Tomato tolerates an EC of the saturated soil extract up to about 2.5 dS m−1 without any yield reduction.',
+        'conditions': 'La tomate tolère une EC de l`extrait de sol saturé jusqu`à environ 2,5 dS m−1 sans aucune réduction de rendement.',
         'chemical_control': [
-            'Increased irrigation may wash out the salinity from the soil.'
+            'Une irrigation accrue peut éliminer la salinité du sol. '
         ],
         'pest_management': [
-            'Saline soils cannot be reclaimed by chemical amendments, conditioners or fertilizers. A field can only be reclaimed by removing salts from the plant root zone.'
+            'Les sols salins ne peuvent pas être récupérés par des amendements chimiques, des conditionneurs ou des engrais.'
         ],
         'bio_control': [
-            'In some cases, selecting salt-tolerant crops may be needed in addition to managing soils.'
+            'Dans certains cas, la sélection de cultures tolérantes au sel peut être nécessaire en plus de la gestion des sols. '
         ],
-        'geo': 'Common in all of the Mediterranean coastal areas, and also sometimes inland.',
+        'geo': 'Commun dans toutes les zones côtières méditerranéennes, et aussi parfois à l`intérieur des terres.',
         'image': 'images/tomato-salinity.jpg'
     },
     {
         'id': 20,
         'type': 'Quinoa',
         'pathogen': 'Virus',
-        'name': 'Tomato yellow leaf curl virus (TYLCV)',
+        'name': 'Virus de l`enroulement des feuilles jaunes de la tomate (TYLCV)',
         'sci_name': 'Tomato yellow leaf curl virus',
         'local_name': '',
         'symptoms': [
-            'Small leaves, and show strong crumpling and interveinal and marginal yellowing.',
-            'Leaves severe necrosis and blighting of leaves. In these circumstance, fruits will be exposed to sunlight causing sunscalding.',
-            'Curl upwards and towards the middle of the leaf.',
-            'In seedlings, the shoots become shortened. Flower drop.',
-            'Stunted and erect or upright plant growth.',
-            'Fruit: Reduced but not affected.'
+            'Les feuilles sont petites et présentent un fort froissement et un jaunissement entre les nervures et les marges.',
+            'Laisse une nécrose sévère et une brûlure des feuilles. Dans ces circonstances, les fruits seront exposés à la lumière du soleil provoquant des brûlures de soleil.',
+            'Curl vers le haut et vers le milieu de la feuille.',
+            'Chez les semis, les pousses se raccourcissent. Goutte de fleurs.',
+            'Croissance des plantes rabougries et dressées ou dressées.',
+            'Fruit : Réduit mais pas affecté.'
         ],
-        'conditions': 'High temperatures',
+        'conditions': 'Hautes températures',
         'chemical_control': [
-            'Imidacloprid, Cyazypyr, Flupyradifurone, Pymetrozine, Pyrifluquinazon, Pyrethroid combination: zeta-cypermethrin and bifenthrin'
+            'Imidaclopride, Cyazypyr, Flupyradifurone, Pymétrozine, Pyrifluquinazone, Combinaison pyréthrinoïde : zêta-cyperméthrine et bifenthrine'
         ],
         'pest_management': [
-            'The presence of whiteflies should be checked daily.',
-            'A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it.',
-            'Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.'
+            'La présence d`aleurodes doit être vérifiée quotidiennement.',
+            'Un piège peut être fabriqué avec un morceau de carton de 12 pouces x 12 pouces peint en jaune vif et étalé de la vaseline ou du Biotac dessus.',
+            'Les plantes qui présentent des signes du virus après 3 à 4 semaines de repiquage doivent être ensachées, déracinées et brûlées.'
         ],
         'bio_control': [
-            'Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium'
+            'Enterobacter asburiae BQ9, une rhizobactérie favorisant la croissance des plantes'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/quinoa-tylcv.jpg'
     },
 ]
@@ -602,8 +596,8 @@ icba_diseases_list_fr = [
 icba_html_predictions_fr = [
     {
         'id': 0,
-        'type': 'Cucumber',
-        'pathogen': 'Healthy',
+        'type': 'Concombre',
+        'pathogen': 'En bonne santé',
         'name': '',
         'sci_name': '',
         'local_name': '',
@@ -617,125 +611,125 @@ icba_html_predictions_fr = [
     },
     {
         'id': 1,
-        'type': 'Cucumber',
-        'pathogen': 'Deficiency',
+        'type': 'Concombre',
+        'pathogen': 'Deficience',
         'name': 'Potassium',
         'sci_name': 'Potassium',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Growth is stunted, internodes remain short and leaves small.</li>
-            <li>Leaves are bronzed and discolored yellowish green at the margins; the main veins are sunken.</li>
+            <li>La croissance est rabougrie, les entre-nœuds restent courts et les feuilles petites.</li>
+            <li>Les feuilles sont bronzées et décolorées vert jaunâtre sur les marges ; les veines principales sont enfoncées</li>
         </ul>''',
-        'conditions': ' Aeration deficit, compaction, high soil pH (especially with plants adapted to acidic soil).',
+        'conditions': 'Déficit d`aération, tassement, pH du sol élevé (surtout avec des plantes adaptées aux sols acides).',
         'chemical_control': '''<ul>
-            <li>1. Adjust the nutrient solution via reducing Ca and Mg concentrations and increasing K concentrations by:</li>
-            <li>A. Increase potassium nitrate (KNO3) concentration;</li>
-            <li>B. Add potassium sulfate (K2SO4); or</li>
-            <li>C. If sodium chloride (NaCl) is not present in the irrigation water or nutrient solution, apply potassium chloride (KCl).</li>
-            <li>2. Spray foliar applications of 2% potassium sulfate (K2SO4).</li>
+            <li>1. Ajustez la solution nutritive en réduisant les concentrations de Ca et de Mg et en augmentant les concentrations de K en:</li>
+            <li>A. Augmenter la concentration de nitrate de potassium (KNO3);</li>
+            <li>B. Ajouter du sulfate de potassium (K2SO4) ; ou</li>
+            <li>C. Si le chlorure de sodium (NaCl) n'est pas présent dans l`eau d'irrigation ou la solution nutritive, appliquer du chlorure de potassium (KCl).</li>
+            <li>2. Pulvériser des applications foliaires de sulfate de potassium à 2 % (K2SO4).</li>
         </ul>''',
         'pest_management': '',
         'bio_control': '',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/cucumber-k-deficient.jpg'
     },
     {
         'id': 2,
-        'type': 'Cucumber',
-        'pathogen': 'Fungal Diseases',
-        'name': 'Mildew',
+        'type': 'Concombre',
+        'pathogen': 'Maladie Fongique',
+        'name': 'Mildiau',
         'sci_name': 'Pseudoperonospora cubensis',
         'local_name': 'Marth zonzar, Mildiou',
         'symptoms': '''<ul>
-            <li>Leaf: on the upper side, the spots are yellow and angular, then turn brown and can form large brown patches that eventually kill the leaves. On the underside, the spots are brown and covered with sporangia with a purplish-brown tint to the leaf blade. Attacks target old leaves and progress to young leaves.</li>
-            <li>Fruit: the size and quantity of fruit produced are reduced.</li>
+            <li>Feuille : à la face supérieure, les taches sont jaunes et angulaires, puis deviennent brunes et peuvent former de larges plages brunes qui finissent par faire mourir les feuilles. À la face inférieure, les taches sont brunes et se couvrent de sporanges avec une teinte brun-violacé au limbe. Les attaque ciblent les vieilles feuilles et progressent vers les jeunes feuilles.</li>
+            <li>Fruit : le calibre et la quantité de fruits produits sont réduits.</li>
         </ul>''',
-        'conditions': 'Wet, heavy or compact ground',
+        'conditions': 'Terrains humides, lourds ou compacts',
         'chemical_control': '''<ul>
-            <li>Demethomorph + Mancozeb</li>
+            <li>Déméthomorphe + Mancozèbe</li>
             <li>Folpet</li>
-            <li>Cyazofamid</li>
+            <li>Cyazofamide</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Avoid overhead watering</li>
-            <li>Remove and destroy infected plants and weeds and ensure good ventilation between plants</li>
-            <li>Fungicides and resistant cultivars are also available</li>
+            <li>Eviter l`arrosage par aspersion</li>
+            <li>éliminer et détruire les plantes et les mauvaises herbes infectées et assurer une bonne aération entre les plantes.</li>
+            <li>Des fongicides et des cultivars résistants sont également disponibles.</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Copper octanoate</li>
-            <li>Copper oxychloride</li>
-            <li>Copper sulphate (copper tribasic)</li>
-            <li>Peracitic acid</li>
+            <li>Octanoate de cuivre</li>
+            <li>oxychlorure de cuivre</li>
+            <li>sulphate de cuivre (cuivre tribasique)</li>
+            <li>acide péracitique</li>
             <li>Bacillus subtilis</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/cucumber-downy-mildew.jpg'
     },
     {
         'id': 3,
-        'type': 'Cucumber',
-        'pathogen': 'Bacteria Diseases',
-        'name': 'Bacteria wilt',
+        'type': 'Concombre',
+        'pathogen': 'Maladies bactériennes',
+        'name': 'Flétrissement bactérien',
         'sci_name': 'Erwinia tracheiphila or Curtobacterium flaccumfaciens pv. flaccumfaciens',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Leaves first appear dull green, wilt during the day and recover at night.</li>
-            <li>Leaves eventually yellow and brown at the margins, completely wither and die.</li>
-            <li>The speed of wilting varies by crop. Cucumbers wilt and die rapidly.</li>
-            <li>Wilt progresses down the vine until the entire vine wilts or dies.</li>
+            <li>Les feuilles apparaissent d`abord vert terne, se flétrissent pendant la journée et se rétablissent la nuit.</li>
+            <li>Les feuilles finissent par jaunir et brunir sur les marges, se fanent complètement et meurent.</li>
+            <li>La vitesse de flétrissement varie selon la culture. Les concombres flétrissent et meurent rapidement.</li>
+            <li>Le flétrissement progresse le long du groupe des feuilles jusqu`à ce que toute la plante flétrisse ou meure.</li>
         </ul>''',
-        'conditions': 'In hot, wet weather and wilting is very quick',
+        'conditions': 'Climat chaud et humide, le flétrissement est très rapide',
         'chemical_control': '''<ul>
-            <li>Pesticides will not cure a cucurbit plant infected with bacterial disease.</li>
-            <li>Dust plants with insecticide in the spring before the cucumber beetles have a chance to lay eggs (April-June).</li>
-            <li>Apply pyrethrin or carbaryl (Sevin). Try an insecticide-bait combination such as Adios that has cucurbitacin, the beetle attractant, and a small amount of carbaryl (Sevin).</li>
+            <li>Les pesticides ne guériront pas une plante de cucurbitacées infectée par une maladie bactérienne.</li>
+            <li>Saupoudrez les plants d`insecticide au printemps avant que les coléoptères du concombre n`aient la chance de pondre (avril-juin).</li>
+            <li>Appliquer de la pyréthrine ou du carbaryl (Sevin). Essayez une combinaison insecticide-appât comme Adios qui contient de la cucurbitacine, l`attractif des coléoptères, et une petite quantité de carbaryl (Sevin).</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>1. Protect plants with netting.</li>
-            <li>2. Remove and destroy plant material when symptoms of wilting are first noticed.</li>
-            <li>3. Grow susceptible crops on rotation every third year.</li>
-            <li>4. Avoid planting cucurbits next to corn.</li>
+            <li>1. Protégez les plantes avec des filets.</li>
+            <li>2. Retirez et détruisez le matériel végétal lorsque les premiers symptômes de flétrissement sont remarqués.</li>
+            <li>3. Faites pousser des cultures sensibles en rotation tous les trois ans.</li>
+            <li>4. Évitez de planter des cucurbitacées à côté du maïs.</li>
         </ul>''',
         'bio_control': '',
-        'geo': 'Tunisia and Egypt',
+        'geo': 'Tunisie et Egypte',
         'image': 'images/cucumber-bacteria-wilt.jpg'
     },
     {
         'id': 4,
-        'type': 'Cucumber',
-        'pathogen': 'Insects and Pests',
-        'name': 'Mites',
+        'type': 'Concombre',
+        'pathogen': 'Insectes et Ravageurs',
+        'name': 'Acariens',
         'sci_name': 'Acari',
         'local_name': 'Routilla',
         'symptoms': '''<ul>
-            <li>The leaves: roll up, thicken and turn brownish. Corky brown areas appear between the main veins on the underside of the leaf. Young foliage is deformed. Slowed growth and dieback of shoots can be observed when the population density of the mite is high.</li>
-            <li>Fruits: damage caused by mites induce a silvery tint to the fruits, the appearance of brown areas, and less chance of fruiting plants</li>
+            <li>Les feuilles: s`enroulent, s`épaississent et deviennent brunatres. Des zones brunes liégeuses apparaissent entre les nervures principales sur l`envers de la feuille. Le jeune feuillage est déformé. Une croissance ralentie et un dépérissement des pousses peuvent etre observés lorsque la densité de population de l`acarien est importante.</li>
+            <li>Les fruits: Les dégats alimentaires causés par les acariens provoquent une teinte argentée des fruits, l`apparaition de zones brunes liégeuses et moins de chance de fructifications des plants.</li>
         </ul>''',
-        'conditions': 'High temperature',
+        'conditions': 'Température élevée',
         'chemical_control': '''<ul>
             <li>Hexythiazox 10%</li>
             <li>Spirodiclofen 240 g/L</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Burn all residues immediately after the end of the previous harvest</li>
-            <li>Make the right choice of plants, they must be in good health and strong</li>
-            <li>Thoroughly clean the plot so as not to provide refuges for pests</li>
-            <li>Continuous monitoring: An intervention carried out at the beginning of an infestation will have every chance of effectively controlling the pests so as to keep them at a minimum level with low quantities of pesticides</li>
-            <li>Avoid applying a pesticide on flowering plants or in very hot weather during the day</li>
-            <li>Apply insecticides to all parts of the crop plants and ensure that any pests on the plants are hit in a sufficiently large dose</li>
+            <li>Brûler tous les résidus tout de suite à la fin de la récolte précédente.</li>
+            <li>Faire le bon choix des plants, ils doivent être en bon état sanitaire et forts.</li>
+            <li>Bien nettoyer la parcelle pour ne pas offrir de refuges aux ravageurs</li>
+            <li>Surveillance continue : Une intervention menée dès le début d`une infestation aura toutes les chances de contrôler efficacement les nuisibles de manière à les maintenir à un seuil minimum avec de faibles quantités de pesticides.</li>
+            <li>Eviter d`appliquer un pesticide sur des plantes fleurissantes ou par temps très chaud au cours de la journée</li>
+            <li>Appliquer les insecticides sur toutes les parties des plantes cultivées et veiller à ce que tout ravageur étant sur les plantes soit atteint d`une dose suffisamment importante ;</li>
         </ul>''',
         'bio_control': '''<ul>
             <li>Borax 10g/l</li>
             <li>Farnesol 1.6g/l + Nerolidol 4g/l + Geraniol 4g/l</li>
-            <li>Sulfur 80%</li>
+            <li>Soufre 80%</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/cucumber-spider-mites.jpg'
     },
     {
         'id': 5,
-        'type': 'Pepper',
-        'pathogen': 'Healthy',
+        'type': 'Poivron',
+        'pathogen': 'En bonne santé',
         'name': '',
         'sci_name': '',
         'local_name': '',
@@ -749,162 +743,159 @@ icba_html_predictions_fr = [
     },
     {
         'id': 6,
-        'type': 'Pepper',
-        'pathogen': 'Fungal diseases',
-        'name': 'Mildew',
+        'type': 'Poivron',
+        'pathogen': 'Maladie Fongique',
+        'name': 'Mildiau',
         'sci_name': 'Pseudoperonospora cubensis',
         'local_name': 'Marth zonzar, Mildiou',
         'symptoms': '''<ul>
-            <li>Leaf: on the upper side, the spots are yellow and angular, then turn brown and can form large brown patches that eventually kill the leaves. On the underside, the spots are brown and covered with sporangia with a purplish-brown tint to the leaf blade. Attacks target old leaves and progress to young leaves.</li>
-            <li>Fruit: the size and quantity of fruit produced are reduced.</li>
+            <li>Feuille : à la face supérieure, les taches sont jaunes et angulaires, puis deviennent brunes et peuvent former de larges plages brunes qui finissent par faire mourir les feuilles. À la face inférieure, les taches sont brunes et se couvrent de sporanges avec une teinte brun-violacé au limbe. Les attaque ciblent les vieilles feuilles et progressent vers les jeunes feuilles.</li>
+            <li>Fruit : le calibre et la quantité de fruits produits sont réduits.</li>
         </ul>''',
-        'conditions': 'Wet, heavy or compact ground',
+        'conditions': 'Terrains humides, lourds ou compacts',
         'chemical_control': '''<ul>
-            <li>Demethomorph + Mancozeb</li>
+            <li>Déméthomorphe + Mancozèbe</li>
             <li>Folpet</li>
-            <li>Cyazofamid</li>
+            <li>Cyazofamide</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Avoid overhead watering</li>
-            <li>Remove and destroy infected plants and weeds and ensure good ventilation between plants</li>
-            <li>Fungicides and resistant cultivars are also available.</li>
+            <li>Eviter l`arrosage par aspersion</li>
+            <li>éliminer et détruire les plantes et les mauvaises herbes infectées et assurer une bonne aération entre les plantes.</li>
+            <li>Des fongicides et des cultivars résistants sont également disponibles..</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Copper octanoate</li>
-            <li>Copper oxychloride</li>
-            <li>Copper sulphate (copper tribasic)</li>
-            <li>Peracitic acid</li>
+            <li>Octanoate de cuivre</li>
+            <li>oxychlorure de cuivre</li>
+            <li>sulphate de cuivre (cuivre tribasique)</li>
+            <li>acide péracitique</li>
             <li>Bacillus subtilis</li>
         </ul>''',
-        'geo': 'Tunisia and Egypt',
+        'geo': 'Tunisie et Egypte',
         'image': 'images/pepper-downy-mildew.jpg'
     },
     {
         'id': 7,
-        'type': 'Pepper',
+        'type': 'Poivron',
         'pathogen': 'Virus',
-        'name': 'Tomato Yellow Leaf Curl Virus (TYLCV)',
+        'name': 'Virus de l`enroulement des feuilles jaunes de la tomate (TYLCV)',
         'sci_name': 'Tomato Yellow Leaf Curl Virus ',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Cupping, twisting, and mottling.</li>
-            <li>Yellow leaf margin, upward leaf curling, and stunting.</li>
+            <li>Ventouses, torsions et marbrures.</li>
+            <li>Marge des feuilles jaunes, enroulement des feuilles vers le haut et rabougrissement.</li>
         </ul>''',
-        'conditions': 'High temperatures',
+        'conditions': 'Hautes températures',
         'chemical_control': '''<ul>
-            <li>Imidacloprid, Cyazypyr, Flupyradifurone, Pymetrozine, Pyrifluquinazon, Pyrethroid combination: zeta-cypermethrin and bifenthrin</li>
+            <li>Imidaclopride, Cyazypyr, Flupyradifurone, Pymétrozine, Pyrifluquinazone, Combinaison pyréthrinoïde : zêta-cyperméthrine et bifenthrine</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>The presence of whiteflies should be checked daily. A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it. Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.</li>
+            <li>La présence d`aleurodes doit être vérifiée quotidiennement. Un piège peut être fabriqué avec un morceau de carton de 12 pouces x 12 pouces peint en jaune vif et étalé de la vaseline ou du Biotac dessus. Les plantes qui présentent des signes du virus après 3 à 4 semaines de repiquage doivent être ensachées, déracinées et brûlées.</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium</li>
+            <li>Enterobacter asburiae BQ9, une rhizobactérie favorisant la croissance des plantes</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/pepper-tylcv.jpg'
     },
     {
         'id': 8,
-        'type': 'Pepper',
-        'pathogen': 'Fungal diseases',
-        'name': 'Sooty mold',
+        'type': 'Poivron',
+        'pathogen': 'Maladie Fongique',
+        'name': 'Fumée',
         'sci_name': 'Capnodium citri',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Wherever honeydew lands: leaves, twigs and fruits.</li>
-            <li>Leaves are covered with a blackish powdery substance, like black soot.</li>
+            <li>Partout où le miellat atterrit : feuilles, brindilles et fruits.</li>
+            <li>Les feuilles sont recouvertes d`une substance poudreuse noirâtre, comme de la suie noire.</li>
         </ul>''',
-        'conditions': 'When conditions are wet, the spores germinate and sooty mold grows on the medium available. Warm temperatures and dry weather increase the prevalence of sooty molds. Under dry conditions, less rain is available to remove or dilute honeydew concentrations suitable for sooty mold growth on leaves and other surfaces.',
+        'conditions': 'Lorsque les conditions sont humides, les spores germent et la fumagine se développe sur le milieu disponible. Les températures chaudes et le temps sec augmentent la prévalence des moisissures fuligineuses. Dans des conditions sèches, moins de pluie est disponible pour éliminer ou diluer les concentrations de miellat propices à la croissance de la fumagine sur les feuilles et autres surfaces.',
         'chemical_control': '''<ul>
-            <li>Remove or treat the honeydew producing insects and the sooty mould will disappear.</li>
-            <li>Sucking insects that excrete honeydew, (aphids, mealybugs, leafhoppers, and soft scales).</li>
+            <li>Retirez ou traitez les insectes producteurs de miellat et la fumagine disparaîtra.</li>
+            <li>Insectes suceurs qui excrètent du miellat (pucerons, cochenilles, cicadelles et cochenilles molles).</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Best method to remove the mold is to soak affected plants in a water and detergent mixture.</li>
-            <li>Use 1 tablespoon of household liquid detergent per gallon of water and spray it on the plants.</li>
-            <li>Wait 15 minutes, then wash the detergent solution off with a strong stream of water.</li>
-            <li>You may have to repeat this treatment a number of times over a few weeks.</li>
+            <li>La meilleure méthode pour éliminer la moisissure consiste à faire tremper les plantes affectées dans un mélange d`eau et de détergent.</li>
+            <li>Utilisez 1 cuillère à soupe de détergent liquide ménager par gallon d`eau et vaporisez-le sur les plantes.</li>
+            <li>Attendez 15 minutes, puis rincez la solution détergente avec un fort jet d`eau.</li>
+            <li>Vous devrez peut-être répéter ce traitement plusieurs fois pendant quelques semaines.</li>
         </ul>''',
         'bio_control': '',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/pepper-mold.jpg'
     },
     {
         'id': 9,
-        'type': 'Pepper',
-        'pathogen': 'Insects and Pests',
-        'name': 'Spider mite',
+        'type': 'Poivron',
+        'pathogen': 'Insectes et Ravageurs',
+        'name': 'Acariens',
         'sci_name': 'Acari',
         'local_name': 'Routilla',
         'symptoms': '''<ul>
-            <li>Leaves: roll up, thicken and turn brownish.Corky brown areas appear between the main veins on the underside of the leaf. Young foliage is deformed. Slowed growth and shoot dieback may be observed when the mite population density is high.</li>
-            <li>Fruits: The nutritional damage caused by the mites causes a silvery tint of the fruits, the appearance of corky brown areas and less chance of fruiting of the plants.</li>
+            <li>Feuilles : s`enroulent, s`épaississent et deviennent brunâtres. Des zones marron liégeuses apparaissent entre les nervures principales sur la face inférieure de la feuille. Le jeune feuillage est déformé. Un ralentissement de la croissance et un dépérissement des pousses peuvent être observés lorsque la densité de population d`acariens est élevée.</li>
+            <li>Fruits : les dommages nutritionnels causés par les acariens provoquent une teinte argentée des fruits, l`apparition de zones brunes liégeuses et une diminution des chances de fructification des plantes.</li>
         </ul>''',
-        'conditions': 'High temperature',
+        'conditions': 'Température élevée',
         'chemical_control': '''<ul>
             <li>Hexythiazox 10%</li>
             <li>Spirodiclofen 240 g/L</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Burn all residues immediately after the end of the previous harvest</li>
-            <li>Make the right choice of plants, they must be in good health and strong</li>
-            <li>Thoroughly clean the plot so as not to provide refuges for pests</li>
-            <li>Continuous monitoring: An intervention carried out at the beginning of an infestation will have every chance of effectively controlling the pests so as to keep them at a minimum level with low quantities of pesticides</li>
-            <li>Avoid applying a pesticide on flowering plants or in very hot weather during the day</li>
-            <li>Apply insecticides to all parts of the crop plants and ensure that any pests on the plants are hit in a sufficiently large dose</li>
+            <li>Brûler tous les résidus tout de suite à la fin de la récolte précédente.</li>
+            <li>Faire le bon choix des plants, ils doivent être en bon état sanitaire et forts.</li>
+            <li>Bien nettoyer la parcelle pour ne pas offrir de refuges aux ravageurs</li>
+            <li>Surveillance continue : Une intervention menée dès le début d`une infestation aura toutes les chances de contrôler efficacement les nuisibles de manière à les maintenir à un seuil minimum avec de faibles quantités de pesticides.</li>
+            <li>Eviter d`appliquer un pesticide sur des plantes fleurissantes ou par temps très chaud au cours de la journée</li>
+            <li>Appliquer les insecticides sur toutes les parties des plantes cultivées et veiller à ce que tout ravageur étant sur les plantes soit atteint d`une dose suffisamment importante ;</li>
         </ul>''',
         'bio_control': '''<ul>
             <li>Borax 10g/l</li>
             <li>Farnesol + Nerolidol +Geraniol 1,6g/l 4g/l +4g/l</li>
-            <li>Sulfur 80%</li>
+            <li>Soufre 80%</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/pepper-spider-mites.jpg'
     },
     {
         'id': 10,
-        'type': 'Pepper',
-        'pathogen': 'Insects and Pests',
-        'name': 'Leafhopper',
+        'type': 'Poivron',
+        'pathogen': 'Insectes et Ravageurs',
+        'name': 'Cicadelle',
         'sci_name': 'Cicadellidae',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Leaves to develop pale specks.</li>
-            <li>Leaves and shoot tips fed upon by an abundance of leafhoppers may turn yellow then brown and curl and die.</li>
-            <li>Leafhoppers also excrete honeydew on which blackish sooty mold grows.</li>
-            <li>This can foul foliage, fruit, and surfaces underneath infested plants.</li>
-            <li>Plants becoming stunted and distorted.</li>
+            <li>Feuilles développent des taches pâles.</li>
+            <li>Les feuilles et les extrémités des pousses nourries par une abondance de cicadelles peuvent jaunir puis brunir et s`enrouler et mourir.</li>
+            <li>Les cicadelles excrètent également du miellat sur lequel pousse de la fumagine noirâtre.</li>
+            <li>Cela peut encrasser le feuillage, les fruits et les surfaces sous les plantes infestées.</li>
+            <li>Les plantes deviennent rabougries et déformées.</li>
         </ul>''',
         'conditions': '',
         'chemical_control': '''<ul>
             <li>Insecticide application in gardens and landscapes generally is not effective for preventing plant diseases vectored by leafhoppers because they can transmit the virus to a new host before the leafhoppers are killed by the insecticide.</li>
-            <li>If nymphs are abundant early in the growing season, green shoots and the underside of leaves can be thoroughly sprayed with horticultural oil, insecticidal soap, or neem oil to provide some control.</li>
+            <li>Si les nymphes sont abondantes au début de la saison de croissance, les pousses vertes et le dessous des feuilles peuvent être soigneusement pulvérisés avec de l`huile horticole, du savon insecticide ou de l`huile de neem pour fournir un certain contrôle.</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Removing weed hosts and other alternative hosts can reduce the abundance of leafhoppers that migrate to plants that are more desired in gardens and landscapes.</li>
-            <li>Use floating row covers, or reemay fabric. Reemay is a white mesh, breathable fabric to cover plants and reduce feeding by beet leafhopper and other insects.</li>
-            <li>Destroy and remove plant debris.</li>
+            <li>L`élimination des mauvaises herbes hôtes et d`autres hôtes alternatifs peut réduire l`abondance des cicadelles qui migrent vers les plantes les plus recherchées dans les jardins et les paysages.</li>
+            <li>Utilisez des couvertures flottantes ou du tissu Reemay. Reemay est un tissu en maille blanche et respirant pour couvrir les plantes et réduire l`alimentation par la cicadelle de la betterave et d`autres insectes.</li>
+            <li>Détruisez et enlevez les débris végétaux.</li>
         </ul>''',
         'bio_control': '',
-        'geo': 'Tunisia and Egypt',
+        'geo': 'Tunisie et Egypte',
         'image': 'images/pepper-leaf-hoper.jpg'
     },
     {
         'id': 11,
-        'type': 'Pepper',
-        'pathogen': 'Insects and Pests',
+        'type': 'Poivron',
+        'pathogen': 'Insectes et Ravageurs',
         'name': 'Aphids',
         'sci_name': 'Aphidoidea',
-        'local_name': 'North Tunisia: zili, North West: Zviti, South: Menn',
+        'local_name': 'Nord Tunisie: zili, Nord ouest: Zviti, Sud: Menn',
         'symptoms': '''<ul>
-            <li>In large numbers, aphids weaken plants by sucking up the sap they feed on, and cause leaf distortion, twisting and curling, yellowing and withering</li>
+            <li>En grand nombre, les pucerons affaiblissent les plantes en prélevant la sève dont ils se nourrissent, et provoquent des déformations des feuilles. </li>
+            <li>Les pucerons produisent également du miellat, c`est-à-dire des déjections sucrées qui favorisent l`apparition d`un dépôt noir dû à un champignon, la fumagine, qui empêche la photosynthèse ce qui se traduit par une réduction de la croissance des plantes.</li>
         </ul>''',
-        'conditions': 'Warm and dry weather',
+        'conditions': 'Au printemp et automne',
         'chemical_control': '''<ul>
-            <li>Systemic insecticides, including imidacloprid.</li>
-            <li>Insecticidal soaps and oils are the best choices for most situations.</li>
-            <li>Oils: Horticultural Oils, Sesame Oil</li>
-            <li>Neem products: Neem oil, Azadirachtin, Capsaicin, Canola oil</li>
             <li>Chlorantraniliprole + lambdacyhalothrine 100g/l+ 50g/l</li>
             <li>Chlorpyriphos- Eéthyl400g/l</li>
             <li>Deltamethrine 100g/l</li>
@@ -913,28 +904,25 @@ icba_html_predictions_fr = [
             <li>Thiamétoxam+Lambda-cyhalothrine 141g/l+106g/l</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Elimination of weeds by hoeing</li>
-            <li>Practice a good crop rotation</li>
-            <li>Overhead irrigation can reduce infestation by killing aphids with water.</li>
-            <li>Detect attacks at the initial stage of the crop to limit early virus transmission or direct damage by a large population of aphids.</li>
-            <li>Uproot the plants as soon as they stop producing</li>
-            <li>Treatment with selective insecticides as soon as attacks are detected on young plants.</li>
-            <li>Over fertilizing a plant can enhance aphid population growth, high levels of nitrogen fertilizer favor aphid reproduction, so never use more nitrogen than necessary, use smaller amounts of fertilizer throughout the growing season.</li>
-            <li>Slow-release fertilizers such as organic fertilizers or urea-based time-release formulations.</li>
-            <li>Reduce losses by growing seedlings under protective covers, silver-colored reflective mulches have been successfully used to reduce transmission of aphid-borne viruses, strong spray of water.</li>
+            <li>Elimination des adventices par binage</li>
+            <li>Pratiquer un bon assolement</li>
+            <li>L`irrigation par aspersion peut réduire l`infestation en éliminant les pucerons avec l`eau.</li>
+            <li>Détecter les attaques au stade initial de la culture pour limiter une transmission précoce des virus ou des dommages directs par une grande population de pucerons.</li>
+            <li>Arracher les plants dès qu`ils ont cessé de produire</li>
+            <li>Traitement à l`aide d`insecticides sélectifs dès que les attaques sont détectées sur les jeunes plantes.</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Beauveria bassiana.</li>
-            <li>Biological control by natural enemies (predators, parasitoids, and pathogens) can have a significant impact on aphid populations.</li>
-            <li>Natural enemies such as parasitic wasps, lady beetle adults and larvae,  lacewing larvae, soldier beetles, and syrphid fly larvae.</li>
+            <li>huile de canola</li>
+            <li>huile minérale</li>
+            <li>sel de potassium d`acide gras</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/pepper-aphid.jpg'
     },
     {
         'id': 12,
-        'type': 'Tomato',
-        'pathogen': 'Healthy',
+        'type': 'Tomate',
+        'pathogen': 'En bonne santé',
         'name': '',
         'sci_name': '',
         'local_name': '',
@@ -948,193 +936,193 @@ icba_html_predictions_fr = [
     },
     {
         'id': 13,
-        'type': 'Tomato',
-        'pathogen': 'Deficiency',
-        'name': 'Phosphorus',
-        'sci_name': 'Phosphorus',
+        'type': 'Tomate',
+        'pathogen': 'Deficience',
+        'name': 'Phosphore',
+        'sci_name': 'Phosphore',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Older leaves showing some necrotic spots.</li>
-            <li>Plants are dwarfed or stunted, develop very slowly.</li>
-            <li>Leaf purpling is the most common symptom, particularly the leaf veins.</li>
-            <li>Distinct purpling of the stem, petiole and the under sides of the leaves.</li>
-            <li>Leaves on young plants turn purplish and the undersides of the leaves on older plants turn reddish-purple.</li>
-            <li>Under severe deficiency conditions there is a tendency for leaves to develop a blue-gray luster.</li>
-            <li>In deficient plants, yields are poor, and the plants are weak.</li>
+            <li>Feuilles plus âgées montrant quelques taches nécrotiques.</li>
+            <li>Les plantes sont rabougries ou rabougries, se développent très lentement.</li>
+            <li>Le pourpre des feuilles est le symptôme le plus courant, en particulier les nervures des feuilles.</li>
+            <li>Pourpre distinct de la tige, du pétiole et du dessous des feuilles.</li>
+            <li>Les feuilles des jeunes plantes deviennent violacées et le dessous des feuilles des plantes plus âgées devient rouge-violet.</li>
+            <li>Dans des conditions de carence sévère, les feuilles ont tendance à développer un éclat bleu-gris.</li>
+            <li>Dans les plantes déficientes, les rendements sont faibles et les plantes sont faibles.</li>
         </ul>''',
-        'conditions': 'The pH level in the soil or substrate being too low. Temperature of the root zone and if it falls below 15 degrees Celsius.',
+        'conditions': 'TLe niveau de pH dans le sol ou le substrat est trop bas. Température de la zone racinaire et si elle tombe en dessous de 15 degrés Celsius.',
         'chemical_control': '''<ul>
-            <li>Balanced liquid feed fertilizers in greenhouses and pots.</li>
+            <li>Engrais alimentaires liquides équilibrés dans les serres et les pots.</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>The problem will be alleviated in early field plantings with plastic mulch.</li>
+            <li>Le problème sera atténué dans les premières plantations sur le terrain avec du paillis de plastique.</li>
         </ul>''',
         'bio_control': '',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/tomato-p-deficient.jpg'
     },
     {
         'id': 14,
-        'type': 'Tomato',
-        'pathogen': 'Fungal diseases',
-        'name': 'Powdery mildew',
+        'type': 'Tomate',
+        'pathogen': 'Maladie Fongique',
+        'name': ' L`oïdium',
         'sci_name': 'Oidiopsis taurica',
         'local_name': 'jayara, Marth Elbakhara',
         'symptoms': '''<ul>
-            <li>The affected parts turn brown later, become necrotic in the center, dry out and tear easily.</li>
-            <li>The attacked leaves lose their consistency and the leaf blade may fold upwards</li>
-            <li>Leaf: on the upper side, presence of pale green to yellow spots, of a circular to angular shape, which is covered with a white down of mycelium and conidia.</li>
+            <li>Les parties atteintes brunissent ultérieurement, se nécrosent au centre, se dessèchent et se déchirent facilement.</li>
+            <li>Les feuilles attaquées perdent leur consistance et le limbe peut se replier vers le haut</li>
+            <li>Feuille : à la face supérieure, présence des taches vert pâle à jaunes, d`une forme circulaire à angulaire, qui se couvrent d`un duvet blanc de mycélium et de conidies. </li>
         </ul>''',
-        'conditions': 'Wet, heavy or compact ground',
+        'conditions': 'Terrains humides, lourds ou compacts',
         'chemical_control': '''<ul>
             <li>Penconazole  100g/l</li>
             <li>azoxystrobin+difénoconazole</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Choice of plot: recommended rotation, avoid plots close to other solanaceae or those that are poorly drained or have too much organic matter.</li>
-            <li>Cultural management: implement all the measures to prevent excess moisture (ventilate the shelters as much as possible, favor the drip irrigation system, programming of the appropriate sprinkler irrigation, etc.).</li>
-            <li>Reason fertilization (avoid excess) and regularly remove plant debris present on the ground.</li>
-            <li>Crop maintenance: Eliminate weeds susceptible to the disease as well as as much plant debris as possible at the end of the crop. Bury crop residues deep into the soil.</li>
-            <li>Choose tolerant varieties.</li>
-            <li>Avoid sowing densities that are too tight.</li>
-            <li>Eliminate all diseased leaves to reduce potential contamination.</li>
+            <li>Choix de la parcelle : rotation recommandée, éviter les parcelles à proximité de d`autres solanacées ou celles mal drainées ou trop pourvues en matière organique.</li>
+            <li>Conduite culturale: mettre en œuvre toutes les mesures permettant d`éviter l`excès d`humidité (aérer au maximum les abris, privilégier le système d`arrosage au goutte à goutte, programmation de l`arrosage par aspersion adaptée…). </li>
+            <li>Raisonner la fertilisation (éviter les excès) et éliminer régulièrement les débris végétaux présent au sol.</li>
+            <li>Entretien de la culture: Eliminer les adventices sensibles à la maladie ainsi que le maximum de débris végétaux en ﬁn de culture. Enfouir profondément les résidus de culture dans le sol.</li>
+            <li>Choisir des variétés tolérantes.</li>
+            <li>Eviter les densités de semis trop serrées.</li>
+            <li>Eliminer toutes les feuilles malades pour essayer de diminuer la contamination potentielle.</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Citric acid 16% + mint oil 0,8%+ Adjuvant 48%</li>
-            <li>Sulfur  80%</li>
+            <li>Acide cytrique 16% + Huile de menthe 0,8%+ Adjuvant 48%</li>
+            <li>Soufre  80%</li>
         </ul>''',
-        'geo': 'North and center of Tunisia, UAE and Egypt',
+        'geo': 'Nord et centre de la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/tomato-powdery-mildew.jpg'
     },
     {
         'id': 15,
-        'type': 'Tomato',
-        'pathogen': 'Fungal diseases',
-        'name': 'Early blight',
+        'type': 'Tomate',
+        'pathogen': 'Maladie Fongique',
+        'name': 'L`Alternariose',
         'sci_name': 'Alternaria solani',
         'local_name': 'Alternariose',
         'symptoms': '''<ul>
-            <li>On adult plants, black necrotic spots 4 to 7 mm in diameter appear, growing in concentric circles surrounded by a yellow halo.</li>
-            <li>On the stems, we can see elliptical brown, gray  and concentric spots.</li>
-            <li>On the fruits, we see black spots, sunken, 1 to 2 cm which are positioned at the base of the calyx. Other fungi can colonize these spots and cause wet rots.</li>
+            <li>Sur plantes adultes, apparaissent des tâches nécrotiques noires de 4 à 7mm de dia-mètre, s`agrandissant en cercles concentriques entourés d`un halo jaune.</li>
+            <li>Sur les tiges, on peut voir des tâches elliptiques brunes, grises, concentriques.</li>
+            <li>Sur les fruits, on voit des tâches noires, déprimées, de 1 à 2 cm qui sont positionnées à la base du calice. D`autres champignons peuvent coloniser ces tâches et causer des pourritures humides.</li>
         </ul>''',
-        'conditions': 'High humidity and temperature between 18 and 25°C.',
+        'conditions': 'Hygrométrie élevée et température entre 18 et 25°C.',
         'chemical_control': '''<ul>
-            <li>Azoxystrobin</li>
-            <li>captan</li>
+            <li>Azoxystrobine</li>
+            <li>captane</li>
             <li>chlorothalonil</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Eliminate crop residues after harvest.</li>
-            <li>Use less susceptible varieties as well as healthy seeds.</li>
-            <li>Avoid tight plantings to promote aeration.</li>
-            <li>Avoid excess nitrogen.</li>
+            <li>Eliminer les reliquats de culture après récolte.</li>
+            <li>Eliminer les reliquats de Utiliser des variétés peu sensibles ainsi que des semences saines. culture après récolte.</li>
+            <li>Eviter les plantations serrées pour favoriser l`aération.</li>
+            <li>Eviter les excès d`azote.</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Bacillus mycoides strain J</li>
-            <li>Bacillus amyloliquefaciens (strain D747)</li>
+            <li>Bacillus mycoides isolat J</li>
+            <li>Bacillus amyloliquefaciens (souche D747)</li>
         </ul>''',
-        'geo': 'North and center of Tunisia, UAE and Egypt',
+        'geo': 'Nord et centre de la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/tomato-blight.jpg'
     },
     {
         'id': 16,
-        'type': 'Tomato',
-        'pathogen': 'Fungal diseases',
-        'name': 'Leaf mold',
+        'type': 'Tomate',
+        'pathogen': 'Maladie Fongique',
+        'name': 'Moisissure de feuille de tomate',
         'sci_name': 'Passalora fulva',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>The oldest leaves are infected first.</li>
-            <li>Pale greenish-yellow spots, usually less than 1/4 inch, with no definite margins, form on the upper sides of leaves.</li>
-            <li>Olive-green to brown velvety mold forms on the lower leaf surface below leaf spots.</li>
-            <li>Leaf spots grow together and turn brown. Leaves wither and die but often remain attached to the plant.</li>
-            <li>Infected blossoms turn black and fall off.</li>
-            <li>Fruit infections start as a smooth black irregular area on the stem end of the fruit. As the disease progresses, the infected area becomes sunken, dry and leathery.</li>
+            <li>Les feuilles les plus anciennes sont infectées en premier.</li>
+            <li>Des taches jaune verdâtre pâle, généralement inférieures à 1/4 de pouce, sans marges définies, se forment sur les faces supérieures des feuilles.</li>
+            <li>Une moisissure veloutée vert olive à brune se forme sur la face inférieure des feuilles sous les taches foliaires.</li>
+            <li>Les taches foliaires poussent ensemble et brunissent. Les feuilles se flétrissent et meurent mais restent souvent attachées à la plante.</li>
+            <li>Les fleurs infectées deviennent noires et tombent.</li>
+            <li>Les infections des fruits commencent par une zone lisse et irrégulière noire à l`extrémité de la tige du fruit. Au fur et à mesure que la maladie progresse, la zone infectée devient enfoncée, sèche et coriace.</li>
         </ul>''',
-        'conditions': 'The disease is driven by high relative humidity (greater than 85%).',
+        'conditions': 'La maladie est provoquée par une humidité relative élevée (supérieure à 85%).',
         'chemical_control': '''<ul>
-            <li>For organic growers, copper-based product  gave some level of control.  When using copper hydroxide for tomato leaf mold, make sure the product is labeled for organic use.</li>
-            <li>Formulations with higher percentages of copper will be more effective but have an increased re-entry interval (REI / the amount of time you must wait between applying and re-entering the area for safety reasons).</li>
-            <li>It is important to alternate between different chemical families to avoid the development of pathogen resistance to particular active ingredients.</li>
+            <li>Pour les producteurs biologiques, le produit à base de cuivre a donné un certain niveau de contrôle. Lorsque vous utilisez de l`hydroxyde de cuivre pour la moisissure des feuilles de tomate, assurez-vous que le produit est étiqueté pour une utilisation biologique.</li>
+            <li>Les formulations avec des pourcentages plus élevés de cuivre seront plus efficaces mais auront un intervalle de rentrée augmenté (REI / le temps que vous devez attendre entre l`application et la rentrée dans la zone pour des raisons de sécurité).</li>
+            <li>Il est important d`alterner entre différentes familles chimiques pour éviter le développement de résistances pathogènes à des principes actifs particuliers.</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Use drip irrigation and avoid watering foliage.</li>
-            <li>Space plants to provide good air movement between rows and individual plants.</li>
-            <li>Stake, string or prune to increase airflow in and around the plant.</li>
-            <li>Sterilize stakes, ties, trellises, etc. with 10%% household bleach or commercial sanitizer.</li>
-            <li>Circulate air in greenhouses or tunnels with vents and fans and by rolling up high tunnel sides to reduce humidity around plants.</li>
-            <li>Keep night temperatures in greenhouses higher than outside temperatures to avoid dew formation on the foliage.</li>
-            <li>Remove crop residue at the end of the season. Burn it or bury it away from tomato production areas.</li>
-            <li>Clean the high tunnel or greenhouse walls and benches at the end of the season with a commercial sanitizer.</li>
+            <li>Utilisez l`irrigation goutte à goutte et évitez d`arroser le feuillage.</li>
+            <li>Espacez les plantes pour assurer une bonne circulation de l`air entre les rangées et les plantes individuelles.</li>
+            <li>Tuteurer, ficeller ou tailler pour augmenter le flux d`air dans et autour de la plante.</li>
+            <li>Stérilisez les piquets, les attaches, les treillis, etc. avec 10%% d`eau de javel ou de désinfectant commercial.</li>
+            <li>Faites circuler l`air dans les serres ou les tunnels avec des évents et des ventilateurs et en enroulant les côtés hauts du tunnel pour réduire l`humidité autour des plantes.</li>
+            <li>Gardez les températures nocturnes dans les serres plus élevées que les températures extérieures pour éviter la formation de rosée sur le feuillage.</li>
+            <li>Enlevez les résidus de culture à la fin de la saison. Brûlez-le ou enterrez-le loin des zones de production de tomates.</li>
+            <li>Nettoyer les murs et bancs du haut tunnel ou de la serre à la fin de la saison avec un désinfectant commercial.</li>
         </ul>''',
         'bio_control': '',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/tomato-leaf-mold.jpg'
     },
     {
         'id': 17,
-        'type': 'Tomato',
+        'type': 'Tomate',
         'pathogen': 'Virus',
-        'name': 'Tomato yellow leaf curl virus (TYLCV)',
+        'name': 'Virus de l`enroulement des feuilles jaunes de la tomate (TYLCV)',
         'sci_name': 'Tomato yellow leaf curl virus',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Small leaves, and show strong crumpling and interveinal and marginal yellowing.</li>
-            <li>Leaves severe necrosis and blighting of leaves. In these circumstance, fruits will be exposed to sunlight causing sunscalding.</li>
-            <li>Curl upwards and towards the middle of the leaf.</li>
-            <li>In seedlings, the shoots become shortened. Flower drop.</li>
-            <li>Stunted and erect or upright plant growth.</li>
-            <li>Fruit: Reduced but not affected.</li>
+            <li>Les feuilles sont petites et présentent un fort froissement et un jaunissement entre les nervures et les marges.</li>
+            <li>Laisse une nécrose sévère et une brûlure des feuilles. Dans ces circonstances, les fruits seront exposés à la lumière du soleil provoquant des brûlures de soleil.</li>
+            <li>Curl vers le haut et vers le milieu de la feuille.</li>
+            <li>Chez les semis, les pousses se raccourcissent. Goutte de fleurs.</li>
+            <li>Croissance des plantes rabougries et dressées ou dressées.</li>
+            <li>Fruit : Réduit mais pas affecté.</li>
         </ul>''',
-        'conditions': 'High temperatures',
+        'conditions': 'Hautes températures',
         'chemical_control': '''<ul>
-            <li>Imidacloprid, Cyazypyr, Flupyradifurone, Pymetrozine, Pyrifluquinazon, Pyrethroid combination: zeta-cypermethrin and bifenthrin</li>
+            <li>Imidaclopride, Cyazypyr, Flupyradifurone, Pymétrozine, Pyrifluquinazone, Combinaison pyréthrinoïde : zêta-cyperméthrine et bifenthrine</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>The presence of whiteflies should be checked daily.</li>
-            <li>A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it.</li>
-            <li>Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.</li>
+            <li>La présence d`aleurodes doit être vérifiée quotidiennement.</li>
+            <li>Un piège peut être fabriqué avec un morceau de carton de 12 pouces x 12 pouces peint en jaune vif et étalé de la vaseline ou du Biotac dessus.</li>
+            <li>Les plantes qui présentent des signes du virus après 3 à 4 semaines de repiquage doivent être ensachées, déracinées et brûlées.</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium</li>
+            <li>Enterobacter asburiae BQ9, une rhizobactérie favorisant la croissance des plantes</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/tomato-tylcv.jpg'
     },
     {
         'id': 18,
-        'type': 'Tomato',
-        'pathogen': 'Insects and Pests',
-        'name': 'The tomato leaf miner',
+        'type': 'Tomate',
+        'pathogen': 'Insectes et Ravageurs',
+        'name': 'La chenille mineuse de la tomate ',
         'sci_name': 'Tuta absoluta',
         'local_name': 'touta',
         'symptoms': '''<ul>
-            <li>Completely eaten leaves',
-            <li>Reduced photosynthesis and production',
-            <li>Development of secondary pathogens leading to fruit rot.'
+            <li>des feuilles complètement consommées</li>
+            <li>une réduction de la photosynthèse et de la production</li>
+            <li>le développement de pathogènes secondaires conduisant à la pourriture des fruits.</li>
         </ul>''',
         'conditions': 'hygrométries importantes (80-90%)',
         'chemical_control': '''<ul>
-            <li>Azadiradtin 32g/l</li>
-            <li>Azadirachtin (0.03%) + 90.5% Neem oil 0.3g/l</li>
+            <li>Azadiradtine 32g/l</li>
+            <li>Azadirachtine (0.03%) + 90.5% Huile de neem 0.3g/l</li>
             <li>Chlorantraniliprole</li>
-            <li>Abamectin 45g/l+ 18g/l</li>
+            <li>Abamectine 45g/l+ 18g/l</li>
             <li>Metaflumizone 240g/l</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Use healthy seedlings when planting</li>
-            <li>Weed around the plots to remove wild plants that can harbor eggs and caterpillars;</li>
-            <li>Deep plowing destroys deep-buried pupae</li>
-            <li>Crop rotation is desirable with other non-host plants of the pest.</li>
-            <li>A crawl period of the order of 4 to 6 weeks is recommended between two host cultures of T. absoluta.</li>
-            <li>Varietal resistance: some varieties are more attractive and therefore more susceptible to T. absoluta</li>
-            <li>Elimination by fire or deep burial of the attacked leaves and stems to destroy the caterpillars and prevent them from completing their cycle (never put the plants in the compost)</li>
-            <li>After harvest, harvest waste must be collected immediately and incinerated.</li>
-            <li>Plot hygiene by eliminating crop debris either by burning immediately or by burying more than 50 cm deep in the ground;</li>
-            <li>Monitoring Tuta absoluta populations by regularly observing the plants to detect possible leafminer attacks;</li>
-            <li>Treatments with a chemical insecticide are recommended as soon as one plant in five has a live larva.</li>
-            <li>Monitoring: Water traps fitted with sex pheromones help track population levels.</li>
+            <li>Utiliser des plants sains lors de la plantation</li>
+            <li>Faire un désherbage autour des parcelles pour supprimer les plantes sauvages qui peuvent abriter des œufs et des chenilles;</li>
+            <li>Le labour profond détruit les chrysalides enterrées profondeur</li>
+            <li>Une rotation des cultures est souhaitable avec d`autres plantes non hôtes du ravageur.</li>
+            <li> Une période de vide sanitaire de l`ordre de 4 à 6 semaines est recommandée entre deux cultures hôtes de T. absoluta.</li>
+            <li>Résistance variétale : certaines variétés sont plus attractives et donc plus sensibles à T. absoluta</li>
+            <li>Elimination par le feu ou enfouissement profond des feuilles et des tiges attaquées pour détruire les chenilles et éviter qu`elles finissent leur cycle (ne jamais mettre les plants au compost)</li>
+            <li>Aprés récolte, il faut ramasser immédiatement les déchets de récolte et les incinérer.</li>
+            <li>L`hygiène des parcelles en éliminant les débris des cultures soit en brulant immédiatement, soit en enterrant profondément à plus de 50 cm dans le sol;</li>
+            <li>La surveillance des populations de Tuta absoluta par l`observation régulière des plants pour détecter d`éventuelles attaques de la mineuse;</li>
+            <li>Les traitements avec un insecticide chimique sont conseillés dès qu`un plant sur cinq présente une larve vivante.</li>
+            <li>Surveillance : les pièges à eau équipés de phéromones sexuelles aident à suivre le niveau de la population.</li>
         </ul>''',
         'bio_control': '''<ul>
             <li>(E,Z.Z)-3,8,11 Tetradecatrien 1-y acetat (E,Z)-3,8 Tetradecatrien1- y acetate ===30 traps/ha</li>
@@ -1142,60 +1130,60 @@ icba_html_predictions_fr = [
             <li>Verticillium lacanii</li>
             <li>Spinosade</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/tomato-tuta-absoluta.jpg'
     },
     {
         'id': 19,
-        'type': 'Tomato',
-        'pathogen': 'Salinity',
-        'name': 'Salinity',
-        'sci_name': 'Salinity',
-        'local_name': 'Salinity',
+        'type': 'Tomate',
+        'pathogen': 'Salinité',
+        'name': '',
+        'sci_name': '',
+        'local_name': '',
         'symptoms': '''<ul>
-            <li>Tomato is moderately sensitive to salinity. Salt stress has three fold effects which reduces water potential and causes ion imbalance and toxicity.</li>
+            <li>La tomate est modérément sensible à la salinité. Le stress salin a trois effets qui réduisent le potentiel hydrique et provoquent un déséquilibre ionique et une toxicité.</li>
         </ul>''',
-        'conditions': 'Tomato tolerates an EC of the saturated soil extract up to about 2.5 dS m−1 without any yield reduction.',
+        'conditions': 'La tomate tolère une EC de l`extrait de sol saturé jusqu`à environ 2,5 dS m−1 sans aucune réduction de rendement.',
         'chemical_control': '''<ul>
-            <li>Increased irrigation may wash out the salinity from the soil.</li>
+            <li>Une irrigation accrue peut éliminer la salinité du sol. </li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Saline soils cannot be reclaimed by chemical amendments, conditioners or fertilizers. A field can only be reclaimed by removing salts from the plant root zone.</li>
+            <li>Les sols salins ne peuvent pas être récupérés par des amendements chimiques, des conditionneurs ou des engrais.</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>In some cases, selecting salt-tolerant crops may be needed in addition to managing soils.</li>
+            <li>Dans certains cas, la sélection de cultures tolérantes au sel peut être nécessaire en plus de la gestion des sols. </li>
         </ul>''',
-        'geo': 'Common in all of the Mediterranean coastal areas, and also sometimes inland.',
+        'geo': 'Commun dans toutes les zones côtières méditerranéennes, et aussi parfois à l`intérieur des terres.',
         'image': 'images/tomato-salinity.jpg'
     },
     {
         'id': 20,
         'type': 'Quinoa',
         'pathogen': 'Virus',
-        'name': 'Tomato yellow leaf curl virus (TYLCV)',
+        'name': 'Virus de l`enroulement des feuilles jaunes de la tomate (TYLCV)',
         'sci_name': 'Tomato yellow leaf curl virus',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Small leaves, and show strong crumpling and interveinal and marginal yellowing.</li>
-            <li>Leaves severe necrosis and blighting of leaves. In these circumstance, fruits will be exposed to sunlight causing sunscalding.</li>
-            <li>Curl upwards and towards the middle of the leaf.</li>
-            <li>In seedlings, the shoots become shortened. Flower drop.</li>
-            <li>Stunted and erect or upright plant growth.</li>
-            <li>Fruit: Reduced but not affected.</li>
+            <li>Les feuilles sont petites et présentent un fort froissement et un jaunissement entre les nervures et les marges.</li>
+            <li>Laisse une nécrose sévère et une brûlure des feuilles. Dans ces circonstances, les fruits seront exposés à la lumière du soleil provoquant des brûlures de soleil.</li>
+            <li>Curl vers le haut et vers le milieu de la feuille.</li>
+            <li>Chez les semis, les pousses se raccourcissent. Goutte de fleurs.</li>
+            <li>Croissance des plantes rabougries et dressées ou dressées.</li>
+            <li>Fruit : Réduit mais pas affecté.</li>
         </ul>''',
-        'conditions': 'High temperatures',
+        'conditions': 'Hautes températures',
         'chemical_control': '''<ul>
-            <li>Imidacloprid, Cyazypyr, Flupyradifurone, Pymetrozine, Pyrifluquinazon, Pyrethroid combination: zeta-cypermethrin and bifenthrin</li>
+            <li>Imidaclopride, Cyazypyr, Flupyradifurone, Pymétrozine, Pyrifluquinazone, Combinaison pyréthrinoïde : zêta-cyperméthrine et bifenthrine</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>The presence of whiteflies should be checked daily.</li>
-            <li>A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it.</li>
-            <li>Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.</li>
+            <li>La présence d`aleurodes doit être vérifiée quotidiennement.</li>
+            <li>Un piège peut être fabriqué avec un morceau de carton de 12 pouces x 12 pouces peint en jaune vif et étalé de la vaseline ou du Biotac dessus.</li>
+            <li>Les plantes qui présentent des signes du virus après 3 à 4 semaines de repiquage doivent être ensachées, déracinées et brûlées.</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium</li>
+            <li>Enterobacter asburiae BQ9, une rhizobactérie favorisant la croissance des plantes</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'Toute la Tunisie, Egypte et Emirats Arabe Unis',
         'image': 'images/quinoa-tylcv.jpg'
     },
 ]

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Diseases</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='styles/main-v21.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container" role="main">
+      <h1>Liste des maladies prises en charge</h1>
+      {% for prediction in predictions %}
+      <div class="information">
+        <div class="information_sub sub_one">
+          <div class="photo">
+            <h1>{{ prediction.type }}</h1>
+            <ul class="ultitle">
+              <li>{{ prediction.name }}</li>
+              <li>{{ prediction.pathogen }}</li>
+              <li>{{ prediction.sci_name }}</li>
+              <li>{{ prediction.local_name }}</li>
+            </ul>
+          </div>
+          <div class="hosts">
+            <div class="coltitle hoststitle">Conditions & Geo</div>
+            <div class="colcontent hostscontent">{{ prediction.conditions }}, {{ prediction.geo }}</div>
+          </div>
+        </div>
+        <div class="information_sub sub_two">
+          <div class="symptoms">
+            <div class="coltitle symptomstitle">Symptômes</div>
+            <div class="colcontent symptomscontent">
+              {{ prediction.symptoms|safe }}
+            </div>
+          </div>
+          <div class="control">
+            <div class="coltitle controltitle">Contrôle</div>
+            <b>&nbsp;Contrôle chimique</b>
+            <div class="colcontent controlcontent">
+              {{ prediction.chemical_control|safe }}
+            </div>
+            <b>&nbsp;Pest Management</b>
+            <div class="colcontent controlcontent">
+              {{ prediction.pest_management|safe }}
+            </div>
+            <b>&nbsp;Contrôle Bio</b>
+            <div class="colcontent controlcontent">
+              {{ prediction.bio_control|safe }}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <div class="goback">
+        <a href="../icba"> Télécharger une nouvelle image </a>
+      </div>
+      <footer>
+        <p><strong>International Center for Biosaline Agriculture</strong></p>
+        <p>Common Diseases & Insect Pests Image Classification</p>
+      </footer>
+    </div>
+  </body>
+</html>

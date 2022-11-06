@@ -296,7 +296,8 @@ icba_diseases_list_ar = [
         'sci_name': 'Aphidoidea',
         'local_name': 'North Tunisia: zili, North West: Zviti, South: Menn',
         'symptoms': [
-            'In large numbers, aphids weaken plants by sucking up the sap they feed on, and cause leaf distortion, twisting and curling, yellowing and withering'
+            'In large numbers, aphids weaken plants by sucking up the sap they feed on, and cause leaf distortion, twisting and curling, yellowing and withering',
+            'Aphids also produce honeydew, that is to say sweet droppings that promote the appearance of a black deposit due to a fungus, sooty mold, which prevents photosynthesis which results in a reduction in the growth of plants.'
         ],
         'conditions': 'Warm and dry weather',
         'chemical_control': [
@@ -548,9 +549,9 @@ icba_diseases_list_ar = [
         'id': 19,
         'type': 'Tomato',
         'pathogen': 'Salinity',
-        'name': 'Salinity',
-        'sci_name': 'Salinity',
-        'local_name': 'Salinity',
+        'name': '',
+        'sci_name': '',
+        'local_name': '',
         'symptoms': [
             'Tomato is moderately sensitive to salinity. Salt stress has three fold effects which reduces water potential and causes ion imbalance and toxicity.'
         ],
@@ -898,6 +899,7 @@ icba_html_predictions_ar = [
         'local_name': 'North Tunisia: zili, North West: Zviti, South: Menn',
         'symptoms': '''<ul>
             <li>In large numbers, aphids weaken plants by sucking up the sap they feed on, and cause leaf distortion, twisting and curling, yellowing and withering</li>
+            <li>Aphids also produce honeydew, that is to say sweet droppings that promote the appearance of a black deposit due to a fungus, sooty mold, which prevents photosynthesis which results in a reduction in the growth of plants.</li>
         </ul>''',
         'conditions': 'Warm and dry weather',
         'chemical_control': '''<ul>
@@ -1149,9 +1151,9 @@ icba_html_predictions_ar = [
         'id': 19,
         'type': 'Tomato',
         'pathogen': 'Salinity',
-        'name': 'Salinity',
-        'sci_name': 'Salinity',
-        'local_name': 'Salinity',
+        'name': '',
+        'sci_name': '',
+        'local_name': '',
         'symptoms': '''<ul>
             <li>Tomato is moderately sensitive to salinity. Salt stress has three fold effects which reduces water potential and causes ion imbalance and toxicity.</li>
         </ul>''',
