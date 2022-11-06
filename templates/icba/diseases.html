@@ -16,16 +16,17 @@
       <div class="information">
         <div class="information_sub sub_one">
           <div class="photo">
-            <h1>{{ prediction.title }}</h1>
+            <h1>{{ prediction.type }}</h1>
             <ul class="ultitle">
-              <li>{{ prediction.disease }}</li>
-              <li>{{ prediction.type }}</li>
-              <li>{{ prediction.sci }}</li>
+              <li>{{ prediction.name }}</li>
+              <li>{{ prediction.pathogen }}</li>
+              <li>{{ prediction.sci_name }}</li>
+              <li>{{ prediction.local_name }}</li>
             </ul>
           </div>
           <div class="hosts">
-            <div class="coltitle hoststitle">Hosts</div>
-            <div class="colcontent hostscontent">{{ prediction.hosts }}</div>
+            <div class="coltitle hoststitle">Conditions & Geo</div>
+            <div class="colcontent hostscontent">{{ prediction.conditions }}, {{ prediction.geo }}</div>
           </div>
         </div>
         <div class="information_sub sub_two">
@@ -37,8 +38,17 @@
           </div>
           <div class="control">
             <div class="coltitle controltitle">Control</div>
+            <b>Chemical Control</b>
             <div class="colcontent controlcontent">
-              {{ prediction.control|safe }}
+              {{ prediction.chemical_control|safe }}
+            </div>
+            <b>Pest Management</b>
+            <div class="colcontent controlcontent">
+              {{ prediction.pest_management|safe }}
+            </div>
+            <b>Bio Control</b>
+            <div class="colcontent controlcontent">
+              {{ prediction.bio_control|safe }}
             </div>
           </div>
         </div>

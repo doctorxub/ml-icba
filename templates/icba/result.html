@@ -11,11 +11,12 @@
   </head>
   <body>
     <div class="container" role="main">
-      <h1>{{ predictions.title }}</h1>
+      <h1>{{ predictions.type }}</h1>
       <ul class="ultitle">
-        <li>{{ predictions.disease }}</li>
-        <li>{{ predictions.type }}</li>
-        <li>{{ predictions.sci }}</li>
+        <li>{{ predictions.name }}</li>
+        <li>{{ predictions.pathogen }}</li>
+        <li>{{ predictions.sci_name }}</li>
+        <li>{{ predictions.local_name }}</li>
       </ul>
       <div class="header">
         {% if confidence >= 90 %}
@@ -32,8 +33,8 @@
             <img src="{{ url_for('static',filename=predictions.image) }}"></img>
           </div>
           <div class="hosts">
-            <div class="coltitle hoststitle">Hosts</div>
-            <div class="colcontent hostscontent">{{ predictions.hosts }}</div>
+            <div class="coltitle hoststitle">Conditions & Geo</div>
+            <div class="colcontent hostscontent">{{ predictions.conditions }}, {{ predictions.geo }}</div>
           </div>
         </div>
         <div class="information_sub sub_two">
@@ -45,8 +46,17 @@
           </div>
           <div class="control">
             <div class="coltitle controltitle">Control</div>
+            <b>Chemical Control</b>
             <div class="colcontent controlcontent">
-              {{ predictions.control|safe }}
+              {{ predictions.chemical_control|safe }}
+            </div>
+            <b>Pest Management</b>
+            <div class="colcontent controlcontent">
+              {{ predictions.pest_management|safe }}
+            </div>
+            <b>Bio Control</b>
+            <div class="colcontent controlcontent">
+              {{ predictions.bio_control|safe }}
             </div>
           </div>
         </div>

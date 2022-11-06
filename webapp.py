@@ -30,7 +30,7 @@ icba_preds = Dense(9, activation='softmax')(icba_x)
 
 icba_model = Model(inputs=icba_base_model.input, outputs=icba_preds)
 
-icba_model_path = 'static/models/icba/2021-06-model-epoch-007-valacc-0.974116.h5'
+icba_model_path = 'static/models/icba/model-epoch-039-valacc-0.914187.h5'
 icba_model.load_weights(icba_model_path)
 
 def icba_predict(filename):

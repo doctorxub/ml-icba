@@ -1,4 +1,4 @@
-icba_diseases_list = [
+icba_diseases_list_ar = [
     {
         'id': 0,
         'type': 'Cucumber',
@@ -599,7 +599,7 @@ icba_diseases_list = [
     },
 ]
 
-icba_html_predictions = [
+icba_html_predictions_ar = [
     {
         'id': 0,
         'type': 'Cucumber',
