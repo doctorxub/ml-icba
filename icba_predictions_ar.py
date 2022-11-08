@@ -697,7 +697,7 @@ icba_html_predictions_ar = [
         'chemical_control': '''<ul>
             <li>المبيدات لن تعالج نبات القرع المصاب بالأمراض البكتيرية</li>
             <li>نفض  النباتات بالمبيدات الحشرية في الربيع قبل أن تحصل خنافس الخيار على فرصة لوضع البيض (أبريل-يونيو)</li>
-            <li>Apply pyrethrin or carbaryl (Sevin). Try an insecticide-bait combination such as Adios that has cucurbitacin, the beetle attractant, and a small amount of carbaryl (Sevin).</li>
+            <li>ضع البيرثرين أو الكرباريل (سيفين). جرب مزيجًا من المبيدات الحشرية والطُعم ، مثل (اديوس) الذي يحتوي على القرعيات ، وجاذب الخنفساء ، وكمية صغيرة من الكرباريل (سيفين)</li>
         </ul>''',
         'pest_management': '''<ul>
             <li>حماية النباتات بالشباك.</li>
@@ -718,7 +718,7 @@ icba_html_predictions_ar = [
         'local_name': 'روتيلا',
         'symptoms': '''<ul>
             <li>الأوراق: تلتف وتتكثف وتتحول إلى اللون البني. تظهر المناطق البنية بين الأوردة الرئيسية على الجانب السفلي من الورقة. أوراق الشجر الصغيرة مشوهة. يمكن ملاحظة تباطؤ النمو وموت البراعم عندما تكون الكثافة الحشرية عالية</li>
-            <li>Fruits: damage caused by mites induce a silvery tint to the fruits, the appearance of brown areas, and less chance of fruiting plants</li>
+            <li>الثمار: الأضرار التي يسببها الحشرة تسبب لونًا فضيًا للثمار ، وظهور مناطق بنية اللون ، وفرصة أقل لاثمار النباتات</li>
         </ul>''',
         'conditions': 'درجات الحرارة العالية',
         'chemical_control': '''<ul>
