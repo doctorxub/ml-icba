@@ -20,11 +20,11 @@
       </ul>
       <div class="header">
         {% if confidence >= 90 %}
-        <h3 class="confidence green">Confidence: {{ confidence }}%</h3>
+        <h3 class="confidence green">ثقة: {{ confidence }}%</h3>
         {% elif confidence >= 70 %}
-        <h3 class="confidence yellow">Confidence: {{ confidence }}%</h3>
+        <h3 class="confidence yellow">ثقة: {{ confidence }}%</h3>
         {% else %}
-        <h3 class="confidence red">Confidence: {{ confidence }}</h3>
+        <h3 class="confidence red">ثقة: {{ confidence }}</h3>
         {% endif %}
       </div>
       <div class="information">
@@ -33,28 +33,28 @@
             <img src="{{ url_for('static',filename=predictions.image) }}"></img>
           </div>
           <div class="hosts">
-            <div class="coltitle hoststitle">Conditions & Geo</div>
+            <div class="coltitle hoststitle">الظروف الملائمة والنطاقات الجغرافية</div>
             <div class="colcontent hostscontent">{{ predictions.conditions }} <br /><br /> {{ predictions.geo }}</div>
           </div>
         </div>
         <div class="information_sub sub_two">
           <div class="symptoms">
-            <div class="coltitle symptomstitle">Symptoms</div>
+            <div class="coltitle symptomstitle">الأعضاء المصابة والأعراض</div>
             <div class="colcontent symptomscontent">
               {{ predictions.symptoms|safe }}
             </div>
           </div>
           <div class="control">
-            <div class="coltitle controltitle">Control</div>
-            <b>&nbsp;Chemical Control</b>
+            <div class="coltitle controltitle">مكافحة</div>
+            <b>&nbsp;مكافحة كيميائية</b>
             <div class="colcontent controlcontent">
               {{ predictions.chemical_control|safe }}
             </div>
-            <b>&nbsp;Pest Management</b>
+            <b>&nbsp;الإدارة المتكاملة للآفات</b>
             <div class="colcontent controlcontent">
               {{ predictions.pest_management|safe }}
             </div>
-            <b>&nbsp;Bio Control</b>
+            <b>&nbsp;مكافحة بيولوجية</b>
             <div class="colcontent controlcontent">
               {{ predictions.bio_control|safe }}
             </div>
@@ -62,8 +62,8 @@
         </div>
       </div>
       <div class="goback">
-        <a href="../../icba">
-          Upload New Image
+        <a href="../../icbaar">
+          تحميل صورة جديدة
         </a>
       </div>
       <footer>
