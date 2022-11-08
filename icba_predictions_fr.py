@@ -194,7 +194,9 @@ icba_diseases_list_fr = [
             'Imidaclopride, Cyazypyr, Flupyradifurone, Pymétrozine, Pyrifluquinazone, Combinaison pyréthrinoïde : zêta-cyperméthrine et bifenthrine'
         ],
         'pest_management': [
-            'La présence d`aleurodes doit être vérifiée quotidiennement. Un piège peut être fabriqué avec un morceau de carton de 12 pouces x 12 pouces peint en jaune vif et étalé de la vaseline ou du Biotac dessus. Les plantes qui présentent des signes du virus après 3 à 4 semaines de repiquage doivent être ensachées, déracinées et brûlées.'
+            'La présence d`aleurodes doit être vérifiée quotidiennement.',
+            'Un piège peut être fabriqué avec un morceau de carton de 12 pouces x 12 pouces peint en jaune vif et étalé de la vaseline ou du Biotac dessus.',
+            'Les plantes qui présentent des signes du virus après 3 à 4 semaines de repiquage doivent être ensachées, déracinées et brûlées.'
         ],
         'bio_control': [
             'Enterobacter asburiae BQ9, une rhizobactérie favorisant la croissance des plantes'
@@ -789,7 +791,9 @@ icba_html_predictions_fr = [
             <li>Imidaclopride, Cyazypyr, Flupyradifurone, Pymétrozine, Pyrifluquinazone, Combinaison pyréthrinoïde : zêta-cyperméthrine et bifenthrine</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>La présence d`aleurodes doit être vérifiée quotidiennement. Un piège peut être fabriqué avec un morceau de carton de 12 pouces x 12 pouces peint en jaune vif et étalé de la vaseline ou du Biotac dessus. Les plantes qui présentent des signes du virus après 3 à 4 semaines de repiquage doivent être ensachées, déracinées et brûlées.</li>
+            <li>La présence d`aleurodes doit être vérifiée quotidiennement.</li>
+            <li>Un piège peut être fabriqué avec un morceau de carton de 12 pouces x 12 pouces peint en jaune vif et étalé de la vaseline ou du Biotac dessus.</li>
+            <li>Les plantes qui présentent des signes du virus après 3 à 4 semaines de repiquage doivent être ensachées, déracinées et brûlées.</li>
         </ul>''',
         'bio_control': '''<ul>
             <li>Enterobacter asburiae BQ9, une rhizobactérie favorisant la croissance des plantes</li>

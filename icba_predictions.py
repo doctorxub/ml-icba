@@ -380,7 +380,9 @@ icba_diseases_list = [
             'Imidacloprid, Cyazypyr, Flupyradifurone, Pymetrozine, Pyrifluquinazon, Pyrethroid combination: zeta-cypermethrin and bifenthrin'
         ],
         'pest_management': [
-            'The presence of whiteflies should be checked daily. A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it. Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.'
+            'The presence of whiteflies should be checked daily.',
+            'A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it.',
+            'Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.'
         ],
         'bio_control': [
             'Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium'
@@ -1345,7 +1347,9 @@ icba_html_predictions = [
             <li>Imidacloprid, Cyazypyr, Flupyradifurone, Pymetrozine, Pyrifluquinazon, Pyrethroid combination: zeta-cypermethrin and bifenthrin</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>The presence of whiteflies should be checked daily. A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it. Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.</li>
+            <li>The presence of whiteflies should be checked daily.</li>
+            <li>A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it.</li>
+            <li>Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.</li>
         </ul>''',
         'bio_control': '''<ul>
             <li>Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium</li>

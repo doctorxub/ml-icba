@@ -35,7 +35,7 @@ icba_diseases_list_ar = [
             '‫أ. زيادة تركيز نترات البوتاسيوم (KNO3) ؛‬',
             '‫ب. إضافة كبريتات البوتاسيوم (K2SO4) ؛ أو‬',
             '‫ج. إذا كان كلوريد الصوديوم (NaCl) غير موجود في مياه الري أو محلول المغذيات ، ضع كلوريد البوتاسيوم (KCl)؛‬',
-            '(K2SO4) رش التطبيقات الورقية بنسبة 2٪ كبريتات البوتاسيوم'
+            '‫رش التطبيقات الورقية بنسبة 2٪ كبريتات البوتاسيوم (K2SO4)؛‬',
         ],
         'pest_management': [],
         'bio_control': [],
@@ -45,31 +45,31 @@ icba_diseases_list_ar = [
     {
         'id': 2,
         'type': 'خيار',
-        'pathogen': 'Fungal Diseases',
-        'name': 'Mildew',
+        'pathogen': 'الأمراض الفطرية',
+        'name': 'العفن الفطري',
         'sci_name': 'Pseudoperonospora cubensis',
         'local_name': 'Marth zonzar, Mildiou',
         'symptoms': [
-            'Leaf: on the upper side, the spots are yellow and angular, then turn brown and can form large brown patches that eventually kill the leaves. On the underside, the spots are brown and covered with sporangia with a purplish-brown tint to the leaf blade. Attacks target old leaves and progress to young leaves.',
-            'Fruit: the size and quantity of fruit produced are reduced.'
+            'الورق:  على الجانب العلوي ، تكون البقع صفراء و ذات زاويا ، ثم تتحول إلى اللون البني ويمكن أن تشكل بقع بنية كبيرة تقتل الأوراق في النهاية. على الجانب السفلي ، تكون البقع بنية اللون ومغطاة ب الكيس البوغي للنباتات مع لون بني أرجواني على شفرة الورقة. تستهدف الهجمات الأوراق القديمة وتتقدم إلى الأوراق الصغيرة',
+            'الفاكهة: يتسبب في تقليل حجم وكمية الفاكهة المنتجة'
         ],
-        'conditions': 'Wet, heavy or compact ground',
+        'conditions': 'الأراضي الرطبة والمضغوطة او الثقيلة',
         'chemical_control': [
             'Demethomorph + Mancozeb',
             'Folpet',
             'Cyazofamid'
         ],
         'pest_management': [
-            'Avoid overhead watering',
-            'Remove and destroy infected plants and weeds and ensure good ventilation between plants',
-            'Fungicides and resistant cultivars are also available'
+            'تجنب الري العلوي',
+            'إزالة  النباتات والأعشاب الضارة المصابة وضمان التهوية الجيدة بين النباتات',
+            'استخدام المبيدات الفطرية والأصناف المقاومة'
         ],
         'bio_control': [
-            'Copper octanoate',
-            'Copper oxychloride',
-            'Copper sulphate (copper tribasic)',
-            'Peracitic acid',
-            'Bacillus subtilis'
+            ' أوكتانوات النحاس',
+            'أوكسي كلوريد النحاس',
+            'كبريتات النحاس (تريباسيك النحاس)',
+            ' حمض الباراسيتيك',
+            ' عصية الرقيقة'
         ],
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/cucumber-downy-mildew.jpg'
@@ -77,55 +77,55 @@ icba_diseases_list_ar = [
     {
         'id': 3,
         'type': 'خيار',
-        'pathogen': 'Bacteria Diseases',
-        'name': 'Bacteria wilt',
+        'pathogen': 'أمراض البكتيريا',
+        'name': 'الذبول البكتيري',
         'sci_name': 'Erwinia tracheiphila or Curtobacterium flaccumfaciens pv. flaccumfaciens',
         'local_name': '',
         'symptoms': [
-            'Leaves first appear dull green, wilt during the day and recover at night.',
-            'Leaves eventually yellow and brown at the margins, completely wither and die.',
-            'The speed of wilting varies by crop. Cucumbers wilt and die rapidly.',
-            'Wilt progresses down the vine until the entire vine wilts or dies.'
+            'تظهر الأوراق في البداية باللون الأخضر الباهت ، وتذبل أثناء النهار وتتعافى في الليل',
+            'الأوراق في النهاية صفراء وبنية على الحواف تذبل تمامًا وتموت',
+            ' تختلف سرعة الذبول باختلاف المحصول. يذبل الخيار ويموت بسرعة',
+            'يتقدم الذبول إلى أسفل الكرمة حتى تذبل الكرمة بأكملها أو تموت'
         ],
-        'conditions': 'In hot, wet weather and wilting is very quick',
+        'conditions': 'يكون الذبول سريعا جدا في الطقس الحار الرطب',
         'chemical_control': [
-            'Pesticides will not cure a cucurbit plant infected with bacterial disease.',
-            'Dust plants with insecticide in the spring before the cucumber beetles have a chance to lay eggs (April-June).',
-            'Apply pyrethrin or carbaryl (Sevin). Try an insecticide-bait combination such as Adios that has cucurbitacin, the beetle attractant, and a small amount of carbaryl (Sevin).'
+            'المبيدات لن تعالج نبات القرع المصاب بالأمراض البكتيرية',
+            'نفض  النباتات بالمبيدات الحشرية في الربيع قبل أن تحصل خنافس الخيار على فرصة لوضع البيض (أبريل-يونيو)',
+            'ضع البيرثرين أو الكرباريل (سيفين). جرب مزيجًا من المبيدات الحشرية والطُعم ، مثل (اديوس) الذي يحتوي على القرعيات ، وجاذب الخنفساء ، وكمية صغيرة من الكرباريل (سيفين)'
         ],
         'pest_management': [
-            '1. Protect plants with netting.',
-            '2. Remove and destroy plant material when symptoms of wilting are first noticed.',
-            '3. Grow susceptible crops on rotation every third year.',
-            '4. Avoid planting cucurbits next to corn.'
+            'حماية النباتات بالشباك.',
+            ' قم بإزالة وتدمير المواد النباتية عند ملاحظة أعراض الذبول لأول مرة',
+            'زراعة المحاصيل الحساسة بالتناوب كل عام ثالث',
+            ' تجنب زراعة القرع بجانب الذرة'
         ],
         'bio_control': [],
-        'geo': 'Tunisia and Egypt',
+        'geo': 'تونس ومصر',
         'image': 'images/cucumber-bacteria-wilt.jpg'
     },
     {
         'id': 4,
         'type': 'خيار',
-        'pathogen': 'Insects and Pests',
-        'name': 'Mites',
-        'sci_name': 'Acari',
-        'local_name': 'Routilla',
+        'pathogen': 'الحشرات والآفات',
+        'name': 'سوس (قراديات)',
+        'sci_name': 'أكاري',
+        'local_name': 'روتيلا',
         'symptoms': [
-            'The leaves: roll up, thicken and turn brownish. Corky brown areas appear between the main veins on the underside of the leaf. Young foliage is deformed. Slowed growth and dieback of shoots can be observed when the population density of the mite is high.',
-            'Fruits: damage caused by mites induce a silvery tint to the fruits, the appearance of brown areas, and less chance of fruiting plants.'
+            'الأوراق: تلتف وتتكثف وتتحول إلى اللون البني. تظهر المناطق البنية بين الأوردة الرئيسية على الجانب السفلي من الورقة. أوراق الشجر الصغيرة مشوهة. يمكن ملاحظة تباطؤ النمو وموت البراعم عندما تكون الكثافة الحشرية عالية',
+            ' الثمار: الأضرار التي يسببها الحشرة تسبب لونًا فضيًا للثمار ، وظهور مناطق بنية اللون ، وفرصة أقل لاثمار النباتات'
         ],
-        'conditions': 'High temperature',
+        'conditions': 'درجات الحرارة العالية',
         'chemical_control': [
             'Hexythiazox 10%',
             'Spirodiclofen 240 g/L'
         ],
         'pest_management': [
-            'Burn all residues immediately after the end of the previous harvest',
-            'Make the right choice of plants, they must be in good health and strong',
-            'Thoroughly clean the plot so as not to provide refuges for pests',
-            'Continuous monitoring: An intervention carried out at the beginning of an infestation will have every chance of effectively controlling the pests so as to keep them at a minimum level with low quantities of pesticides',
-            'Avoid applying a pesticide on flowering plants or in very hot weather during the day',
-            'Apply insecticides to all parts of the crop plants and ensure that any pests on the plants are hit in a sufficiently large dose'
+            ' حرق جميع المخلفات مباشرة بعد نهاية الحصاد السابق',
+            ' قم بالاختيار الصحيح للنباتات ، يجب أن تكون بصحة جيدة وقوية',
+            ' تنظيف قطعة الأرض جيدا حتى لا توفر ملاجئ للآفات',
+            ' الرصد المستمر: التدخل الذي يتم إجراؤه في بداية الإصابة يمثل فرصة للسيطرة الفعالة على الآفات من أجل الحفاظ عليها عند الحد الأدنى مع كميات منخفضة من المبيدات الحشرية',
+            'تجنب وضع مبيد حشري على النباتات المزهرة أو في الطقس الحار جدا خلال النهار',
+            ' تطبيق المبيدات الحشرية على جميع أجزاء نباتات المحاصيل'
         ],
         'bio_control': [
             'Borax 10g/l',
@@ -137,7 +137,7 @@ icba_diseases_list_ar = [
     },
     {
         'id': 5,
-        'type': 'Pepper',
+        'type': 'فلفل',
         'pathogen': 'في حالة جيدة',
         'name': '',
         'sci_name': '',
@@ -152,81 +152,85 @@ icba_diseases_list_ar = [
     },
     {
         'id': 6,
-        'type': 'Pepper',
-        'pathogen': 'Fungal diseases',
-        'name': 'Mildew',
+        'type': 'فلفل',
+        'pathogen': 'الأمراض الفطرية',
+        'name': 'العفن الفطري',
         'sci_name': 'Pseudoperonospora cubensis',
         'local_name': 'Marth zonzar, Mildiou',
         'symptoms': [
-            'Leaf: on the upper side, the spots are yellow and angular, then turn brown and can form large brown patches that eventually kill the leaves. On the underside, the spots are brown and covered with sporangia with a purplish-brown tint to the leaf blade. Attacks target old leaves and progress to young leaves.',
-            'Fruit: the size and quantity of fruit produced are reduced.'
+            'الورق:  على الجانب العلوي ، تكون البقع صفراء و ذات زاويا ، ثم تتحول إلى اللون البني ويمكن أن تشكل بقع بنية كبيرة تقتل الأوراق في النهاية. على الجانب السفلي ، تكون البقع بنية اللون ومغطاة ب الكيس البوغي للنباتات مع لون بني أرجواني على شفرة الورقة. تستهدف الهجمات الأوراق القديمة وتتقدم إلى الأوراق الصغيرة',
+            'الفاكهة: يتسبب في تقليل حجم وكمية الفاكهة المنتجة'
         ],
-        'conditions': 'Wet, heavy or compact ground',
+        'conditions': 'الأراضي الرطبة والمضغوطة او الثقيلة',
         'chemical_control': [
             'Demethomorph + Mancozeb',
             'Folpet',
             'Cyazofamid'
         ],
         'pest_management': [
-            'Avoid overhead watering',
-            'Remove and destroy infected plants and weeds and ensure good ventilation between plants',
-            'Fungicides and resistant cultivars are also available.'
+            'تجنب الري العلوي',
+            'إزالة  النباتات والأعشاب الضارة المصابة وضمان التهوية الجيدة بين النباتات',
+            'استخدام المبيدات الفطرية والأصناف المقاومة.'
         ],
         'bio_control': [
-            'Copper octanoate',
-            'Copper oxychloride',
-            'Copper sulphate (copper tribasic)',
-            'Peracitic acid',
-            'Bacillus subtilis'
+            ' أوكتانوات النحاس',
+            'أوكسي كلوريد النحاس',
+            'كبريتات النحاس (تريباسيك النحاس)',
+            ' حمض الباراسيتيك',
+            ' عصية الرقيقة'
         ],
-        'geo': 'Tunisia and Egypt',
+        'geo': 'تونس ومصر',
         'image': 'images/pepper-downy-mildew.jpg'
     },
     {
         'id': 7,
-        'type': 'Pepper',
-        'pathogen': 'Virus',
-        'name': 'Tomato Yellow Leaf Curl Virus (TYLCV)',
-        'sci_name': 'Tomato Yellow Leaf Curl Virus ',
+        'type': 'فلفل',
+        'pathogen': 'فيروس',
+        'name': 'فيروس تجعد أوراق الطماطم الصفراء (TYLCV)',
+        'sci_name': 'فيروس تجعد أوراق الطماطم الصفراء',
         'local_name': '',
         'symptoms': [
-            'Cupping, twisting, and mottling.',
-            'Yellow leaf margin, upward leaf curling, and stunting.'
+            'التفاف الأوراق والبقع',
+            'تصبح  حواف الأوراق صفراء ، تجعد الأوراق إلى الأعلى ، والتقزم'
         ],
-        'conditions': 'High temperatures',
+        'conditions': 'درجات الحرارة العالية',
         'chemical_control': [
             'Imidacloprid, Cyazypyr, Flupyradifurone, Pymetrozine, Pyrifluquinazon, Pyrethroid combination: zeta-cypermethrin and bifenthrin'
         ],
         'pest_management': [
-            'The presence of whiteflies should be checked daily. A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it. Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.'
+            'يجب فحص وجود الذباب الأبيض يوميًا',
+            'يمكن صنع المصيدة بقطعة من اللوح مقاس 12 بوصة × 12 بوصة مطلية باللون الأصفر الفاتح وتنتشر عليها الفازلين أو البيوتاك',
+            ' يجب تعبئة النباتات التي تظهر عليها علامات الفيروس بعد 3-4 أسابيع من الزرع واقتلاعها وحرقها'
         ],
         'bio_control': [
-            'Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium'
+            'Enterobacter asburiae BQ9, هو نوع من البكتيريا الجذرية لنمو النبات'
         ],
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/pepper-tylcv.jpg'
     },
     {
         'id': 8,
-        'type': 'Pepper',
-        'pathogen': 'Fungal diseases',
-        'name': 'Sooty mold',
+        'type': 'فلفل',
+        'pathogen': 'الأمراض الفطرية',
+        'name': 'العفن المخمر',
         'sci_name': 'Capnodium citri',
         'local_name': '',
         'symptoms': [
-            'Wherever honeydew lands: leaves, twigs and fruits.',
-            'Leaves are covered with a blackish powdery substance, like black soot.'
+            ' أينما حل المن: أوراق وأغصان وثمار',
+            'تصبح الأوراق كأنها مغطاة بمسحوق أسود مثل السخام الأسود',
+            'ينمو النوع الأول على الأوراق وهو يدوم مدى حياة الورقة. أما النوع الثاني فيستمر على سيقان وأغصان النباتات الخشبية ويتجدد هذا النوع من الأجزاء الموجودة من الفطر المنتج في الموسم السابق',
+            ' ليس ضارًا بالنبات ، ولكن إذا كان موجودًا بتركيزات عالية بما يكفي ، يمكن أن يضعف التمثيل الضوئي في الأوراق ، مما يؤدي إلى خنق الأوراق التي تذبل وتموت في النهاية'
         ],
-        'conditions': 'When conditions are wet, the spores germinate and sooty mold grows on the medium available. Warm temperatures and dry weather increase the prevalence of sooty molds. Under dry conditions, less rain is available to remove or dilute honeydew concentrations suitable for sooty mold growth on leaves and other surfaces.',
+        'conditions': ' عندما تكون الظروف رطبة ، تنبت الجراثيم وينمو العفن السخامي على الوسط المتاح. ارتفاع درجات الحرارة والطقس الجاف يزيدان من انتشار العفن السخامي. في ظل الظروف الجافة ، يتوفر مطر أقل لإزالة أو تخفيف تركيزات ندى العسل المناسبة لنمو العفن السخامي على الأوراق والأسطح الأخرى',
         'chemical_control': [
-            'Remove or treat the honeydew producing insects and the sooty mould will disappear.',
-            'Sucking insects that excrete honeydew, (aphids, mealybugs, leafhoppers, and soft scales).'
+            ' أزل أو عالج الحشرات المنتجة للندى وسيختفي العفن السخامي',
+            'الحشرات الماصة التي تفرز المن (حشرات المن ، البق الدقيقي ، نطاطات الأوراق ، القشور الرخوة)'
         ],
         'pest_management': [
-            'Best method to remove the mold is to soak affected plants in a water and detergent mixture.',
-            'Use 1 tablespoon of household liquid detergent per gallon of water and spray it on the plants.',
-            'Wait 15 minutes, then wash the detergent solution off with a strong stream of water.',
-            'You may have to repeat this treatment a number of times over a few weeks.'
+            ' أفضل طريقة لإزالة العفن هي نقع النباتات المصابة في خليط من الماء والمنظفات',
+            'استخدم 1 ملعقة كبيرة من المنظفات السائلة المنزلية لكل جالون من الماء ورشها على النباتات',
+            'انتظر 15 دقيقة ، ثم اغسل محلول المنظف بتيار قوي من الماء',
+            'قد تضطر إلى تكرار هذا العلاج عدة مرات على مدار بضعة أسابيع'
         ],
         'bio_control': [],
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
@@ -234,27 +238,27 @@ icba_diseases_list_ar = [
     },
     {
         'id': 9,
-        'type': 'Pepper',
-        'pathogen': 'Insects and Pests',
-        'name': 'Spider mite',
-        'sci_name': 'Acari',
-        'local_name': 'Routilla',
+        'type': 'فلفل',
+        'pathogen': 'الحشرات والآفات',
+        'name': 'سوس (قراديات)',
+        'sci_name': 'أكاري',
+        'local_name': 'روتيلا',
         'symptoms': [
-            'Leaves: roll up, thicken and turn brownish.Corky brown areas appear between the main veins on the underside of the leaf. Young foliage is deformed. Slowed growth and shoot dieback may be observed when the mite population density is high.',
-            'Fruits: The nutritional damage caused by the mites causes a silvery tint of the fruits, the appearance of corky brown areas and less chance of fruiting of the plants.'
+            'الأوراق: تلتوي وتزداد سماكة وتتحول إلى اللون البني. تظهر مناطق بنية اللون بين الأوردة الرئيسية على الجانب السفلي من الورقة. أوراق الشجر الصغيرة مشوهة. يمكن ملاحظة تباطؤ النمو عندما تكون الكثافة الحشرية  عالية',
+            'الثمار: الأضرار  التي تسببها العث تسبب لونا فضيا للثمار، وظهور مناطق بنية  احتمالية أقل لإثمار النباتات'
         ],
-        'conditions': 'High temperature',
+        'conditions': 'درجات الحرارة العالية',
         'chemical_control': [
             'Hexythiazox 10%',
             'Spirodiclofen 240 g/L'
         ],
         'pest_management': [
-            'Burn all residues immediately after the end of the previous harvest',
-            'Make the right choice of plants, they must be in good health and strong',
-            'Thoroughly clean the plot so as not to provide refuges for pests',
-            'Continuous monitoring: An intervention carried out at the beginning of an infestation will have every chance of effectively controlling the pests so as to keep them at a minimum level with low quantities of pesticides',
-            'Avoid applying a pesticide on flowering plants or in very hot weather during the day',
-            'Apply insecticides to all parts of the crop plants and ensure that any pests on the plants are hit in a sufficiently large dose'
+            ' حرق جميع المخلفات مباشرة بعد نهاية الحصاد السابق',
+            ' قم بالاختيار الصحيح للنباتات ، يجب أن تكون بصحة جيدة وقوية',
+            ' تنظيف قطعة الأرض جيدا حتى لا توفر ملاجئ للآفات',
+            ' الرصد المستمر: التدخل الذي يتم إجراؤه في بداية الإصابة يمثل فرصة للسيطرة الفعالة على الآفات من أجل الحفاظ عليها عند الحد الأدنى مع كميات منخفضة من المبيدات الحشرية',
+            'تجنب وضع مبيد حشري على النباتات المزهرة أو في الطقس الحار جدا خلال النهار',
+            ' تطبيق المبيدات الحشرية على جميع أجزاء نباتات المحاصيل'
         ],
         'bio_control': [
             'Borax 10g/l',
@@ -266,49 +270,49 @@ icba_diseases_list_ar = [
     },
     {
         'id': 10,
-        'type': 'Pepper',
-        'pathogen': 'Insects and Pests',
-        'name': 'Leafhopper',
-        'sci_name': 'Cicadellidae',
+        'type': 'فلفل',
+        'pathogen': 'الحشرات والآفات',
+        'name': 'الحشرة النطاطة',
+        'sci_name': 'السيكاديليديا',
         'local_name': '',
         'symptoms': [
-            'Leaves to develop pale specks.',
-            'Leaves and shoot tips fed upon by an abundance of leafhoppers may turn yellow then brown and curl and die.',
-            'Leafhoppers also excrete honeydew on which blackish sooty mold grows.',
-            'This can foul foliage, fruit, and surfaces underneath infested plants.',
-            'Plants becoming stunted and distorted.'
+            ' ظهور بقع شاحبة',
+            'قد تتحول الأوراق وأطراف البراعم التي تتغذى عليها نطاطات الأوراق الوفيرة إلى اللون الأصفر ثم البني ثم تتجعد وتموت',
+            'تفرز نطاطات الأوراق  المن الذي ينمو عليه العفن الأسود المائل إلى السخام',
+            ' يمكن أن يتسبب ذلك في إتلاف أوراق الشجر والفاكهة والأسطح الموجودة تحت النباتات المصابة',
+            'يسبب تقزم النباتات وتشوهها'
         ],
         'conditions': '',
         'chemical_control': [
-            'Insecticide application in gardens and landscapes generally is not effective for preventing plant diseases vectored by leafhoppers because they can transmit the virus to a new host before the leafhoppers are killed by the insecticide.',
-            'If nymphs are abundant early in the growing season, green shoots and the underside of leaves can be thoroughly sprayed with horticultural oil, insecticidal soap, or neem oil to provide some control.'
+            'إن استخدام المبيدات الحشرية في الحدائق والمناظر الطبيعية بشكل عام غير فعال للوقاية من الأمراض النباتية التي تنقلها نطاطات الأوراق لأنها يمكن أن تنقل الفيروس إلى مضيف جديد قبل أن تقتل نطاطات الأوراق بالمبيد الحشري',
+            '* إذا كانت الحوريات ( الحشرات في مراحلها الأولى تسمى حوريات) وفيرة في وقت مبكر من موسم النمو ، يمكن رش البراعم الخضراء والجانب السفلي من الأوراق جيدًا بزيت البستنة أو الصابون المبيد للحشرات أو زيت النيم لتوفير بعض السيطرة'
         ],
         'pest_management': [
-            'Removing weed hosts and other alternative hosts can reduce the abundance of leafhoppers that migrate to plants that are more desired in gardens and landscapes.',
-            'Use floating row covers, or reemay fabric. Reemay is a white mesh, breathable fabric to cover plants and reduce feeding by beet leafhopper and other insects.',
-            'Destroy and remove plant debris.'
+            ' يمكن أن تقلل إزالة عوائل الحشائش وغيرها من المضيفات البديلة من وفرة نطاطات الأوراق التي تهاجر إلى النباتات المرغوبة أكثر في الحدائق والمناظر الطبيعية',
+            'استخدام أغطية الصف العائمة ، أو إعادة النسيج. (ريماي) عبارة عن نسيج شبكي أبيض يسمح بمرور الهواء لتغطية النباتات وتقليل التغذية بواسطة نطاط أوراق البنجر والحشرات الأخرى',
+            'تدمير وإزالة المخلفات النباتية'
         ],
         'bio_control': [],
-        'geo': 'Tunisia and Egypt',
+        'geo': 'تونس ومصر',
         'image': 'images/pepper-leaf-hoper.jpg'
     },
     {
         'id': 11,
-        'type': 'Pepper',
-        'pathogen': 'Insects and Pests',
-        'name': 'Aphids',
+        'type': 'فلفل',
+        'pathogen': 'الحشرات والآفات',
+        'name': 'المن',
         'sci_name': 'Aphidoidea',
-        'local_name': 'North Tunisia: zili, North West: Zviti, South: Menn',
+        'local_name': 'شمال تونس: زيلي , الشمال الغربي: زفيتي, الجنوب: المن',
         'symptoms': [
-            'In large numbers, aphids weaken plants by sucking up the sap they feed on, and cause leaf distortion, twisting and curling, yellowing and withering',
-            'Aphids also produce honeydew, that is to say sweet droppings that promote the appearance of a black deposit due to a fungus, sooty mold, which prevents photosynthesis which results in a reduction in the growth of plants.'
+            'بأعداد كبيرة، يضعف المن النباتات عن طريق امتصاص النسغ الذي يتغذى عليه ، ويسبب تشويه الأوراق ، والتواء وتجعيدها ، والاصفرار والذبول',
+            'تنتج حشرات المن أيضًا ندى العسل ، وهو نفايات سائلة سكرية تعزز ظهور فطر داكن اللون ينمو على إفرازات ندى العسل (العفن السخامي) ، إذا كان موجودًا بتركيزات عالية بما يكفي ، يمكن أن يضعف التمثيل الضوئي في الأوراق ، مما يؤدي إلى توقف أو إبطاء نمو النبات'
         ],
-        'conditions': 'Warm and dry weather',
+        'conditions': 'الطقس الحار والجاف',
         'chemical_control': [
-            'Systemic insecticides, including imidacloprid.',
-            'Insecticidal soaps and oils are the best choices for most situations.',
-            'Oils: Horticultural Oils, Sesame Oil',
-            'Neem products: Neem oil, Azadirachtin, Capsaicin, Canola oil',
+            ' المبيدات الحشرية الجهازية بما في ذلك الإيميداكلوبريد',
+            'الصابون والزيوت المبيدات الحشرية هي أفضل الخيارات لمعظم المواقف',
+            'زيوت: الزيوت البستانية. زيت السمسم',
+            'Neem products: منتجات النيم: زيت النيم. أزاديراشتين. كبخاخات. زيت الكانولا',
             'Chlorantraniliprole + lambdacyhalothrine 100g/l+ 50g/l',
             'Chlorpyriphos- Eéthyl400g/l',
             'Deltamethrine 100g/l',
@@ -317,27 +321,27 @@ icba_diseases_list_ar = [
             'Thiamétoxam+Lambda-cyhalothrine 141g/l+106g/l'
         ],
         'pest_management': [
-            'Elimination of weeds by hoeing',
-            'Practice a good crop rotation',
-            'Overhead irrigation can reduce infestation by killing aphids with water.',
-            'Detect attacks at the initial stage of the crop to limit early virus transmission or direct damage by a large population of aphids.',
-            'Uproot the plants as soon as they stop producing',
-            'Treatment with selective insecticides as soon as attacks are detected on young plants.',
-            'Over fertilizing a plant can enhance aphid population growth, high levels of nitrogen fertilizer favor aphid reproduction, so never use more nitrogen than necessary, use smaller amounts of fertilizer throughout the growing season.',
-            'Slow-release fertilizers such as organic fertilizers or urea-based time-release formulations.',
-            'Reduce losses by growing seedlings under protective covers, silver-colored reflective mulches have been successfully used to reduce transmission of aphid-borne viruses, strong spray of water.',
+            ' القضاء على الأعشاب الضارة عن طريق الحفر',
+            'ممارسة تداول المحاصيل الجيد',
+            'الري العلوي يمكن أن يقلل من الإصابة عن طريق قتل حشرات المن بالماء',
+            'الكشف عن الهجمات في المرحلة الأولى من المحصول للحد من انتقال الفيروس في وقت مبكر أو الأضرار المباشرة من قبل عدد كبير من حشرات المن',
+            'اقتلاع النباتات بمجرد توقفها عن الإنتاج',
+            ' العلاج بالمبيدات الحشرية الانتقائية بمجرد اكتشاف الهجمات على النباتات الصغيرة',
+            'يمكن أن يؤدي التسميد المفرط للنبات إلى تعزيز نمو أعداد المن، كما أن المستويات العالية من الأسمدة النيتروجينية تساعد على تكاثر المن، لذلك لا تستخدم أبدًا المزيد من النيتروجين أكثر من اللازم، يجب استخدام كميات أقل من الأسمدة طوال موسم النمو، والأسمدة بطيئة الإطلاق مثل الأسمدة العضوية أو تركيبات إطلاق الوقت القائمة على اليوريا',
+            'تم استخدام المهاد العاكسة ذات اللون الفضي بنجاح لتقليل انتقال الفيروسات التي تنقلها حشرات المن ، ورذاذ الماء القوي',
+            'تقليل الخسائر عن طريق زراعة الشتلات تحت أغطية واقية',
         ],
         'bio_control': [
-            'Beauveria bassiana.',
-            'Biological control by natural enemies (predators, parasitoids, and pathogens) can have a significant impact on aphid populations.',
-            'Natural enemies such as parasitic wasps, lady beetle adults and larvae,  lacewing larvae, soldier beetles, and syrphid fly larvae.'
+            'بوفيريا باسيانا',
+            'يمكن أن يكون للمكافحة البيولوجية من قبل الأعداء الطبيعيين (الحيوانات المفترسة والطفيليات ومسببات الأمراض) تأثير كبير على تجمعات المن',
+            'أعداء طبيعيون مثل الدبابير الطفيلية، الخنفساء البالغة واليرقات، يرقات الخنافس، خنافس الجندي، يرقات ذبابة السيرفيد'
         ],
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/pepper-aphid.jpg'
     },
     {
         'id': 12,
-        'type': 'Tomato',
+        'type': 'طماطم',
         'pathogen': 'في حالة جيدة',
         'name': '',
         'sci_name': '',
@@ -352,26 +356,26 @@ icba_diseases_list_ar = [
     },
     {
         'id': 13,
-        'type': 'Tomato',
+        'type': 'طماطم',
         'pathogen': 'مقدار النقص',
-        'name': 'Phosphorus',
-        'sci_name': 'Phosphorus',
+        'name': 'الفوسفور',
+        'sci_name': 'الفوسفور',
         'local_name': '',
         'symptoms': [
-            'Older leaves showing some necrotic spots.',
-            'Plants are dwarfed or stunted, develop very slowly.',
-            'Leaf purpling is the most common symptom, particularly the leaf veins.',
-            'Distinct purpling of the stem, petiole and the under sides of the leaves.',
-            'Leaves on young plants turn purplish and the undersides of the leaves on older plants turn reddish-purple.',
-            'Under severe deficiency conditions there is a tendency for leaves to develop a blue-gray luster.',
-            'In deficient plants, yields are poor, and the plants are weak.'
+            ' تظهر بعض البقع الميتة على الأوراق القديمة',
+            'النباتات متقزمة و تتطور ببطء شديد',
+            'يعتبر تقشير الأوراق أكثر الأعراض شيوعًا ، وخاصة عروق الأوراق',
+            'تنقية مميزة للساق والسويقات والجوانب السفلية للأوراق',
+            ' تتحول الأوراق على النباتات الصغيرة إلى اللون الأرجواني وتتحول الجوانب السفلية للأوراق في النباتات القديمة إلى اللون الأرجواني المحمر',
+            'في ظل ظروف النقص الحاد ، هناك ميل للأوراق لتكوين بريق رمادي مزرق',
+            'في النباتات الناقصة الغلة رديئة والنباتات ضعيفة'
         ],
-        'conditions': 'The pH level in the soil or substrate being too low. Temperature of the root zone and if it falls below 15 degrees Celsius.',
+        'conditions': 'الأراضي التي يكون فيها مستوى الأس الهيدروجيني في التربة أو الركيزة منخفض للغاية. درجة حرارة منطقة الجذر إذا كانت أقل من 15 درجة مئوية',
         'chemical_control': [
-            'Balanced liquid feed fertilizers in greenhouses and pots.'
+            'الأسمدة العلفية السائلة المتوازنة في الصوبات والأواني'
         ],
         'pest_management': [
-            'The problem will be alleviated in early field plantings with plastic mulch.'
+            'سيتم تخفيف المشكلة في الزراعة الحقلية المبكرة باستخدام نشارة بلاستيكية'
         ],
         'bio_control': [],
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
@@ -379,98 +383,98 @@ icba_diseases_list_ar = [
     },
     {
         'id': 14,
-        'type': 'Tomato',
-        'pathogen': 'Fungal diseases',
-        'name': 'Powdery mildew',
+        'type': 'طماطم',
+        'pathogen': 'الأمراض الفطرية',
+        'name': 'البياض الدقيقي',
         'sci_name': 'Oidiopsis taurica',
-        'local_name': 'jayara, Marth Elbakhara',
+        'local_name': 'جايارا, مارث البخارة',
         'symptoms': [
-            'The affected parts turn brown later, become necrotic in the center, dry out and tear easily.',
-            'The attacked leaves lose their consistency and the leaf blade may fold upwards',
-            'Leaf: on the upper side, presence of pale green to yellow spots, of a circular to angular shape, which is covered with a white down of mycelium and conidia.'
+            ' تتحول الأجزاء المصابة إلى اللون البني في وقت لاحق ، وتصبح نخرية في الوسط ، وتجف وتمزق بسهولة',
+            'تفقد الأوراق المهاجمة اتساقها وقد تطوى شفرة الورقة لأعلى',
+            'ورقة: على الجانب العلوي ، وجود بقع خضراء شاحبة إلى صفراء ، ذات شكل دائري إلى زاوي ، مغطى ببيض أسفل الميسيليوم و الميسيليوم و الغبيرة أو الكونيديا'
         ],
-        'conditions': 'Wet, heavy or compact ground',
+        'conditions': 'الأراضي الرطبة والمضغوطة او الثقيلة',
         'chemical_control': [
             'Penconazole  100g/l',
             'azoxystrobin+difénoconazole'
         ],
         'pest_management': [
-            'Choice of plot: recommended rotation, avoid plots close to other solanaceae or those that are poorly drained or have too much organic matter.',
-            'Cultural management: implement all the measures to prevent excess moisture (ventilate the shelters as much as possible, favor the drip irrigation system, programming of the appropriate sprinkler irrigation, etc.).',
-            'Reason fertilization (avoid excess) and regularly remove plant debris present on the ground.',
-            'Crop maintenance: Eliminate weeds susceptible to the disease as well as as much plant debris as possible at the end of the crop. Bury crop residues deep into the soil.',
-            'Choose tolerant varieties.',
-            'Avoid sowing densities that are too tight.',
-            'Eliminate all diseased leaves to reduce potential contamination.'
+            ' اختيار قطعة الأرض: اعتماد التداول الزراعي الموصى به ، وتجنب قطع الأراضي القريبة من المماثله  الأخرى أو تلك التي يتم تصريفها بشكل سيئ أو التي تحتوي على الكثير من المواد العضوية',
+            ' إدارة المحاصيل: تنفيذ جميع التدابير لمنع الرطوبة الزائدة (تهوية البيوت المحمية  قدر الإمكان ، وتفضيل نظام الري بالتنقيط ، وبرمجة الري بالرش المناسب ، وما إلى ذلك)',
+            'تجنب الإفراط في التسميد  وإزالة بقايي النبات الموجود على الأرض بانتظام',
+            ' صيانة المحاصيل: القضاء على الأعشاب الضارة المعرضة للمرض وكذلك أكبر قدر ممكن من مخلفات النبات في نهاية المحصول دفن بقايا المحاصيل في عمق التربة',
+            ' اختر أصنافا مقاومة',
+            'تجنب كثافات البذر المرتفعة جدا',
+            ' القضاء على جميع الأوراق المريضة للحد من الاصابات المحتملة'
         ],
         'bio_control': [
-            'Citric acid 16% + mint oil 0,8%+ Adjuvant 48%',
-            'Sulfur  80%'
+            'حمض الستريك 16٪ + زيت النعناع 0,8٪ + عامل مساعد 48٪  ',
+            'الكبريت 80٪'
         ],
-        'geo': 'North and center of Tunisia, UAE and Egypt',
+        'geo': 'شمال ووسط البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/tomato-powdery-mildew.jpg'
     },
     {
         'id': 15,
-        'type': 'Tomato',
-        'pathogen': 'Fungal diseases',
-        'name': 'Early blight',
+        'type': 'طماطم',
+        'pathogen': 'الأمراض الفطرية',
+        'name': 'اللفحة المبكرة',
         'sci_name': 'Alternaria solani',
         'local_name': 'Alternariose',
         'symptoms': [
-            'On adult plants, black necrotic spots 4 to 7 mm in diameter appear, growing in concentric circles surrounded by a yellow halo.',
-            'On the stems, we can see elliptical brown, gray  and concentric spots.',
-            'On the fruits, we see black spots, sunken, 1 to 2 cm which are positioned at the base of the calyx. Other fungi can colonize these spots and cause wet rots.'
+            'في النباتات البالغة ، تظهر بقع نخرية سوداء قطرها من 4 إلى 7 مم ، وتنمو في دوائر متحدة المركز محاطة بهالة صفراء',
+            ' على السيقان ، يمكننا رؤية بقع بنية بيضاوية الشكل ورمادية ومتحدة المركز',
+            ' على الثمار ، نرى بقع سوداء ، غارقة ، من 1 إلى 2 سم توضع عند قاعدة الكأس. يمكن للفطريات الأخرى استعمار هذه البقع وتسبب العفن الرطب'
         ],
-        'conditions': 'High humidity and temperature between 18 and 25°C.',
+        'conditions': 'الرطوبة العالية ودرجة الحرارة بين 18 و 25 درجة مئوية',
         'chemical_control': [
             'Azoxystrobin',
             'captan',
             'chlorothalonil'
         ],
         'pest_management': [
-            'Eliminate crop residues after harvest.',
-            'Use less susceptible varieties as well as healthy seeds.',
-            'Avoid tight plantings to promote aeration.',
-            'Avoid excess nitrogen.'
+            ' القضاء على بقايا المحاصيل بعد الحصاد',
+            ' استخدم أصناف أقل عرضة للخطرالاصابة بالإضافة إلى بذور سليمة',
+            ' تجنب المزروعات الملتسقه لتعزيز التهوية',
+            ' تجنب النيتروجين الزائد'
         ],
         'bio_control': [
             'Bacillus mycoides strain J',
             'Bacillus amyloliquefaciens (strain D747)'
         ],
-        'geo': 'North and center of Tunisia, UAE and Egypt',
+        'geo': 'شمال ووسط البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/tomato-blight.jpg'
     },
     {
         'id': 16,
-        'type': 'Tomato',
-        'pathogen': 'Fungal diseases',
-        'name': 'Leaf mold',
+        'type': 'طماطم',
+        'pathogen': 'الأمراض الفطرية',
+        'name': 'عفن ورق الطماطم',
         'sci_name': 'Passalora fulva',
         'local_name': '',
         'symptoms': [
-            'The oldest leaves are infected first.',
-            'Pale greenish-yellow spots, usually less than 1/4 inch, with no definite margins, form on the upper sides of leaves.',
-            'Olive-green to brown velvety mold forms on the lower leaf surface below leaf spots.',
-            'Leaf spots grow together and turn brown. Leaves wither and die but often remain attached to the plant.',
-            'Infected blossoms turn black and fall off.',
-            'Fruit infections start as a smooth black irregular area on the stem end of the fruit. As the disease progresses, the infected area becomes sunken, dry and leathery.'
+            ' أقدم الأوراق تصاب أولا',
+            ' بقع صفراء مخضرة شاحبة ، عادة أقل من 1/4 بوصة ، بدون هوامش محددة ، تتشكل على الجوانب العلوية للأوراق',
+            'يتكون العفن المخملي الأخضر الزيتوني إلى البني على سطح الورقة السفلي أسفل بقع الأوراق',
+            'تنمو بقع الأوراق معًا وتتحول إلى اللون البني. تذبل الأوراق وتموت ولكنها غالبًا ما تظل ملتصقة بالنبات',
+            'تتحول الأزهار المصابة إلى اللون الأسود وتتساقط',
+            'تبدأ عدوى الفاكهة كمنطقة سوداء ناعمة غير منتظمة على نهاية ساق الثمرة. مع تقدم المرض ، تصبح المنطقة المصابة غارقة وجافة وجلدية '
         ],
-        'conditions': 'The disease is driven by high relative humidity (greater than 85%).',
+        'conditions': 'المرض ناتج عن رطوبة نسبية عالية (أكثر من 85٪)',
         'chemical_control': [
-            'For organic growers, copper-based product  gave some level of control.  When using copper hydroxide for tomato leaf mold, make sure the product is labeled for organic use.',
-            'Formulations with higher percentages of copper will be more effective but have an increased re-entry interval (REI / the amount of time you must wait between applying and re-entering the area for safety reasons).',
-            'It is important to alternate between different chemical families to avoid the development of pathogen resistance to particular active ingredients.'
+            'بالنسبة للمزارعين العضويين ، أعطى المنتج ذو الأساس النحاسي مستوى معينًا من التحكم. عند استخدام هيدروكسيد النحاس لقالب أوراق الطماطم ، تأكد من أن المنتج موسوم للاستخدام العضوي',
+            'ستكون التركيبات التي تحتوي على نسب أعلى من النحاس أكثر فاعلية ولكن لها فترة إعادة دخول أكبر (REI / مقدار الوقت الذي يجب أن تنتظره بين التقديم وإعادة الدخول إلى المنطقة لأسباب تتعلق بالسلامة)',
+            'من المهم التبديل بين العائلات الكيميائية المختلفة لتجنب تطور مقاومة العوامل الممرضة لمكونات نشطة معينة'
         ],
         'pest_management': [
-            'Use drip irrigation and avoid watering foliage.',
-            'Space plants to provide good air movement between rows and individual plants.',
-            'Stake, string or prune to increase airflow in and around the plant.',
-            'Sterilize stakes, ties, trellises, etc. with 10%% household bleach or commercial sanitizer.',
-            'Circulate air in greenhouses or tunnels with vents and fans and by rolling up high tunnel sides to reduce humidity around plants.',
-            'Keep night temperatures in greenhouses higher than outside temperatures to avoid dew formation on the foliage.',
-            'Remove crop residue at the end of the season. Burn it or bury it away from tomato production areas.',
-            'Clean the high tunnel or greenhouse walls and benches at the end of the season with a commercial sanitizer.'
+            ' استخدام الري بالتنقيط وتجنب سقي الأوراق',
+            'وضع مسافات كافية  بين النباتات لتوفير حركة هواء جيدة بين الصفوف والنباتات الفردية',
+            'التشذيب لزيادة تدفق الهواء داخل وحول النبات',
+            'تعقيم الأوتاد والعلاقات والتعريشات وما إلى ذلك باستخدام مبيض منزلي أو مطهر تجاري بنسبة ٪10',
+            'قم بتدوير الهواء في البيوت البلاستيكية أو الأنفاق مع فتحات التهوية والمراوح ولف جوانب الأنفاق العالية لتقليل الرطوبة حول النباتات',
+            'إبقاء درجات الحرارة الليلية في الصوبات الزراعية أعلى من درجات الحرارة الخارجية لتجنب تكون الندى على أوراق الشجر',
+            'إزالة بقايا المحاصيل في نهاية الموسم. احرقها أو دفنها بعيدًا عن مناطق إنتاج الطماطم',
+            'تنظيف النفق العالي أو جدران الدفيئة والمقاعد في نهاية الموسم بمطهر تجاري'
         ],
         'bio_control': [],
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
@@ -478,47 +482,47 @@ icba_diseases_list_ar = [
     },
     {
         'id': 17,
-        'type': 'Tomato',
-        'pathogen': 'Virus',
-        'name': 'Tomato yellow leaf curl virus (TYLCV)',
-        'sci_name': 'Tomato yellow leaf curl virus',
+        'type': 'طماطم',
+        'pathogen': 'فيروس',
+        'name': 'فيروس تجعد أوراق الطماطم الصفراء (TYLCV)',
+        'sci_name': 'فيروس تجعد أوراق الطماطم الصفراء',
         'local_name': '',
         'symptoms': [
-            'Small leaves, and show strong crumpling and interveinal and marginal yellowing.',
-            'Leaves severe necrosis and blighting of leaves. In these circumstance, fruits will be exposed to sunlight causing sunscalding.',
-            'Curl upwards and towards the middle of the leaf.',
-            'In seedlings, the shoots become shortened. Flower drop.',
-            'Stunted and erect or upright plant growth.',
-            'Fruit: Reduced but not affected.'
+            ' الأوراق الصغيرة ، وتظهر تجعداً قوياً وأصفراراً بين العروق وهامشياً',
+            ' تنخر شديد وتقشر في الأوراق. في هذه الظروف ، ستتعرض الثمار لأشعة الشمس مسببة سطوع الشمس',
+            'ثني لأعلى وباتجاه منتصف الورقة',
+            'في الشتلات ، يتم تقصير البراعم. قطرة زهرة',
+            'توقف نمو النبات المنتصب',
+            'الفاكهة: قليلة لكنها غير متأثرة'
         ],
-        'conditions': 'High temperatures',
+        'conditions': 'درجات الحرارة العالية',
         'chemical_control': [
             'Imidacloprid, Cyazypyr, Flupyradifurone, Pymetrozine, Pyrifluquinazon, Pyrethroid combination: zeta-cypermethrin and bifenthrin'
         ],
         'pest_management': [
-            'The presence of whiteflies should be checked daily.',
-            'A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it.',
-            'Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.'
+            'يجب فحص وجود الذباب الأبيض يوميًا.',
+            'يمكن صنع المصيدة بقطعة من اللوح مقاس 12 بوصة × 12 بوصة مطلية باللون الأصفر الفاتح وتنتشر عليها الفازلين أو البيوتاك',
+            ' يجب تعبئة النباتات التي تظهر عليها علامات الفيروس بعد 3-4 أسابيع من الزرع واقتلاعها وحرقها'
         ],
         'bio_control': [
-            'Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium'
+            'Enterobacter asburiae BQ9 ، وهو نوع من البكتيريا الجذرية لنمو النبات'
         ],
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/tomato-tylcv.jpg'
     },
     {
         'id': 18,
-        'type': 'Tomato',
-        'pathogen': 'Insects and Pests',
-        'name': 'The tomato leaf miner',
-        'sci_name': 'Tuta absoluta',
-        'local_name': 'touta',
+        'type': 'طماطم',
+        'pathogen': 'الحشرات والآفات',
+        'name': 'حفار أوراق الطماطم',
+        'sci_name': 'توتا أبسولوتا',
+        'local_name': 'توتا',
         'symptoms': [
-            'Completely eaten leaves',
-            'Reduced photosynthesis and production',
-            'Development of secondary pathogens leading to fruit rot.'
+            'تؤكل الأوراق بالكامل من قبل الحشرات',
+            ' انخفاض التمثيل الضوئي والإنتاج',
+            ' تطور مسببات الأمراض الثانوية التي تؤدي إلى تعفن الفاكهة'
         ],
-        'conditions': 'hygrométries importantes (80-90%)',
+        'conditions': 'الرطوبة العالية (80-90٪)',
         'chemical_control': [
             'Azadiradtin 32g/l',
             'Azadirachtin (0.03%) + 90.5% Neem oil 0.3g/l',
@@ -527,18 +531,18 @@ icba_diseases_list_ar = [
             'Metaflumizone 240g/l'
         ],
         'pest_management': [
-            'Use healthy seedlings when planting',
-            'Weed around the plots to remove wild plants that can harbor eggs and caterpillars;',
-            'Deep plowing destroys deep-buried pupae',
-            'Crop rotation is desirable with other non-host plants of the pest.',
-            'A crawl period of the order of 4 to 6 weeks is recommended between two host cultures of T. absoluta.',
-            'Varietal resistance: some varieties are more attractive and therefore more susceptible to T. absoluta',
-            'Elimination by fire or deep burial of the attacked leaves and stems to destroy the caterpillars and prevent them from completing their cycle (never put the plants in the compost)',
-            'After harvest, harvest waste must be collected immediately and incinerated.',
-            'Plot hygiene by eliminating crop debris either by burning immediately or by burying more than 50 cm deep in the ground;',
-            'Monitoring Tuta absoluta populations by regularly observing the plants to detect possible leafminer attacks;',
-            'Treatments with a chemical insecticide are recommended as soon as one plant in five has a live larva.',
-            'Monitoring: Water traps fitted with sex pheromones help track population levels.'
+            ' استخدام الشتلات الصحية عند الزراعة',
+            'الأعشاب الضارة حول  البيوت المحمية لإزالة النباتات الطفيلية التي يمكن أن تؤوي البيض واليرقات',
+            'الحرث العميق يدمر الشرانق المدفونة في الأعماق',
+            'التداول الزراعي أمر مرغوب فيه مع النباتات الأخرى غير المضيفة للآفة',
+            'يوصى بفترة فراغ تتراوح من 4 إلى 6 أسابيع بين محصولين مضيفتين لتوتا أبسولوتا',
+            'الأصناف المقاومة : بعض الأصناف أكثر جاذبية وبالتالي أكثر عرضة لتوتا أبسولوتا',
+            'القضاء بالنار أو الدفن العميق للأوراق والسيقان المصابه لازالة اليرقات ومنعها من إكمال دورتها (لا تضع النباتات في السماد العضوي)',
+            ' بعد الحصاد ، يجب جمع نفايات الحصاد على الفور وحرقها',
+            'القضاء على مخلفات المحاصيل إما عن طريق الحرق الفوري أو عن طريق دفن أكثر من 50 سم في عمق الأرض',
+            'رصد مجموعات التوتا المطلقة من خلال مراقبة النباتات بانتظام للكشف عن هجمات التوتا المحتملة',
+            'يوصى بالعلاجات باستخدام مبيد حشري كيميائي بمجرد أن يكون لدى نبات واحد من كل خمسة يرقة حية',
+            'الرصد: تساعد مصائد المياه المزودة بالفيرومونات  على تتبع مستويات الاصابة'
         ],
         'bio_control': [
             '(E,Z.Z)-3,8,11 Tetradecatrien 1-y acetat (E,Z)-3,8 Tetradecatrien1- y acetate ===30 traps/ha',
@@ -551,53 +555,53 @@ icba_diseases_list_ar = [
     },
     {
         'id': 19,
-        'type': 'Tomato',
-        'pathogen': 'Salinity',
+        'type': 'طماطم',
+        'pathogen': 'الملوحة',
         'name': '',
         'sci_name': '',
         'local_name': '',
         'symptoms': [
-            'Tomato is moderately sensitive to salinity. Salt stress has three fold effects which reduces water potential and causes ion imbalance and toxicity.'
+            'الطماطم حساسة إلى حد ما للملوحة. الإجهاد الملحي له تأثيرات ثلاثة أضعاف مما يقلل من إمكانات الماء ويسبب اختلال توازن الأيونات والسمية'
         ],
-        'conditions': 'Tomato tolerates an EC of the saturated soil extract up to about 2.5 dS m−1 without any yield reduction.',
+        'conditions': 'تتسامح الطماطم مع EC من مستخلص التربة المشبع حتى حوالي 2.5 dS m 1 دون أي انخفاض في المحصول',
         'chemical_control': [
-            'Increased irrigation may wash out the salinity from the soil.'
+            'زيادة الري قد يغسل الملوحة من التربة'
         ],
         'pest_management': [
-            'Saline soils cannot be reclaimed by chemical amendments, conditioners or fertilizers. A field can only be reclaimed by removing salts from the plant root zone.'
+            'لا يمكن استصلاح التربة المالحة عن طريق التعديلات الكيماوية أو التكييف أو الأسمدة. لا يمكن استصلاح الحقل إلا عن طريق إزالة الأملاح من منطقة جذر النبات'
         ],
         'bio_control': [
-            'In some cases, selecting salt-tolerant crops may be needed in addition to managing soils.'
+            'في بعض الحالات ، قد تكون هناك حاجة إلى اختيار المحاصيل التي تتحمل الملح بالإضافة إلى إدارة التربة'
         ],
-        'geo': 'Common in all of the Mediterranean coastal areas, and also sometimes inland.',
+        'geo': 'شائع في جميع المناطق الساحلية للبحر الأبيض المتوسط',
         'image': 'images/tomato-salinity.jpg'
     },
     {
         'id': 20,
         'type': 'Quinoa',
-        'pathogen': 'Virus',
-        'name': 'Tomato yellow leaf curl virus (TYLCV)',
-        'sci_name': 'Tomato yellow leaf curl virus',
+        'pathogen': 'فيروس',
+        'name': 'فيروس تجعد أوراق الطماطم الصفراء (TYLCV)',
+        'sci_name': 'فيروس تجعد أوراق الطماطم الصفراء',
         'local_name': '',
         'symptoms': [
-            'Small leaves, and show strong crumpling and interveinal and marginal yellowing.',
-            'Leaves severe necrosis and blighting of leaves. In these circumstance, fruits will be exposed to sunlight causing sunscalding.',
-            'Curl upwards and towards the middle of the leaf.',
-            'In seedlings, the shoots become shortened. Flower drop.',
-            'Stunted and erect or upright plant growth.',
-            'Fruit: Reduced but not affected.'
+            ' الأوراق الصغيرة ، وتظهر تجعداً قوياً وأصفراراً بين العروق وهامشياً',
+            ' تنخر شديد وتقشر في الأوراق. في هذه الظروف ، ستتعرض الثمار لأشعة الشمس مسببة سطوع الشمس',
+            'ثني لأعلى وباتجاه منتصف الورقة',
+            'في الشتلات ، يتم تقصير البراعم. قطرة زهرة',
+            'توقف نمو النبات المنتصب',
+            'الفاكهة: قليلة لكنها غير متأثرة'
         ],
-        'conditions': 'High temperatures',
+        'conditions': 'درجات الحرارة العالية',
         'chemical_control': [
             'Imidacloprid, Cyazypyr, Flupyradifurone, Pymetrozine, Pyrifluquinazon, Pyrethroid combination: zeta-cypermethrin and bifenthrin'
         ],
         'pest_management': [
-            'The presence of whiteflies should be checked daily.',
-            'A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it.',
-            'Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.'
+            'يجب فحص وجود الذباب الأبيض يوميًا.',
+            'يمكن صنع المصيدة بقطعة من اللوح مقاس 12 بوصة × 12 بوصة مطلية باللون الأصفر الفاتح وتنتشر عليها الفازلين أو البيوتاك',
+            ' يجب تعبئة النباتات التي تظهر عليها علامات الفيروس بعد 3-4 أسابيع من الزرع واقتلاعها وحرقها'
         ],
         'bio_control': [
-            'Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium'
+            'Enterobacter asburiae BQ9 ، وهو نوع من البكتيريا الجذرية لنمو النبات'
         ],
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/quinoa-tylcv.jpg'
@@ -647,31 +651,31 @@ icba_html_predictions_ar = [
     {
         'id': 2,
         'type': 'خيار',
-        'pathogen': 'Fungal Diseases',
-        'name': 'Mildew',
+        'pathogen': 'الأمراض الفطرية',
+        'name': 'العفن الفطري',
         'sci_name': 'Pseudoperonospora cubensis',
         'local_name': 'Marth zonzar, Mildiou',
         'symptoms': '''<ul>
-            <li>Leaf: on the upper side, the spots are yellow and angular, then turn brown and can form large brown patches that eventually kill the leaves. On the underside, the spots are brown and covered with sporangia with a purplish-brown tint to the leaf blade. Attacks target old leaves and progress to young leaves.</li>
-            <li>Fruit: the size and quantity of fruit produced are reduced.</li>
+            <li>الورق:  على الجانب العلوي ، تكون البقع صفراء و ذات زاويا ، ثم تتحول إلى اللون البني ويمكن أن تشكل بقع بنية كبيرة تقتل الأوراق في النهاية. على الجانب السفلي ، تكون البقع بنية اللون ومغطاة ب الكيس البوغي للنباتات مع لون بني أرجواني على شفرة الورقة. تستهدف الهجمات الأوراق القديمة وتتقدم إلى الأوراق الصغيرة</li>
+            <li>الفاكهة: يتسبب في تقليل حجم وكمية الفاكهة المنتجة</li>
         </ul>''',
-        'conditions': 'Wet, heavy or compact ground',
+        'conditions': 'الأراضي الرطبة والمضغوطة او الثقيلة',
         'chemical_control': '''<ul>
             <li>Demethomorph + Mancozeb</li>
             <li>Folpet</li>
             <li>Cyazofamid</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Avoid overhead watering</li>
-            <li>Remove and destroy infected plants and weeds and ensure good ventilation between plants</li>
-            <li>Fungicides and resistant cultivars are also available</li>
+            <li>تجنب الري العلوي</li>
+            <li>إزالة  النباتات والأعشاب الضارة المصابة وضمان التهوية الجيدة بين النباتات</li>
+            <li>استخدام المبيدات الفطرية والأصناف المقاومة</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Copper octanoate</li>
-            <li>Copper oxychloride</li>
-            <li>Copper sulphate (copper tribasic)</li>
-            <li>Peracitic acid</li>
-            <li>Bacillus subtilis</li>
+            <li> أوكتانوات النحاس</li>
+            <li>أوكسي كلوريد النحاس</li>
+            <li>كبريتات النحاس (تريباسيك النحاس)</li>
+            <li> حمض الباراسيتيك</li>
+            <li> عصية الرقيقة</li>
         </ul>''',
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/cucumber-downy-mildew.jpg'
@@ -679,55 +683,55 @@ icba_html_predictions_ar = [
     {
         'id': 3,
         'type': 'خيار',
-        'pathogen': 'Bacteria Diseases',
-        'name': 'Bacteria wilt',
+        'pathogen': 'أمراض البكتيريا',
+        'name': 'الذبول البكتيري',
         'sci_name': 'Erwinia tracheiphila or Curtobacterium flaccumfaciens pv. flaccumfaciens',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Leaves first appear dull green, wilt during the day and recover at night.</li>
-            <li>Leaves eventually yellow and brown at the margins, completely wither and die.</li>
-            <li>The speed of wilting varies by crop. Cucumbers wilt and die rapidly.</li>
-            <li>Wilt progresses down the vine until the entire vine wilts or dies.</li>
+            <li>تظهر الأوراق في البداية باللون الأخضر الباهت ، وتذبل أثناء النهار وتتعافى في الليل</li>
+            <li>الأوراق في النهاية صفراء وبنية على الحواف تذبل تمامًا وتموت</li>
+            <li> تختلف سرعة الذبول باختلاف المحصول. يذبل الخيار ويموت بسرعة</li>
+            <li>يتقدم الذبول إلى أسفل الكرمة حتى تذبل الكرمة بأكملها أو تموت</li>
         </ul>''',
-        'conditions': 'In hot, wet weather and wilting is very quick',
+        'conditions': 'يكون الذبول سريعا جدا في الطقس الحار الرطب',
         'chemical_control': '''<ul>
-            <li>Pesticides will not cure a cucurbit plant infected with bacterial disease.</li>
-            <li>Dust plants with insecticide in the spring before the cucumber beetles have a chance to lay eggs (April-June).</li>
+            <li>المبيدات لن تعالج نبات القرع المصاب بالأمراض البكتيرية</li>
+            <li>نفض  النباتات بالمبيدات الحشرية في الربيع قبل أن تحصل خنافس الخيار على فرصة لوضع البيض (أبريل-يونيو)</li>
             <li>Apply pyrethrin or carbaryl (Sevin). Try an insecticide-bait combination such as Adios that has cucurbitacin, the beetle attractant, and a small amount of carbaryl (Sevin).</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>1. Protect plants with netting.</li>
-            <li>2. Remove and destroy plant material when symptoms of wilting are first noticed.</li>
-            <li>3. Grow susceptible crops on rotation every third year.</li>
-            <li>4. Avoid planting cucurbits next to corn.</li>
+            <li>حماية النباتات بالشباك.</li>
+            <li> قم بإزالة وتدمير المواد النباتية عند ملاحظة أعراض الذبول لأول مرة</li>
+            <li>زراعة المحاصيل الحساسة بالتناوب كل عام ثالث</li>
+            <li> تجنب زراعة القرع بجانب الذرة</li>
         </ul>''',
         'bio_control': '',
-        'geo': 'Tunisia and Egypt',
+        'geo': 'تونس ومصر',
         'image': 'images/cucumber-bacteria-wilt.jpg'
     },
     {
         'id': 4,
         'type': 'خيار',
-        'pathogen': 'Insects and Pests',
-        'name': 'Mites',
-        'sci_name': 'Acari',
-        'local_name': 'Routilla',
+        'pathogen': 'الحشرات والآفات',
+        'name': 'سوس (قراديات)',
+        'sci_name': 'أكاري',
+        'local_name': 'روتيلا',
         'symptoms': '''<ul>
-            <li>The leaves: roll up, thicken and turn brownish. Corky brown areas appear between the main veins on the underside of the leaf. Young foliage is deformed. Slowed growth and dieback of shoots can be observed when the population density of the mite is high.</li>
+            <li>الأوراق: تلتف وتتكثف وتتحول إلى اللون البني. تظهر المناطق البنية بين الأوردة الرئيسية على الجانب السفلي من الورقة. أوراق الشجر الصغيرة مشوهة. يمكن ملاحظة تباطؤ النمو وموت البراعم عندما تكون الكثافة الحشرية عالية</li>
             <li>Fruits: damage caused by mites induce a silvery tint to the fruits, the appearance of brown areas, and less chance of fruiting plants</li>
         </ul>''',
-        'conditions': 'High temperature',
+        'conditions': 'درجات الحرارة العالية',
         'chemical_control': '''<ul>
             <li>Hexythiazox 10%</li>
             <li>Spirodiclofen 240 g/L</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Burn all residues immediately after the end of the previous harvest</li>
-            <li>Make the right choice of plants, they must be in good health and strong</li>
-            <li>Thoroughly clean the plot so as not to provide refuges for pests</li>
-            <li>Continuous monitoring: An intervention carried out at the beginning of an infestation will have every chance of effectively controlling the pests so as to keep them at a minimum level with low quantities of pesticides</li>
-            <li>Avoid applying a pesticide on flowering plants or in very hot weather during the day</li>
-            <li>Apply insecticides to all parts of the crop plants and ensure that any pests on the plants are hit in a sufficiently large dose</li>
+            <li> حرق جميع المخلفات مباشرة بعد نهاية الحصاد السابق</li>
+            <li> قم بالاختيار الصحيح للنباتات ، يجب أن تكون بصحة جيدة وقوية</li>
+            <li> تنظيف قطعة الأرض جيدا حتى لا توفر ملاجئ للآفات</li>
+            <li> الرصد المستمر: التدخل الذي يتم إجراؤه في بداية الإصابة يمثل فرصة للسيطرة الفعالة على الآفات من أجل الحفاظ عليها عند الحد الأدنى مع كميات منخفضة من المبيدات الحشرية</li>
+            <li>تجنب وضع مبيد حشري على النباتات المزهرة أو في الطقس الحار جدا خلال النهار</li>
+            <li> تطبيق المبيدات الحشرية على جميع أجزاء نباتات المحاصيل</li>
         </ul>''',
         'bio_control': '''<ul>
             <li>Borax 10g/l</li>
@@ -739,7 +743,7 @@ icba_html_predictions_ar = [
     },
     {
         'id': 5,
-        'type': 'Pepper',
+        'type': 'فلفل',
         'pathogen': 'في حالة جيدة',
         'name': '',
         'sci_name': '',
@@ -754,81 +758,85 @@ icba_html_predictions_ar = [
     },
     {
         'id': 6,
-        'type': 'Pepper',
-        'pathogen': 'Fungal diseases',
-        'name': 'Mildew',
+        'type': 'فلفل',
+        'pathogen': 'الأمراض الفطرية',
+        'name': 'العفن الفطري',
         'sci_name': 'Pseudoperonospora cubensis',
         'local_name': 'Marth zonzar, Mildiou',
         'symptoms': '''<ul>
-            <li>Leaf: on the upper side, the spots are yellow and angular, then turn brown and can form large brown patches that eventually kill the leaves. On the underside, the spots are brown and covered with sporangia with a purplish-brown tint to the leaf blade. Attacks target old leaves and progress to young leaves.</li>
-            <li>Fruit: the size and quantity of fruit produced are reduced.</li>
+            <li>الورق:  على الجانب العلوي ، تكون البقع صفراء و ذات زاويا ، ثم تتحول إلى اللون البني ويمكن أن تشكل بقع بنية كبيرة تقتل الأوراق في النهاية. على الجانب السفلي ، تكون البقع بنية اللون ومغطاة ب الكيس البوغي للنباتات مع لون بني أرجواني على شفرة الورقة. تستهدف الهجمات الأوراق القديمة وتتقدم إلى الأوراق الصغيرة</li>
+            <li>الفاكهة: يتسبب في تقليل حجم وكمية الفاكهة المنتجة</li>
         </ul>''',
-        'conditions': 'Wet, heavy or compact ground',
+        'conditions': 'الأراضي الرطبة والمضغوطة او الثقيلة',
         'chemical_control': '''<ul>
             <li>Demethomorph + Mancozeb</li>
             <li>Folpet</li>
             <li>Cyazofamid</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Avoid overhead watering</li>
-            <li>Remove and destroy infected plants and weeds and ensure good ventilation between plants</li>
-            <li>Fungicides and resistant cultivars are also available.</li>
+            <li>تجنب الري العلوي</li>
+            <li>إزالة  النباتات والأعشاب الضارة المصابة وضمان التهوية الجيدة بين النباتات</li>
+            <li>استخدام المبيدات الفطرية والأصناف المقاومة.</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Copper octanoate</li>
-            <li>Copper oxychloride</li>
-            <li>Copper sulphate (copper tribasic)</li>
-            <li>Peracitic acid</li>
-            <li>Bacillus subtilis</li>
+            <li> أوكتانوات النحاس</li>
+            <li>أوكسي كلوريد النحاس</li>
+            <li>كبريتات النحاس (تريباسيك النحاس)</li>
+            <li> حمض الباراسيتيك</li>
+            <li> عصية الرقيقة</li>
         </ul>''',
-        'geo': 'Tunisia and Egypt',
+        'geo': 'تونس ومصر',
         'image': 'images/pepper-downy-mildew.jpg'
     },
     {
         'id': 7,
-        'type': 'Pepper',
-        'pathogen': 'Virus',
-        'name': 'Tomato Yellow Leaf Curl Virus (TYLCV)',
-        'sci_name': 'Tomato Yellow Leaf Curl Virus ',
+        'type': 'فلفل',
+        'pathogen': 'فيروس',
+        'name': 'فيروس تجعد أوراق الطماطم الصفراء (TYLCV)',
+        'sci_name': 'فيروس تجعد أوراق الطماطم الصفراء',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Cupping, twisting, and mottling.</li>
-            <li>Yellow leaf margin, upward leaf curling, and stunting.</li>
+            <li>التفاف الأوراق والبقع</li>
+            <li>تصبح  حواف الأوراق صفراء ، تجعد الأوراق إلى الأعلى ، والتقزم</li>
         </ul>''',
-        'conditions': 'High temperatures',
+        'conditions': 'درجات الحرارة العالية',
         'chemical_control': '''<ul>
             <li>Imidacloprid, Cyazypyr, Flupyradifurone, Pymetrozine, Pyrifluquinazon, Pyrethroid combination: zeta-cypermethrin and bifenthrin</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>The presence of whiteflies should be checked daily. A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it. Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.</li>
+            <li>يجب فحص وجود الذباب الأبيض يوميًا.</li>
+            <li>يمكن صنع المصيدة بقطعة من اللوح مقاس 12 بوصة × 12 بوصة مطلية باللون الأصفر الفاتح وتنتشر عليها الفازلين أو البيوتاك</li>
+            <li> يجب تعبئة النباتات التي تظهر عليها علامات الفيروس بعد 3-4 أسابيع من الزرع واقتلاعها وحرقها</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium</li>
+            <li>Enterobacter asburiae BQ9 ، وهو نوع من البكتيريا الجذرية لنمو النبات</li>
         </ul>''',
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/pepper-tylcv.jpg'
     },
     {
         'id': 8,
-        'type': 'Pepper',
-        'pathogen': 'Fungal diseases',
-        'name': 'Sooty mold',
+        'type': 'فلفل',
+        'pathogen': 'الأمراض الفطرية',
+        'name': 'العفن المخمر',
         'sci_name': 'Capnodium citri',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Wherever honeydew lands: leaves, twigs and fruits.</li>
-            <li>Leaves are covered with a blackish powdery substance, like black soot.</li>
+            <li> أينما حل المن: أوراق وأغصان وثمار</li>
+            <li>تصبح الأوراق كأنها مغطاة بمسحوق أسود مثل السخام الأسود</li>
+            <li>ينمو النوع الأول على الأوراق وهو يدوم مدى حياة الورقة. أما النوع الثاني فيستمر على سيقان وأغصان النباتات الخشبية ويتجدد هذا النوع من الأجزاء الموجودة من الفطر المنتج في الموسم السابق</li>
+            <li> ليس ضارًا بالنبات ، ولكن إذا كان موجودًا بتركيزات عالية بما يكفي ، يمكن أن يضعف التمثيل الضوئي في الأوراق ، مما يؤدي إلى خنق الأوراق التي تذبل وتموت في النهاية</li>
         </ul>''',
-        'conditions': 'When conditions are wet, the spores germinate and sooty mold grows on the medium available. Warm temperatures and dry weather increase the prevalence of sooty molds. Under dry conditions, less rain is available to remove or dilute honeydew concentrations suitable for sooty mold growth on leaves and other surfaces.',
+        'conditions': ' عندما تكون الظروف رطبة ، تنبت الجراثيم وينمو العفن السخامي على الوسط المتاح. ارتفاع درجات الحرارة والطقس الجاف يزيدان من انتشار العفن السخامي. في ظل الظروف الجافة ، يتوفر مطر أقل لإزالة أو تخفيف تركيزات ندى العسل المناسبة لنمو العفن السخامي على الأوراق والأسطح الأخرى',
         'chemical_control': '''<ul>
-            <li>Remove or treat the honeydew producing insects and the sooty mould will disappear.</li>
-            <li>Sucking insects that excrete honeydew, (aphids, mealybugs, leafhoppers, and soft scales).</li>
+            <li> أزل أو عالج الحشرات المنتجة للندى وسيختفي العفن السخامي</li>
+            <li>الحشرات الماصة التي تفرز المن (حشرات المن ، البق الدقيقي ، نطاطات الأوراق ، القشور الرخوة)</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Best method to remove the mold is to soak affected plants in a water and detergent mixture.</li>
-            <li>Use 1 tablespoon of household liquid detergent per gallon of water and spray it on the plants.</li>
-            <li>Wait 15 minutes, then wash the detergent solution off with a strong stream of water.</li>
-            <li>You may have to repeat this treatment a number of times over a few weeks.</li>
+            <li> أفضل طريقة لإزالة العفن هي نقع النباتات المصابة في خليط من الماء والمنظفات</li>
+            <li>استخدم 1 ملعقة كبيرة من المنظفات السائلة المنزلية لكل جالون من الماء ورشها على النباتات</li>
+            <li>انتظر 15 دقيقة ، ثم اغسل محلول المنظف بتيار قوي من الماء</li>
+            <li>قد تضطر إلى تكرار هذا العلاج عدة مرات على مدار بضعة أسابيع</li>
         </ul>''',
         'bio_control': '',
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
@@ -836,27 +844,27 @@ icba_html_predictions_ar = [
     },
     {
         'id': 9,
-        'type': 'Pepper',
-        'pathogen': 'Insects and Pests',
-        'name': 'Spider mite',
-        'sci_name': 'Acari',
-        'local_name': 'Routilla',
+        'type': 'فلفل',
+        'pathogen': 'الحشرات والآفات',
+        'name': 'سوس (قراديات)',
+        'sci_name': 'أكاري',
+        'local_name': 'روتيلا',
         'symptoms': '''<ul>
-            <li>Leaves: roll up, thicken and turn brownish.Corky brown areas appear between the main veins on the underside of the leaf. Young foliage is deformed. Slowed growth and shoot dieback may be observed when the mite population density is high.</li>
-            <li>Fruits: The nutritional damage caused by the mites causes a silvery tint of the fruits, the appearance of corky brown areas and less chance of fruiting of the plants.</li>
+            <li>الأوراق: تلتوي وتزداد سماكة وتتحول إلى اللون البني. تظهر مناطق بنية اللون بين الأوردة الرئيسية على الجانب السفلي من الورقة. أوراق الشجر الصغيرة مشوهة. يمكن ملاحظة تباطؤ النمو عندما تكون الكثافة الحشرية  عالية</li>
+            <li>الثمار: الأضرار  التي تسببها العث تسبب لونا فضيا للثمار، وظهور مناطق بنية  احتمالية أقل لإثمار النباتات</li>
         </ul>''',
-        'conditions': 'High temperature',
+        'conditions': 'درجات الحرارة العالية',
         'chemical_control': '''<ul>
             <li>Hexythiazox 10%</li>
             <li>Spirodiclofen 240 g/L</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Burn all residues immediately after the end of the previous harvest</li>
-            <li>Make the right choice of plants, they must be in good health and strong</li>
-            <li>Thoroughly clean the plot so as not to provide refuges for pests</li>
-            <li>Continuous monitoring: An intervention carried out at the beginning of an infestation will have every chance of effectively controlling the pests so as to keep them at a minimum level with low quantities of pesticides</li>
-            <li>Avoid applying a pesticide on flowering plants or in very hot weather during the day</li>
-            <li>Apply insecticides to all parts of the crop plants and ensure that any pests on the plants are hit in a sufficiently large dose</li>
+            <li> حرق جميع المخلفات مباشرة بعد نهاية الحصاد السابق</li>
+            <li> قم بالاختيار الصحيح للنباتات ، يجب أن تكون بصحة جيدة وقوية</li>
+            <li> تنظيف قطعة الأرض جيدا حتى لا توفر ملاجئ للآفات</li>
+            <li> الرصد المستمر: التدخل الذي يتم إجراؤه في بداية الإصابة يمثل فرصة للسيطرة الفعالة على الآفات من أجل الحفاظ عليها عند الحد الأدنى مع كميات منخفضة من المبيدات الحشرية</li>
+            <li>تجنب وضع مبيد حشري على النباتات المزهرة أو في الطقس الحار جدا خلال النهار</li>
+            <li> تطبيق المبيدات الحشرية على جميع أجزاء نباتات المحاصيل</li>
         </ul>''',
         'bio_control': '''<ul>
             <li>Borax 10g/l</li>
@@ -868,49 +876,49 @@ icba_html_predictions_ar = [
     },
     {
         'id': 10,
-        'type': 'Pepper',
-        'pathogen': 'Insects and Pests',
-        'name': 'Leafhopper',
-        'sci_name': 'Cicadellidae',
+        'type': 'فلفل',
+        'pathogen': 'الحشرات والآفات',
+        'name': 'الحشرة النطاطة',
+        'sci_name': 'السيكاديليديا',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Leaves to develop pale specks.</li>
-            <li>Leaves and shoot tips fed upon by an abundance of leafhoppers may turn yellow then brown and curl and die.</li>
-            <li>Leafhoppers also excrete honeydew on which blackish sooty mold grows.</li>
-            <li>This can foul foliage, fruit, and surfaces underneath infested plants.</li>
-            <li>Plants becoming stunted and distorted.</li>
+            <li> ظهور بقع شاحبة</li>
+            <li>قد تتحول الأوراق وأطراف البراعم التي تتغذى عليها نطاطات الأوراق الوفيرة إلى اللون الأصفر ثم البني ثم تتجعد وتموت</li>
+            <li>تفرز نطاطات الأوراق  المن الذي ينمو عليه العفن الأسود المائل إلى السخام</li>
+            <li> يمكن أن يتسبب ذلك في إتلاف أوراق الشجر والفاكهة والأسطح الموجودة تحت النباتات المصابة</li>
+            <li>يسبب تقزم النباتات وتشوهها</li>
         </ul>''',
         'conditions': '',
         'chemical_control': '''<ul>
-            <li>Insecticide application in gardens and landscapes generally is not effective for preventing plant diseases vectored by leafhoppers because they can transmit the virus to a new host before the leafhoppers are killed by the insecticide.</li>
-            <li>If nymphs are abundant early in the growing season, green shoots and the underside of leaves can be thoroughly sprayed with horticultural oil, insecticidal soap, or neem oil to provide some control.</li>
+            <li>إن استخدام المبيدات الحشرية في الحدائق والمناظر الطبيعية بشكل عام غير فعال للوقاية من الأمراض النباتية التي تنقلها نطاطات الأوراق لأنها يمكن أن تنقل الفيروس إلى مضيف جديد قبل أن تقتل نطاطات الأوراق بالمبيد الحشري</li>
+            <li>* إذا كانت الحوريات ( الحشرات في مراحلها الأولى تسمى حوريات) وفيرة في وقت مبكر من موسم النمو ، يمكن رش البراعم الخضراء والجانب السفلي من الأوراق جيدًا بزيت البستنة أو الصابون المبيد للحشرات أو زيت النيم لتوفير بعض السيطرة</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Removing weed hosts and other alternative hosts can reduce the abundance of leafhoppers that migrate to plants that are more desired in gardens and landscapes.</li>
-            <li>Use floating row covers, or reemay fabric. Reemay is a white mesh, breathable fabric to cover plants and reduce feeding by beet leafhopper and other insects.</li>
-            <li>Destroy and remove plant debris.</li>
+            <li> يمكن أن تقلل إزالة عوائل الحشائش وغيرها من المضيفات البديلة من وفرة نطاطات الأوراق التي تهاجر إلى النباتات المرغوبة أكثر في الحدائق والمناظر الطبيعية</li>
+            <li>استخدام أغطية الصف العائمة ، أو إعادة النسيج. (ريماي) عبارة عن نسيج شبكي أبيض يسمح بمرور الهواء لتغطية النباتات وتقليل التغذية بواسطة نطاط أوراق البنجر والحشرات الأخرى</li>
+            <li>تدمير وإزالة المخلفات النباتية</li>
         </ul>''',
         'bio_control': '',
-        'geo': 'Tunisia and Egypt',
+        'geo': 'تونس ومصر',
         'image': 'images/pepper-leaf-hoper.jpg'
     },
     {
         'id': 11,
-        'type': 'Pepper',
-        'pathogen': 'Insects and Pests',
-        'name': 'Aphids',
+        'type': 'فلفل',
+        'pathogen': 'الحشرات والآفات',
+        'name': 'المن',
         'sci_name': 'Aphidoidea',
-        'local_name': 'North Tunisia: zili, North West: Zviti, South: Menn',
+        'local_name': 'شمال تونس: زيلي , الشمال الغربي: زفيتي, الجنوب: المن',
         'symptoms': '''<ul>
-            <li>In large numbers, aphids weaken plants by sucking up the sap they feed on, and cause leaf distortion, twisting and curling, yellowing and withering</li>
-            <li>Aphids also produce honeydew, that is to say sweet droppings that promote the appearance of a black deposit due to a fungus, sooty mold, which prevents photosynthesis which results in a reduction in the growth of plants.</li>
+            <li>بأعداد كبيرة، يضعف المن النباتات عن طريق امتصاص النسغ الذي يتغذى عليه ، ويسبب تشويه الأوراق ، والتواء وتجعيدها ، والاصفرار والذبول</li>
+            <li>تنتج حشرات المن أيضًا ندى العسل ، وهو نفايات سائلة سكرية تعزز ظهور فطر داكن اللون ينمو على إفرازات ندى العسل (العفن السخامي) ، إذا كان موجودًا بتركيزات عالية بما يكفي ، يمكن أن يضعف التمثيل الضوئي في الأوراق ، مما يؤدي إلى توقف أو إبطاء نمو النبات</li>
         </ul>''',
-        'conditions': 'Warm and dry weather',
+        'conditions': 'الطقس الحار والجاف',
         'chemical_control': '''<ul>
-            <li>Systemic insecticides, including imidacloprid.</li>
-            <li>Insecticidal soaps and oils are the best choices for most situations.</li>
-            <li>Oils: Horticultural Oils, Sesame Oil</li>
-            <li>Neem products: Neem oil, Azadirachtin, Capsaicin, Canola oil</li>
+            <li> المبيدات الحشرية الجهازية بما في ذلك الإيميداكلوبريد</li>
+            <li>الصابون والزيوت المبيدات الحشرية هي أفضل الخيارات لمعظم المواقف</li>
+            <li>زيوت: الزيوت البستانية. زيت السمسم</li>
+            <li>Neem products: منتجات النيم: زيت النيم. أزاديراشتين. كبخاخات. زيت الكانولا</li>
             <li>Chlorantraniliprole + lambdacyhalothrine 100g/l+ 50g/l</li>
             <li>Chlorpyriphos- Eéthyl400g/l</li>
             <li>Deltamethrine 100g/l</li>
@@ -919,27 +927,27 @@ icba_html_predictions_ar = [
             <li>Thiamétoxam+Lambda-cyhalothrine 141g/l+106g/l</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Elimination of weeds by hoeing</li>
-            <li>Practice a good crop rotation</li>
-            <li>Overhead irrigation can reduce infestation by killing aphids with water.</li>
-            <li>Detect attacks at the initial stage of the crop to limit early virus transmission or direct damage by a large population of aphids.</li>
-            <li>Uproot the plants as soon as they stop producing</li>
-            <li>Treatment with selective insecticides as soon as attacks are detected on young plants.</li>
-            <li>Over fertilizing a plant can enhance aphid population growth, high levels of nitrogen fertilizer favor aphid reproduction, so never use more nitrogen than necessary, use smaller amounts of fertilizer throughout the growing season.</li>
-            <li>Slow-release fertilizers such as organic fertilizers or urea-based time-release formulations.</li>
-            <li>Reduce losses by growing seedlings under protective covers, silver-colored reflective mulches have been successfully used to reduce transmission of aphid-borne viruses, strong spray of water.</li>
+            <li> القضاء على الأعشاب الضارة عن طريق الحفر</li>
+            <li>ممارسة تداول المحاصيل الجيد</li>
+            <li>الري العلوي يمكن أن يقلل من الإصابة عن طريق قتل حشرات المن بالماء</li>
+            <li>الكشف عن الهجمات في المرحلة الأولى من المحصول للحد من انتقال الفيروس في وقت مبكر أو الأضرار المباشرة من قبل عدد كبير من حشرات المن</li>
+            <li>اقتلاع النباتات بمجرد توقفها عن الإنتاج</li>
+            <li> العلاج بالمبيدات الحشرية الانتقائية بمجرد اكتشاف الهجمات على النباتات الصغيرة</li>
+            <li>يمكن أن يؤدي التسميد المفرط للنبات إلى تعزيز نمو أعداد المن، كما أن المستويات العالية من الأسمدة النيتروجينية تساعد على تكاثر المن، لذلك لا تستخدم أبدًا المزيد من النيتروجين أكثر من اللازم، يجب استخدام كميات أقل من الأسمدة طوال موسم النمو، والأسمدة بطيئة الإطلاق مثل الأسمدة العضوية أو تركيبات إطلاق الوقت القائمة على اليوريا</li>
+            <li>تم استخدام المهاد العاكسة ذات اللون الفضي بنجاح لتقليل انتقال الفيروسات التي تنقلها حشرات المن ، ورذاذ الماء القوي</li>
+            <li>تقليل الخسائر عن طريق زراعة الشتلات تحت أغطية واقية</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Beauveria bassiana.</li>
-            <li>Biological control by natural enemies (predators, parasitoids, and pathogens) can have a significant impact on aphid populations.</li>
-            <li>Natural enemies such as parasitic wasps, lady beetle adults and larvae,  lacewing larvae, soldier beetles, and syrphid fly larvae.</li>
+            <li>بوفيريا باسيانا</li>
+            <li>يمكن أن يكون للمكافحة البيولوجية من قبل الأعداء الطبيعيين (الحيوانات المفترسة والطفيليات ومسببات الأمراض) تأثير كبير على تجمعات المن</li>
+            <li>أعداء طبيعيون مثل الدبابير الطفيلية، الخنفساء البالغة واليرقات، يرقات الخنافس، خنافس الجندي، يرقات ذبابة السيرفيد</li>
         </ul>''',
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/pepper-aphid.jpg'
     },
     {
         'id': 12,
-        'type': 'Tomato',
+        'type': 'طماطم',
         'pathogen': 'في حالة جيدة',
         'name': '',
         'sci_name': '',
@@ -954,26 +962,26 @@ icba_html_predictions_ar = [
     },
     {
         'id': 13,
-        'type': 'Tomato',
+        'type': 'طماطم',
         'pathogen': 'مقدار النقص',
-        'name': 'Phosphorus',
-        'sci_name': 'Phosphorus',
+        'name': 'الفوسفور',
+        'sci_name': 'الفوسفور',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Older leaves showing some necrotic spots.</li>
-            <li>Plants are dwarfed or stunted, develop very slowly.</li>
-            <li>Leaf purpling is the most common symptom, particularly the leaf veins.</li>
-            <li>Distinct purpling of the stem, petiole and the under sides of the leaves.</li>
-            <li>Leaves on young plants turn purplish and the undersides of the leaves on older plants turn reddish-purple.</li>
-            <li>Under severe deficiency conditions there is a tendency for leaves to develop a blue-gray luster.</li>
-            <li>In deficient plants, yields are poor, and the plants are weak.</li>
+            <li> تظهر بعض البقع الميتة على الأوراق القديمة</li>
+            <li>النباتات متقزمة و تتطور ببطء شديد</li>
+            <li>يعتبر تقشير الأوراق أكثر الأعراض شيوعًا ، وخاصة عروق الأوراق</li>
+            <li>تنقية مميزة للساق والسويقات والجوانب السفلية للأوراق</li>
+            <li> تتحول الأوراق على النباتات الصغيرة إلى اللون الأرجواني وتتحول الجوانب السفلية للأوراق في النباتات القديمة إلى اللون الأرجواني المحمر</li>
+            <li>في ظل ظروف النقص الحاد ، هناك ميل للأوراق لتكوين بريق رمادي مزرق</li>
+            <li>في النباتات الناقصة الغلة رديئة والنباتات ضعيفة</li>
         </ul>''',
-        'conditions': 'The pH level in the soil or substrate being too low. Temperature of the root zone and if it falls below 15 degrees Celsius.',
+        'conditions': 'الأراضي التي يكون فيها مستوى الأس الهيدروجيني في التربة أو الركيزة منخفض للغاية. درجة حرارة منطقة الجذر إذا كانت أقل من 15 درجة مئوية',
         'chemical_control': '''<ul>
-            <li>Balanced liquid feed fertilizers in greenhouses and pots.</li>
+            <li>الأسمدة العلفية السائلة المتوازنة في الصوبات والأواني</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>The problem will be alleviated in early field plantings with plastic mulch.</li>
+            <li>سيتم تخفيف المشكلة في الزراعة الحقلية المبكرة باستخدام نشارة بلاستيكية</li>
         </ul>''',
         'bio_control': '',
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
@@ -981,98 +989,98 @@ icba_html_predictions_ar = [
     },
     {
         'id': 14,
-        'type': 'Tomato',
-        'pathogen': 'Fungal diseases',
-        'name': 'Powdery mildew',
+        'type': 'طماطم',
+        'pathogen': 'الأمراض الفطرية',
+        'name': 'البياض الدقيقي',
         'sci_name': 'Oidiopsis taurica',
-        'local_name': 'jayara, Marth Elbakhara',
+        'local_name': 'جايارا, مارث البخارة',
         'symptoms': '''<ul>
-            <li>The affected parts turn brown later, become necrotic in the center, dry out and tear easily.</li>
-            <li>The attacked leaves lose their consistency and the leaf blade may fold upwards</li>
-            <li>Leaf: on the upper side, presence of pale green to yellow spots, of a circular to angular shape, which is covered with a white down of mycelium and conidia.</li>
+            <li> تتحول الأجزاء المصابة إلى اللون البني في وقت لاحق ، وتصبح نخرية في الوسط ، وتجف وتمزق بسهولة</li>
+            <li>تفقد الأوراق المهاجمة اتساقها وقد تطوى شفرة الورقة لأعلى</li>
+            <li>ورقة: على الجانب العلوي ، وجود بقع خضراء شاحبة إلى صفراء ، ذات شكل دائري إلى زاوي ، مغطى ببيض أسفل الميسيليوم و الميسيليوم و الغبيرة أو الكونيديا</li>
         </ul>''',
-        'conditions': 'Wet, heavy or compact ground',
+        'conditions': 'الأراضي الرطبة والمضغوطة او الثقيلة',
         'chemical_control': '''<ul>
             <li>Penconazole  100g/l</li>
             <li>azoxystrobin+difénoconazole</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Choice of plot: recommended rotation, avoid plots close to other solanaceae or those that are poorly drained or have too much organic matter.</li>
-            <li>Cultural management: implement all the measures to prevent excess moisture (ventilate the shelters as much as possible, favor the drip irrigation system, programming of the appropriate sprinkler irrigation, etc.).</li>
-            <li>Reason fertilization (avoid excess) and regularly remove plant debris present on the ground.</li>
-            <li>Crop maintenance: Eliminate weeds susceptible to the disease as well as as much plant debris as possible at the end of the crop. Bury crop residues deep into the soil.</li>
-            <li>Choose tolerant varieties.</li>
-            <li>Avoid sowing densities that are too tight.</li>
-            <li>Eliminate all diseased leaves to reduce potential contamination.</li>
+            <li> اختيار قطعة الأرض: اعتماد التداول الزراعي الموصى به ، وتجنب قطع الأراضي القريبة من المماثله  الأخرى أو تلك التي يتم تصريفها بشكل سيئ أو التي تحتوي على الكثير من المواد العضوية</li>
+            <li> إدارة المحاصيل: تنفيذ جميع التدابير لمنع الرطوبة الزائدة (تهوية البيوت المحمية  قدر الإمكان ، وتفضيل نظام الري بالتنقيط ، وبرمجة الري بالرش المناسب ، وما إلى ذلك)</li>
+            <li>تجنب الإفراط في التسميد  وإزالة بقايي النبات الموجود على الأرض بانتظام</li>
+            <li> صيانة المحاصيل: القضاء على الأعشاب الضارة المعرضة للمرض وكذلك أكبر قدر ممكن من مخلفات النبات في نهاية المحصول دفن بقايا المحاصيل في عمق التربة</li>
+            <li> اختر أصنافا مقاومة</li>
+            <li>تجنب كثافات البذر المرتفعة جدا</li>
+            <li> القضاء على جميع الأوراق المريضة للحد من الاصابات المحتملة</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Citric acid 16% + mint oil 0,8%+ Adjuvant 48%</li>
-            <li>Sulfur  80%</li>
+            <li>حمض الستريك 16٪ + زيت النعناع 0,8٪ + عامل مساعد 48٪  </li>
+            <li>الكبريت 80٪</li>
         </ul>''',
-        'geo': 'North and center of Tunisia, UAE and Egypt',
+        'geo': 'شمال ووسط البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/tomato-powdery-mildew.jpg'
     },
     {
         'id': 15,
-        'type': 'Tomato',
-        'pathogen': 'Fungal diseases',
-        'name': 'Early blight',
+        'type': 'طماطم',
+        'pathogen': 'الأمراض الفطرية',
+        'name': 'اللفحة المبكرة',
         'sci_name': 'Alternaria solani',
         'local_name': 'Alternariose',
         'symptoms': '''<ul>
-            <li>On adult plants, black necrotic spots 4 to 7 mm in diameter appear, growing in concentric circles surrounded by a yellow halo.</li>
-            <li>On the stems, we can see elliptical brown, gray  and concentric spots.</li>
-            <li>On the fruits, we see black spots, sunken, 1 to 2 cm which are positioned at the base of the calyx. Other fungi can colonize these spots and cause wet rots.</li>
+            <li>في النباتات البالغة ، تظهر بقع نخرية سوداء قطرها من 4 إلى 7 مم ، وتنمو في دوائر متحدة المركز محاطة بهالة صفراء</li>
+            <li> على السيقان ، يمكننا رؤية بقع بنية بيضاوية الشكل ورمادية ومتحدة المركز</li>
+            <li> على الثمار ، نرى بقع سوداء ، غارقة ، من 1 إلى 2 سم توضع عند قاعدة الكأس. يمكن للفطريات الأخرى استعمار هذه البقع وتسبب العفن الرطب</li>
         </ul>''',
-        'conditions': 'High humidity and temperature between 18 and 25°C.',
+        'conditions': 'الرطوبة العالية ودرجة الحرارة بين 18 و 25 درجة مئوية',
         'chemical_control': '''<ul>
             <li>Azoxystrobin</li>
             <li>captan</li>
             <li>chlorothalonil</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Eliminate crop residues after harvest.</li>
-            <li>Use less susceptible varieties as well as healthy seeds.</li>
-            <li>Avoid tight plantings to promote aeration.</li>
-            <li>Avoid excess nitrogen.</li>
+            <li> القضاء على بقايا المحاصيل بعد الحصاد</li>
+            <li> استخدم أصناف أقل عرضة للخطرالاصابة بالإضافة إلى بذور سليمة</li>
+            <li> تجنب المزروعات الملتسقه لتعزيز التهوية</li>
+            <li> تجنب النيتروجين الزائد</li>
         </ul>''',
         'bio_control': '''<ul>
             <li>Bacillus mycoides strain J</li>
             <li>Bacillus amyloliquefaciens (strain D747)</li>
         </ul>''',
-        'geo': 'North and center of Tunisia, UAE and Egypt',
+        'geo': 'شمال ووسط البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/tomato-blight.jpg'
     },
     {
         'id': 16,
-        'type': 'Tomato',
-        'pathogen': 'Fungal diseases',
-        'name': 'Leaf mold',
+        'type': 'طماطم',
+        'pathogen': 'الأمراض الفطرية',
+        'name': 'عفن ورق الطماطم',
         'sci_name': 'Passalora fulva',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>The oldest leaves are infected first.</li>
-            <li>Pale greenish-yellow spots, usually less than 1/4 inch, with no definite margins, form on the upper sides of leaves.</li>
-            <li>Olive-green to brown velvety mold forms on the lower leaf surface below leaf spots.</li>
-            <li>Leaf spots grow together and turn brown. Leaves wither and die but often remain attached to the plant.</li>
-            <li>Infected blossoms turn black and fall off.</li>
-            <li>Fruit infections start as a smooth black irregular area on the stem end of the fruit. As the disease progresses, the infected area becomes sunken, dry and leathery.</li>
+            <li> أقدم الأوراق تصاب أولا</li>
+            <li> بقع صفراء مخضرة شاحبة ، عادة أقل من 1/4 بوصة ، بدون هوامش محددة ، تتشكل على الجوانب العلوية للأوراق</li>
+            <li>يتكون العفن المخملي الأخضر الزيتوني إلى البني على سطح الورقة السفلي أسفل بقع الأوراق</li>
+            <li>تنمو بقع الأوراق معًا وتتحول إلى اللون البني. تذبل الأوراق وتموت ولكنها غالبًا ما تظل ملتصقة بالنبات</li>
+            <li>تتحول الأزهار المصابة إلى اللون الأسود وتتساقط</li>
+            <li>تبدأ عدوى الفاكهة كمنطقة سوداء ناعمة غير منتظمة على نهاية ساق الثمرة. مع تقدم المرض ، تصبح المنطقة المصابة غارقة وجافة وجلدية </li>
         </ul>''',
-        'conditions': 'The disease is driven by high relative humidity (greater than 85%).',
+        'conditions': 'المرض ناتج عن رطوبة نسبية عالية (أكثر من 85٪)',
         'chemical_control': '''<ul>
-            <li>For organic growers, copper-based product  gave some level of control.  When using copper hydroxide for tomato leaf mold, make sure the product is labeled for organic use.</li>
-            <li>Formulations with higher percentages of copper will be more effective but have an increased re-entry interval (REI / the amount of time you must wait between applying and re-entering the area for safety reasons).</li>
-            <li>It is important to alternate between different chemical families to avoid the development of pathogen resistance to particular active ingredients.</li>
+            <li>بالنسبة للمزارعين العضويين ، أعطى المنتج ذو الأساس النحاسي مستوى معينًا من التحكم. عند استخدام هيدروكسيد النحاس لقالب أوراق الطماطم ، تأكد من أن المنتج موسوم للاستخدام العضوي</li>
+            <li>ستكون التركيبات التي تحتوي على نسب أعلى من النحاس أكثر فاعلية ولكن لها فترة إعادة دخول أكبر (REI / مقدار الوقت الذي يجب أن تنتظره بين التقديم وإعادة الدخول إلى المنطقة لأسباب تتعلق بالسلامة)</li>
+            <li>من المهم التبديل بين العائلات الكيميائية المختلفة لتجنب تطور مقاومة العوامل الممرضة لمكونات نشطة معينة</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Use drip irrigation and avoid watering foliage.</li>
-            <li>Space plants to provide good air movement between rows and individual plants.</li>
-            <li>Stake, string or prune to increase airflow in and around the plant.</li>
-            <li>Sterilize stakes, ties, trellises, etc. with 10%% household bleach or commercial sanitizer.</li>
-            <li>Circulate air in greenhouses or tunnels with vents and fans and by rolling up high tunnel sides to reduce humidity around plants.</li>
-            <li>Keep night temperatures in greenhouses higher than outside temperatures to avoid dew formation on the foliage.</li>
-            <li>Remove crop residue at the end of the season. Burn it or bury it away from tomato production areas.</li>
-            <li>Clean the high tunnel or greenhouse walls and benches at the end of the season with a commercial sanitizer.</li>
+            <li> استخدام الري بالتنقيط وتجنب سقي الأوراق</li>
+            <li>وضع مسافات كافية  بين النباتات لتوفير حركة هواء جيدة بين الصفوف والنباتات الفردية</li>
+            <li>التشذيب لزيادة تدفق الهواء داخل وحول النبات</li>
+            <li>تعقيم الأوتاد والعلاقات والتعريشات وما إلى ذلك باستخدام مبيض منزلي أو مطهر تجاري بنسبة ٪10</li>
+            <li>قم بتدوير الهواء في البيوت البلاستيكية أو الأنفاق مع فتحات التهوية والمراوح ولف جوانب الأنفاق العالية لتقليل الرطوبة حول النباتات</li>
+            <li>إبقاء درجات الحرارة الليلية في الصوبات الزراعية أعلى من درجات الحرارة الخارجية لتجنب تكون الندى على أوراق الشجر</li>
+            <li>إزالة بقايا المحاصيل في نهاية الموسم. احرقها أو دفنها بعيدًا عن مناطق إنتاج الطماطم</li>
+            <li>تنظيف النفق العالي أو جدران الدفيئة والمقاعد في نهاية الموسم بمطهر تجاري</li>
         </ul>''',
         'bio_control': '',
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
@@ -1080,47 +1088,47 @@ icba_html_predictions_ar = [
     },
     {
         'id': 17,
-        'type': 'Tomato',
-        'pathogen': 'Virus',
-        'name': 'Tomato yellow leaf curl virus (TYLCV)',
-        'sci_name': 'Tomato yellow leaf curl virus',
+        'type': 'طماطم',
+        'pathogen': 'فيروس',
+        'name': 'فيروس تجعد أوراق الطماطم الصفراء (TYLCV)',
+        'sci_name': 'فيروس تجعد أوراق الطماطم الصفراء',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Small leaves, and show strong crumpling and interveinal and marginal yellowing.</li>
-            <li>Leaves severe necrosis and blighting of leaves. In these circumstance, fruits will be exposed to sunlight causing sunscalding.</li>
-            <li>Curl upwards and towards the middle of the leaf.</li>
-            <li>In seedlings, the shoots become shortened. Flower drop.</li>
-            <li>Stunted and erect or upright plant growth.</li>
-            <li>Fruit: Reduced but not affected.</li>
+            <li> الأوراق الصغيرة ، وتظهر تجعداً قوياً وأصفراراً بين العروق وهامشياً</li>
+            <li> تنخر شديد وتقشر في الأوراق. في هذه الظروف ، ستتعرض الثمار لأشعة الشمس مسببة سطوع الشمس</li>
+            <li>ثني لأعلى وباتجاه منتصف الورقة</li>
+            <li>في الشتلات ، يتم تقصير البراعم. قطرة زهرة</li>
+            <li>توقف نمو النبات المنتصب</li>
+            <li>الفاكهة: قليلة لكنها غير متأثرة</li>
         </ul>''',
-        'conditions': 'High temperatures',
+        'conditions': 'درجات الحرارة العالية',
         'chemical_control': '''<ul>
             <li>Imidacloprid, Cyazypyr, Flupyradifurone, Pymetrozine, Pyrifluquinazon, Pyrethroid combination: zeta-cypermethrin and bifenthrin</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>The presence of whiteflies should be checked daily.</li>
-            <li>A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it.</li>
-            <li>Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.</li>
+            <li>يجب فحص وجود الذباب الأبيض يوميًا.</li>
+            <li>يمكن صنع المصيدة بقطعة من اللوح مقاس 12 بوصة × 12 بوصة مطلية باللون الأصفر الفاتح وتنتشر عليها الفازلين أو البيوتاك</li>
+            <li> يجب تعبئة النباتات التي تظهر عليها علامات الفيروس بعد 3-4 أسابيع من الزرع واقتلاعها وحرقها</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium</li>
+            <li>Enterobacter asburiae BQ9 ، وهو نوع من البكتيريا الجذرية لنمو النبات</li>
         </ul>''',
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/tomato-tylcv.jpg'
     },
     {
         'id': 18,
-        'type': 'Tomato',
-        'pathogen': 'Insects and Pests',
-        'name': 'The tomato leaf miner',
-        'sci_name': 'Tuta absoluta',
-        'local_name': 'touta',
+        'type': 'طماطم',
+        'pathogen': 'الحشرات والآفات',
+        'name': 'حفار أوراق الطماطم',
+        'sci_name': 'توتا أبسولوتا',
+        'local_name': 'توتا',
         'symptoms': '''<ul>
-            <li>Completely eaten leaves',
-            <li>Reduced photosynthesis and production',
-            <li>Development of secondary pathogens leading to fruit rot.'
+            <li>تؤكل الأوراق بالكامل من قبل الحشرات',
+            <li> انخفاض التمثيل الضوئي والإنتاج',
+            <li> تطور مسببات الأمراض الثانوية التي تؤدي إلى تعفن الفاكهة'
         </ul>''',
-        'conditions': 'hygrométries importantes (80-90%)',
+        'conditions': 'الرطوبة العالية (80-90٪)',
         'chemical_control': '''<ul>
             <li>Azadiradtin 32g/l</li>
             <li>Azadirachtin (0.03%) + 90.5% Neem oil 0.3g/l</li>
@@ -1129,18 +1137,18 @@ icba_html_predictions_ar = [
             <li>Metaflumizone 240g/l</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Use healthy seedlings when planting</li>
-            <li>Weed around the plots to remove wild plants that can harbor eggs and caterpillars;</li>
-            <li>Deep plowing destroys deep-buried pupae</li>
-            <li>Crop rotation is desirable with other non-host plants of the pest.</li>
-            <li>A crawl period of the order of 4 to 6 weeks is recommended between two host cultures of T. absoluta.</li>
-            <li>Varietal resistance: some varieties are more attractive and therefore more susceptible to T. absoluta</li>
-            <li>Elimination by fire or deep burial of the attacked leaves and stems to destroy the caterpillars and prevent them from completing their cycle (never put the plants in the compost)</li>
-            <li>After harvest, harvest waste must be collected immediately and incinerated.</li>
-            <li>Plot hygiene by eliminating crop debris either by burning immediately or by burying more than 50 cm deep in the ground;</li>
-            <li>Monitoring Tuta absoluta populations by regularly observing the plants to detect possible leafminer attacks;</li>
-            <li>Treatments with a chemical insecticide are recommended as soon as one plant in five has a live larva.</li>
-            <li>Monitoring: Water traps fitted with sex pheromones help track population levels.</li>
+            <li> استخدام الشتلات الصحية عند الزراعة</li>
+            <li>الأعشاب الضارة حول  البيوت المحمية لإزالة النباتات الطفيلية التي يمكن أن تؤوي البيض واليرقات</li>
+            <li>الحرث العميق يدمر الشرانق المدفونة في الأعماق</li>
+            <li>التداول الزراعي أمر مرغوب فيه مع النباتات الأخرى غير المضيفة للآفة</li>
+            <li>يوصى بفترة فراغ تتراوح من 4 إلى 6 أسابيع بين محصولين مضيفتين لتوتا أبسولوتا</li>
+            <li>الأصناف المقاومة : بعض الأصناف أكثر جاذبية وبالتالي أكثر عرضة لتوتا أبسولوتا</li>
+            <li>القضاء بالنار أو الدفن العميق للأوراق والسيقان المصابه لازالة اليرقات ومنعها من إكمال دورتها (لا تضع النباتات في السماد العضوي)</li>
+            <li> بعد الحصاد ، يجب جمع نفايات الحصاد على الفور وحرقها</li>
+            <li>القضاء على مخلفات المحاصيل إما عن طريق الحرق الفوري أو عن طريق دفن أكثر من 50 سم في عمق الأرض</li>
+            <li>رصد مجموعات التوتا المطلقة من خلال مراقبة النباتات بانتظام للكشف عن هجمات التوتا المحتملة</li>
+            <li>يوصى بالعلاجات باستخدام مبيد حشري كيميائي بمجرد أن يكون لدى نبات واحد من كل خمسة يرقة حية</li>
+            <li>الرصد: تساعد مصائد المياه المزودة بالفيرومونات  على تتبع مستويات الاصابة</li>
         </ul>''',
         'bio_control': '''<ul>
             <li>(E,Z.Z)-3,8,11 Tetradecatrien 1-y acetat (E,Z)-3,8 Tetradecatrien1- y acetate ===30 traps/ha</li>
@@ -1153,53 +1161,53 @@ icba_html_predictions_ar = [
     },
     {
         'id': 19,
-        'type': 'Tomato',
-        'pathogen': 'Salinity',
+        'type': 'طماطم',
+        'pathogen': 'الملوحة',
         'name': '',
         'sci_name': '',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Tomato is moderately sensitive to salinity. Salt stress has three fold effects which reduces water potential and causes ion imbalance and toxicity.</li>
+            <li>الطماطم حساسة إلى حد ما للملوحة. الإجهاد الملحي له تأثيرات ثلاثة أضعاف مما يقلل من إمكانات الماء ويسبب اختلال توازن الأيونات والسمية</li>
         </ul>''',
-        'conditions': 'Tomato tolerates an EC of the saturated soil extract up to about 2.5 dS m−1 without any yield reduction.',
+        'conditions': 'تتسامح الطماطم مع EC من مستخلص التربة المشبع حتى حوالي 2.5 dS m 1 دون أي انخفاض في المحصول',
         'chemical_control': '''<ul>
-            <li>Increased irrigation may wash out the salinity from the soil.</li>
+            <li>زيادة الري قد يغسل الملوحة من التربة</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>Saline soils cannot be reclaimed by chemical amendments, conditioners or fertilizers. A field can only be reclaimed by removing salts from the plant root zone.</li>
+            <li>لا يمكن استصلاح التربة المالحة عن طريق التعديلات الكيماوية أو التكييف أو الأسمدة. لا يمكن استصلاح الحقل إلا عن طريق إزالة الأملاح من منطقة جذر النبات</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>In some cases, selecting salt-tolerant crops may be needed in addition to managing soils.</li>
+            <li>في بعض الحالات ، قد تكون هناك حاجة إلى اختيار المحاصيل التي تتحمل الملح بالإضافة إلى إدارة التربة</li>
         </ul>''',
-        'geo': 'Common in all of the Mediterranean coastal areas, and also sometimes inland.',
+        'geo': 'شائع في جميع المناطق الساحلية للبحر الأبيض المتوسط',
         'image': 'images/tomato-salinity.jpg'
     },
     {
         'id': 20,
         'type': 'Quinoa',
-        'pathogen': 'Virus',
-        'name': 'Tomato yellow leaf curl virus (TYLCV)',
-        'sci_name': 'Tomato yellow leaf curl virus',
+        'pathogen': 'فيروس',
+        'name': 'فيروس تجعد أوراق الطماطم الصفراء (TYLCV)',
+        'sci_name': 'فيروس تجعد أوراق الطماطم الصفراء',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Small leaves, and show strong crumpling and interveinal and marginal yellowing.</li>
-            <li>Leaves severe necrosis and blighting of leaves. In these circumstance, fruits will be exposed to sunlight causing sunscalding.</li>
-            <li>Curl upwards and towards the middle of the leaf.</li>
-            <li>In seedlings, the shoots become shortened. Flower drop.</li>
-            <li>Stunted and erect or upright plant growth.</li>
-            <li>Fruit: Reduced but not affected.</li>
+            <li> الأوراق الصغيرة ، وتظهر تجعداً قوياً وأصفراراً بين العروق وهامشياً</li>
+            <li> تنخر شديد وتقشر في الأوراق. في هذه الظروف ، ستتعرض الثمار لأشعة الشمس مسببة سطوع الشمس</li>
+            <li>ثني لأعلى وباتجاه منتصف الورقة</li>
+            <li>في الشتلات ، يتم تقصير البراعم. قطرة زهرة</li>
+            <li>توقف نمو النبات المنتصب</li>
+            <li>الفاكهة: قليلة لكنها غير متأثرة</li>
         </ul>''',
-        'conditions': 'High temperatures',
+        'conditions': 'درجات الحرارة العالية',
         'chemical_control': '''<ul>
             <li>Imidacloprid, Cyazypyr, Flupyradifurone, Pymetrozine, Pyrifluquinazon, Pyrethroid combination: zeta-cypermethrin and bifenthrin</li>
         </ul>''',
         'pest_management': '''<ul>
-            <li>The presence of whiteflies should be checked daily.</li>
-            <li>A trap can be made with a piece of board 12 inches x 12 inches painted bright yellow and spread petroleum jelly or Biotac on it.</li>
-            <li>Plants that show signs of the virus after 3-4 weeks of transplanting should be bagged, uprooted and burned.</li>
+            <li>يجب فحص وجود الذباب الأبيض يوميًا.</li>
+            <li>يمكن صنع المصيدة بقطعة من اللوح مقاس 12 بوصة × 12 بوصة مطلية باللون الأصفر الفاتح وتنتشر عليها الفازلين أو البيوتاك</li>
+            <li> يجب تعبئة النباتات التي تظهر عليها علامات الفيروس بعد 3-4 أسابيع من الزرع واقتلاعها وحرقها</li>
         </ul>''',
         'bio_control': '''<ul>
-            <li>Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium</li>
+            <li>Enterobacter asburiae BQ9 ، وهو نوع من البكتيريا الجذرية لنمو النبات</li>
         </ul>''',
         'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/quinoa-tylcv.jpg'
