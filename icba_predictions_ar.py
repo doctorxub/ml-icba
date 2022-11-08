@@ -1,8 +1,8 @@
 icba_diseases_list_ar = [
     {
         'id': 0,
-        'type': 'Cucumber',
-        'pathogen': 'Healthy',
+        'type': 'خيار',
+        'pathogen': 'في حالة جيدة',
         'name': '',
         'sci_name': '',
         'local_name': '',
@@ -16,31 +16,35 @@ icba_diseases_list_ar = [
     },
     {
         'id': 1,
-        'type': 'Cucumber',
-        'pathogen': 'Deficiency',
-        'name': 'Potassium',
-        'sci_name': 'Potassium',
+        'type': 'خيار',
+        'pathogen': 'مقدار النقص',
+        'name': 'البوتاسيوم',
+        'sci_name': 'البوتاسيوم',
         'local_name': '',
         'symptoms': [
-            'Growth is stunted, internodes remain short and leaves small.',
-            'Leaves are bronzed and discolored yellowish green at the margins; the main veins are sunken.'
+            'توقف النمو ، وتظل الفقرات الداخلية قصيرة وتترك صغيرة',
+            'الأوراق برونزية ويتغير لونها إلى الأخضر المصفر عند الحواف ؛ الأوردة الرئيسية غارقة',
+            'في مرحلة لاحقة يصبح داء الاخضرار بين الأوردة أكثر وضوحا ويمتد باتجاه مركز الورقة. يتبعه نخر',
+            ' تجف هوامش الأوراق لكن العروق تبقى خضراء لبعض الوقت',
+            'تنتشر الأعراض من القاعدة باتجاه قمة النبات وتكون أقدم الأوراق هي الأكثر تضرراً',
+            'الثمار غير منتظمة الشكل مع نهايات ساق غير مكتملة النمو'
         ],
-        'conditions': 'Aeration deficit, compaction, high soil pH (especially with plants adapted to acidic soil).',
+        'conditions': 'نقص التهوية  والضغط  وارتفاع درجة الحموضة في التربة (خاصة مع النباتات التي تتكيف مع التربة الحمضية) والري غير المناسب',
         'chemical_control': [
-            '1. Adjust the nutrient solution via reducing Ca and Mg concentrations and increasing K concentrations by:',
-            'A. Increase potassium nitrate (KNO3) concentration;',
-            'B. Add potassium sulfate (K2SO4); or',
-            'C. If sodium chloride (NaCl) is not present in the irrigation water or nutrient solution, apply potassium chloride (KCl).',
-            '2. Spray foliar applications of 2% potassium sulfate (K2SO4).'
+            ':ضبط محلول المغذيات عن طريق تقليل تركيزات الكالسيوم والمغنيسيوم وزيادة تركيزات البوتاسيوم عن طريق',
+            '‫أ. زيادة تركيز نترات البوتاسيوم (KNO3) ؛‬',
+            '‫ب. إضافة كبريتات البوتاسيوم (K2SO4) ؛ أو‬',
+            '‫ج. إذا كان كلوريد الصوديوم (NaCl) غير موجود في مياه الري أو محلول المغذيات ، ضع كلوريد البوتاسيوم (KCl)؛‬',
+            '(K2SO4) رش التطبيقات الورقية بنسبة 2٪ كبريتات البوتاسيوم'
         ],
         'pest_management': [],
         'bio_control': [],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/cucumber-k-deficient.jpg'
     },
     {
         'id': 2,
-        'type': 'Cucumber',
+        'type': 'خيار',
         'pathogen': 'Fungal Diseases',
         'name': 'Mildew',
         'sci_name': 'Pseudoperonospora cubensis',
@@ -67,12 +71,12 @@ icba_diseases_list_ar = [
             'Peracitic acid',
             'Bacillus subtilis'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/cucumber-downy-mildew.jpg'
     },
     {
         'id': 3,
-        'type': 'Cucumber',
+        'type': 'خيار',
         'pathogen': 'Bacteria Diseases',
         'name': 'Bacteria wilt',
         'sci_name': 'Erwinia tracheiphila or Curtobacterium flaccumfaciens pv. flaccumfaciens',
@@ -101,7 +105,7 @@ icba_diseases_list_ar = [
     },
     {
         'id': 4,
-        'type': 'Cucumber',
+        'type': 'خيار',
         'pathogen': 'Insects and Pests',
         'name': 'Mites',
         'sci_name': 'Acari',
@@ -128,13 +132,13 @@ icba_diseases_list_ar = [
             'Farnesol 1.6g/l + Nerolidol 4g/l + Geraniol 4g/l',
             'Sulfur 80%'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/cucumber-spider-mites.jpg'
     },
     {
         'id': 5,
         'type': 'Pepper',
-        'pathogen': 'Healthy',
+        'pathogen': 'في حالة جيدة',
         'name': '',
         'sci_name': '',
         'local_name': '',
@@ -199,7 +203,7 @@ icba_diseases_list_ar = [
         'bio_control': [
             'Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/pepper-tylcv.jpg'
     },
     {
@@ -225,7 +229,7 @@ icba_diseases_list_ar = [
             'You may have to repeat this treatment a number of times over a few weeks.'
         ],
         'bio_control': [],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/pepper-mold.jpg'
     },
     {
@@ -257,7 +261,7 @@ icba_diseases_list_ar = [
             'Farnesol + Nerolidol +Geraniol 1,6g/l 4g/l +4g/l',
             'Sulfur 80%'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/pepper-spider-mites.jpg'
     },
     {
@@ -328,13 +332,13 @@ icba_diseases_list_ar = [
             'Biological control by natural enemies (predators, parasitoids, and pathogens) can have a significant impact on aphid populations.',
             'Natural enemies such as parasitic wasps, lady beetle adults and larvae,  lacewing larvae, soldier beetles, and syrphid fly larvae.'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/pepper-aphid.jpg'
     },
     {
         'id': 12,
         'type': 'Tomato',
-        'pathogen': 'Healthy',
+        'pathogen': 'في حالة جيدة',
         'name': '',
         'sci_name': '',
         'local_name': '',
@@ -349,7 +353,7 @@ icba_diseases_list_ar = [
     {
         'id': 13,
         'type': 'Tomato',
-        'pathogen': 'Deficiency',
+        'pathogen': 'مقدار النقص',
         'name': 'Phosphorus',
         'sci_name': 'Phosphorus',
         'local_name': '',
@@ -370,7 +374,7 @@ icba_diseases_list_ar = [
             'The problem will be alleviated in early field plantings with plastic mulch.'
         ],
         'bio_control': [],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/tomato-p-deficient.jpg'
     },
     {
@@ -469,7 +473,7 @@ icba_diseases_list_ar = [
             'Clean the high tunnel or greenhouse walls and benches at the end of the season with a commercial sanitizer.'
         ],
         'bio_control': [],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/tomato-leaf-mold.jpg'
     },
     {
@@ -499,7 +503,7 @@ icba_diseases_list_ar = [
         'bio_control': [
             'Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/tomato-tylcv.jpg'
     },
     {
@@ -542,7 +546,7 @@ icba_diseases_list_ar = [
             'Verticillium lacanii',
             'Spinosade'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/tomato-tuta-absoluta.jpg'
     },
     {
@@ -595,7 +599,7 @@ icba_diseases_list_ar = [
         'bio_control': [
             'Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium'
         ],
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/quinoa-tylcv.jpg'
     },
 ]
@@ -603,8 +607,8 @@ icba_diseases_list_ar = [
 icba_html_predictions_ar = [
     {
         'id': 0,
-        'type': 'Cucumber',
-        'pathogen': 'Healthy',
+        'type': 'خيار',
+        'pathogen': 'في حالة جيدة',
         'name': '',
         'sci_name': '',
         'local_name': '',
@@ -618,31 +622,31 @@ icba_html_predictions_ar = [
     },
     {
         'id': 1,
-        'type': 'Cucumber',
-        'pathogen': 'Deficiency',
-        'name': 'Potassium',
-        'sci_name': 'Potassium',
+        'type': 'خيار',
+        'pathogen': 'مقدار النقص',
+        'name': 'البوتاسيوم',
+        'sci_name': 'البوتاسيوم',
         'local_name': '',
         'symptoms': '''<ul>
-            <li>Growth is stunted, internodes remain short and leaves small.</li>
-            <li>Leaves are bronzed and discolored yellowish green at the margins; the main veins are sunken.</li>
+            <li>توقف النمو ، وتظل الفقرات الداخلية قصيرة وتترك صغيرة</li>
+            <li>الأوراق برونزية ويتغير لونها إلى الأخضر المصفر عند الحواف ؛ الأوردة الرئيسية غارقة</li>
         </ul>''',
-        'conditions': ' Aeration deficit, compaction, high soil pH (especially with plants adapted to acidic soil).',
+        'conditions': ' نقص التهوية  والضغط  وارتفاع درجة الحموضة في التربة (خاصة مع النباتات التي تتكيف مع التربة الحمضية) والري غير المناسب',
         'chemical_control': '''<ul>
-            <li>1. Adjust the nutrient solution via reducing Ca and Mg concentrations and increasing K concentrations by:</li>
-            <li>A. Increase potassium nitrate (KNO3) concentration;</li>
-            <li>B. Add potassium sulfate (K2SO4); or</li>
-            <li>C. If sodium chloride (NaCl) is not present in the irrigation water or nutrient solution, apply potassium chloride (KCl).</li>
-            <li>2. Spray foliar applications of 2% potassium sulfate (K2SO4).</li>
+            <li>ضبط محلول المغذيات عن طريق تقليل تركيزات الكالسيوم والمغنيسيوم وزيادة تركيزات البوتاسيوم عن طريق</li>
+            <li>‫أ. زيادة تركيز نترات البوتاسيوم (KNO3) ؛‬</li>
+            <li>‫ب. إضافة كبريتات البوتاسيوم (K2SO4) ؛‬</li>
+            <li>‫ج. إذا كان كلوريد الصوديوم (NaCl) غير موجود في مياه الري أو محلول المغذيات ، ضع كلوريد البوتاسيوم (KCl)؛‬</li>
+            <li>(K2SO4) رش التطبيقات الورقية بنسبة 2٪ كبريتات البوتاسيوم'</li>
         </ul>''',
         'pest_management': '',
         'bio_control': '',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/cucumber-k-deficient.jpg'
     },
     {
         'id': 2,
-        'type': 'Cucumber',
+        'type': 'خيار',
         'pathogen': 'Fungal Diseases',
         'name': 'Mildew',
         'sci_name': 'Pseudoperonospora cubensis',
@@ -669,12 +673,12 @@ icba_html_predictions_ar = [
             <li>Peracitic acid</li>
             <li>Bacillus subtilis</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/cucumber-downy-mildew.jpg'
     },
     {
         'id': 3,
-        'type': 'Cucumber',
+        'type': 'خيار',
         'pathogen': 'Bacteria Diseases',
         'name': 'Bacteria wilt',
         'sci_name': 'Erwinia tracheiphila or Curtobacterium flaccumfaciens pv. flaccumfaciens',
@@ -703,7 +707,7 @@ icba_html_predictions_ar = [
     },
     {
         'id': 4,
-        'type': 'Cucumber',
+        'type': 'خيار',
         'pathogen': 'Insects and Pests',
         'name': 'Mites',
         'sci_name': 'Acari',
@@ -730,13 +734,13 @@ icba_html_predictions_ar = [
             <li>Farnesol 1.6g/l + Nerolidol 4g/l + Geraniol 4g/l</li>
             <li>Sulfur 80%</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/cucumber-spider-mites.jpg'
     },
     {
         'id': 5,
         'type': 'Pepper',
-        'pathogen': 'Healthy',
+        'pathogen': 'في حالة جيدة',
         'name': '',
         'sci_name': '',
         'local_name': '',
@@ -801,7 +805,7 @@ icba_html_predictions_ar = [
         'bio_control': '''<ul>
             <li>Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/pepper-tylcv.jpg'
     },
     {
@@ -827,7 +831,7 @@ icba_html_predictions_ar = [
             <li>You may have to repeat this treatment a number of times over a few weeks.</li>
         </ul>''',
         'bio_control': '',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/pepper-mold.jpg'
     },
     {
@@ -859,7 +863,7 @@ icba_html_predictions_ar = [
             <li>Farnesol + Nerolidol +Geraniol 1,6g/l 4g/l +4g/l</li>
             <li>Sulfur 80%</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/pepper-spider-mites.jpg'
     },
     {
@@ -930,13 +934,13 @@ icba_html_predictions_ar = [
             <li>Biological control by natural enemies (predators, parasitoids, and pathogens) can have a significant impact on aphid populations.</li>
             <li>Natural enemies such as parasitic wasps, lady beetle adults and larvae,  lacewing larvae, soldier beetles, and syrphid fly larvae.</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/pepper-aphid.jpg'
     },
     {
         'id': 12,
         'type': 'Tomato',
-        'pathogen': 'Healthy',
+        'pathogen': 'في حالة جيدة',
         'name': '',
         'sci_name': '',
         'local_name': '',
@@ -951,7 +955,7 @@ icba_html_predictions_ar = [
     {
         'id': 13,
         'type': 'Tomato',
-        'pathogen': 'Deficiency',
+        'pathogen': 'مقدار النقص',
         'name': 'Phosphorus',
         'sci_name': 'Phosphorus',
         'local_name': '',
@@ -972,7 +976,7 @@ icba_html_predictions_ar = [
             <li>The problem will be alleviated in early field plantings with plastic mulch.</li>
         </ul>''',
         'bio_control': '',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/tomato-p-deficient.jpg'
     },
     {
@@ -1071,7 +1075,7 @@ icba_html_predictions_ar = [
             <li>Clean the high tunnel or greenhouse walls and benches at the end of the season with a commercial sanitizer.</li>
         </ul>''',
         'bio_control': '',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/tomato-leaf-mold.jpg'
     },
     {
@@ -1101,7 +1105,7 @@ icba_html_predictions_ar = [
         'bio_control': '''<ul>
             <li>Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/tomato-tylcv.jpg'
     },
     {
@@ -1144,7 +1148,7 @@ icba_html_predictions_ar = [
             <li>Verticillium lacanii</li>
             <li>Spinosade</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/tomato-tuta-absoluta.jpg'
     },
     {
@@ -1197,7 +1201,7 @@ icba_html_predictions_ar = [
         'bio_control': '''<ul>
             <li>Enterobacter asburiae BQ9, a plant-growth–promoting rhizobacterium</li>
         </ul>''',
-        'geo': 'All Tunisia, UAE and Egypt',
+        'geo': 'كامل البلاد التونسية، الإمارات العربية المتحدة ومصر',
         'image': 'images/quinoa-tylcv.jpg'
     },
 ]
