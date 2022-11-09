@@ -6,6 +6,8 @@ from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
 from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.models import Model
 from icba_predictions import icba_diseases_list, icba_html_predictions
+from icba_predictions_fr import icba_html_predictions_fr
+from icba_predictions_ar import icba_html_predictions_ar
 import cv2
 import math
 
@@ -26,11 +28,11 @@ icba_x = icba_base_model.output
 icba_x = GlobalAveragePooling2D()(icba_x)
 icba_x = Dense(128, activation='relu')(icba_x)
 icba_x = Dense(128, activation='relu')(icba_x)
-icba_preds = Dense(9, activation='softmax')(icba_x)
+icba_preds = Dense(21, activation='softmax')(icba_x)
 
 icba_model = Model(inputs=icba_base_model.input, outputs=icba_preds)
 
-icba_model_path = 'static/models/icba/2021-06-model-epoch-007-valacc-0.974116.h5'
+icba_model_path = 'static/models/icba/model-epoch-039-valacc-0.914187.h5'
 icba_model.load_weights(icba_model_path)
 
 def icba_predict(filename):
@@ -108,4 +110,67 @@ def icba_api_predict(filename):
 @app.route('/api/diseases')
 def icba_diseases():
     return jsonify(success=1, diseases=icba_diseases_list)
+
+# ----------------------------------------------------------
+
+# ----------------------------------------------------------
+# ICBA FR
+# ----------------------------------------------------------
+
+@app.route('/icbafr', methods=['GET', 'POST'])
+def render_icbafr_main_page():
+    if request.method == 'POST':
+        file = request.files['file']
+        filename = secure_filename(file.filename)
+        if not filename:
+            return render_template('icbafr/error.html', message="Veuillez sélectionner un fichier à classer")
+        file.save(os.path.join('uploads', filename))
+        return redirect(url_for('render_icbafr_predict', filename=filename))
+    return render_template('icbafr/index.html')
+
+@app.route('/icbafr/predict/<filename>')
+def render_icbafr_predict(filename):
+    result = icba_predict(filename)
+    i = result.get('index')
+    c = result.get('confidence')
+
+    if i < 0:
+        return render_template('icbafr/error.html', message=result.get('errorMsg'))
+    return render_template('icbafr/result.html', predictions=icba_html_predictions_fr[i], confidence=c)
+
+@app.route('/icbafr/diseases')
+def render_icbafr_diseases():
+    return render_template('icbafr/diseases.html', predictions=icba_html_predictions_fr)
+
+# ----------------------------------------------------------
+
+# ----------------------------------------------------------
+# ICBA AR
+# ----------------------------------------------------------
+
+@app.route('/icbaar', methods=['GET', 'POST'])
+def render_icbaar_main_page():
+    if request.method == 'POST':
+        file = request.files['file']
+        filename = secure_filename(file.filename)
+        if not filename:
+            return render_template('icbaar/error.html', message="الرجاء تحديد ملف لتصنيفه")
+        file.save(os.path.join('uploads', filename))
+        return redirect(url_for('render_icbaar_predict', filename=filename))
+    return render_template('icbaar/index.html')
+
+@app.route('/icbaar/predict/<filename>')
+def render_icbaar_predict(filename):
+    result = icba_predict(filename)
+    i = result.get('index')
+    c = result.get('confidence')
+
+    if i < 0:
+        return render_template('icbaar/error.html', message=result.get('errorMsg'))
+    return render_template('icbaar/result.html', predictions=icba_html_predictions_ar[i], confidence=c)
+
+@app.route('/icbaar/diseases')
+def render_icbaar_diseases():
+    return render_template('icbaar/diseases.html', predictions=icba_html_predictions_ar)
+
 # ----------------------------------------------------------

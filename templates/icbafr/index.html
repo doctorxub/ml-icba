@@ -11,17 +11,17 @@
 </head>
 <body>
   <div class="container" role="main">
-    <h1>ICBA | <a href="https://doctorxub.com/icbafr">FR</a> | <a href="https://doctorxub.com/icbaar">AR</a></h1>
-    <p>Classify <a href="https://doctorxub.com/icba/diseases">Common Diseases</a> & Insect Pests</p>
+    <h1>ICBA | <a href="https://doctorxub.com/icba">EN</a> | <a href="https://doctorxub.com/icbaar">AR</a></h1>
+    <p>Classer <a href="https://doctorxub.com/icbafr/diseases">les maladies courantes</a> & les insectes nuisibles</p>
     <form method=post enctype=multipart/form-data class="box">
       <div class="box__input">
         <label for="file" class="custom-label" id="inputLabel">
           <svg class="uploadSVG" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="16 16 12 12 8 16"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"></path><polyline points="16 16 12 12 8 16"></polyline></svg>
           <br />
-          <strong>Choose a file</strong><span class="box__dragndrop"> or drag it here.</span>
+          <strong>Télécharger une image</strong><span class="box__dragndrop"> ou faites-la glisser ici.</span>
         </label>
         <input id="fileInput" type=file name=file>
-        <input type=submit value="Upload & Classify">
+        <input type=submit value="Télécharger et classer">
       </div>
     </form>
     <footer>
@@ -37,7 +37,7 @@
         var inputLabel = document.getElementById('inputLabel');
         var filename = this.value.replace(/.*[\/\\]/, '');
         inputLabel.innerHTML = '<svg class="uploadSVG" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><polyline points="16 16 12 12 8 16"></polyline><line x1="12" y1="12" x2="12" y2="21"></line><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"></path><polyline points="16 16 12 12 8 16"></polyline></svg>';
-        inputLabel.innerHTML += '<br /><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here.</span>';
+        inputLabel.innerHTML += '<br /><strong>Télécharger une image</strong><span class="box__dragndrop"> ou faites-la glisser ici.</span>';
         if (filename) {
           inputLabel.innerHTML += '<p>Selected: ' + filename + "</p>";
         }
