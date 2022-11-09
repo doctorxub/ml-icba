@@ -17,6 +17,10 @@ app = Flask(__name__)
 def render_main_page():
     return render_template('index.html')
 
+@app.route('/privacy', methods=['GET'])
+def render_privacy_page():
+    return render_template('privacy-policy.html')
+
 # ----------------------------------------------------------
 # ICBA
 # ----------------------------------------------------------
