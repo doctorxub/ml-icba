@@ -578,7 +578,7 @@ icba_diseases_list_ar = [
     },
     {
         'id': 20,
-        'type': 'Quinoa',
+        'type': 'كينوا',
         'pathogen': 'فيروس',
         'name': 'فيروس تجعد أوراق الطماطم الصفراء (TYLCV)',
         'sci_name': 'فيروس تجعد أوراق الطماطم الصفراء',
@@ -1184,7 +1184,7 @@ icba_html_predictions_ar = [
     },
     {
         'id': 20,
-        'type': 'Quinoa',
+        'type': 'كينوا',
         'pathogen': 'فيروس',
         'name': 'فيروس تجعد أوراق الطماطم الصفراء (TYLCV)',
         'sci_name': 'فيروس تجعد أوراق الطماطم الصفراء',
