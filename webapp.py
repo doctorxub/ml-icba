@@ -78,7 +78,7 @@ def get_index_with_offset(i, ptype):
 #     return i+20
   return i
 
-def validate_confidence(i, c, ptype):
+def validate_confidence(c, i, ptype):
   if ptype == 1 and i > 4:
     return 0
   elif ptype == 2 and (i < 5 or i > 11):
