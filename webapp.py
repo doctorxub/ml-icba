@@ -67,6 +67,28 @@ def icba_predict(filename):
 
     return result
 
+def get_index_with_offset(i, ptype):
+#   if ptype == 1:
+#     return i
+#   elif ptype == 2:
+#     return i+5
+#   elif ptype == 3:
+#     return i+12
+#   elif ptype == 4:
+#     return i+20
+  return i
+
+def validate_confidence(i, c, ptype):
+  if ptype == 1 and i > 4:
+    return 0
+  elif ptype == 2 and (i < 5 or i > 11):
+    return 0
+  elif ptype == 3 and (i < 12 or i > 19):
+    return 0
+  elif ptype == 4 and i < 20:
+    return 0
+  return c
+
 @app.route('/icba', methods=['GET', 'POST'])
 def render_icba_main_page():
     if request.method == 'POST':
@@ -79,14 +101,21 @@ def render_icba_main_page():
     return render_template('icba/index.html')
 
 @app.route('/icba/predict/<filename>')
-def render_icba_predict(filename):
+def render_icba_predict_no_ptype(filename):
+    return render_icba_predict(filename, 0)
+
+@app.route('/icba/predict/<filename>/<ptype>')
+def render_icba_predict(filename, ptype):
     result = icba_predict(filename)
     i = result.get('index')
     c = result.get('confidence')
 
     if i < 0:
         return render_template('icba/error.html', message=result.get('errorMsg'))
-    return render_template('icba/result.html', predictions=icba_html_predictions[i], confidence=c)
+
+    index = get_index_with_offset(i, ptype)
+    c = validate_confidence(c, index, ptype)
+    return render_template('icba/result.html', predictions=icba_html_predictions[index], confidence=c)
 
 @app.route('/icba/diseases')
 def render_icba_diseases():
@@ -102,14 +131,21 @@ def icba_upload_image():
     return jsonify(success=1, filename=filename)
 
 @app.route('/api/predict/<filename>')
-def icba_api_predict(filename):
+def icba_api_predict_no_ptype(filename):
+    return icba_api_predict(filename, 0)
+
+@app.route('/api/predict/<filename>/<ptype>')
+def icba_api_predict(filename, ptype):
     result = icba_predict(filename)
     i = result.get('index')
     c = result.get('confidence')
 
     if i < 0:
         return jsonify(success=0, message=result.get('errorMsg'))
-    return jsonify(success=1, disease=icba_diseases_list[i], confidence=c)
+
+    index = get_index_with_offset(i, ptype)
+    c = validate_confidence(c, index, ptype)
+    return jsonify(success=1, disease=icba_diseases_list[index], confidence=c)
 
 @app.route('/api/diseases')
 def icba_diseases():
@@ -133,14 +169,21 @@ def render_icbafr_main_page():
     return render_template('icbafr/index.html')
 
 @app.route('/icbafr/predict/<filename>')
-def render_icbafr_predict(filename):
+def render_icbafr_predict_no_ptype(filename):
+    return render_icbafr_predict(filename, 0)
+
+@app.route('/icbafr/predict/<filename>/<ptype>')
+def render_icbafr_predict(filename, ptype):
     result = icba_predict(filename)
     i = result.get('index')
     c = result.get('confidence')
 
     if i < 0:
         return render_template('icbafr/error.html', message=result.get('errorMsg'))
-    return render_template('icbafr/result.html', predictions=icba_html_predictions_fr[i], confidence=c)
+
+    index = get_index_with_offset(i, ptype)
+    c = validate_confidence(c, index, ptype)
+    return render_template('icbafr/result.html', predictions=icba_html_predictions_fr[index], confidence=c)
 
 @app.route('/icbafr/diseases')
 def render_icbafr_diseases():
@@ -164,14 +207,21 @@ def render_icbaar_main_page():
     return render_template('icbaar/index.html')
 
 @app.route('/icbaar/predict/<filename>')
-def render_icbaar_predict(filename):
+def render_icbaar_predict_no_ptype(filename):
+    return render_icbaar_predict(filename, 0)
+
+@app.route('/icbaar/predict/<filename>/<ptype>')
+def render_icbaar_predict(filename, ptype):
     result = icba_predict(filename)
     i = result.get('index')
     c = result.get('confidence')
 
     if i < 0:
         return render_template('icbaar/error.html', message=result.get('errorMsg'))
-    return render_template('icbaar/result.html', predictions=icba_html_predictions_ar[i], confidence=c)
+
+    index = get_index_with_offset(i, ptype)
+    c = validate_confidence(c, index, ptype)
+    return render_template('icbaar/result.html', predictions=icba_html_predictions_ar[index], confidence=c)
 
 @app.route('/icbaar/diseases')
 def render_icbaar_diseases():
