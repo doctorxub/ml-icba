@@ -113,8 +113,9 @@ def render_icba_predict(filename, ptype):
     if i < 0:
         return render_template('icba/error.html', message=result.get('errorMsg'))
 
-    index = get_index_with_offset(i, ptype)
-    c = validate_confidence(c, index, ptype)
+    plant_type = int(ptype)
+    index = get_index_with_offset(i, plant_type)
+    c = validate_confidence(c, index, plant_type)
     return render_template('icba/result.html', predictions=icba_html_predictions[index], confidence=c)
 
 @app.route('/icba/diseases')
@@ -143,8 +144,9 @@ def icba_api_predict(filename, ptype):
     if i < 0:
         return jsonify(success=0, message=result.get('errorMsg'))
 
-    index = get_index_with_offset(i, ptype)
-    c = validate_confidence(c, index, ptype)
+    plant_type = int(ptype)
+    index = get_index_with_offset(i, plant_type)
+    c = validate_confidence(c, index, plant_type)
     return jsonify(success=1, disease=icba_diseases_list[index], confidence=c)
 
 @app.route('/api/diseases')
@@ -181,8 +183,9 @@ def render_icbafr_predict(filename, ptype):
     if i < 0:
         return render_template('icbafr/error.html', message=result.get('errorMsg'))
 
-    index = get_index_with_offset(i, ptype)
-    c = validate_confidence(c, index, ptype)
+    plant_type = int(ptype)
+    index = get_index_with_offset(i, plant_type)
+    c = validate_confidence(c, index, plant_type)
     return render_template('icbafr/result.html', predictions=icba_html_predictions_fr[index], confidence=c)
 
 @app.route('/icbafr/diseases')
@@ -219,8 +222,9 @@ def render_icbaar_predict(filename, ptype):
     if i < 0:
         return render_template('icbaar/error.html', message=result.get('errorMsg'))
 
-    index = get_index_with_offset(i, ptype)
-    c = validate_confidence(c, index, ptype)
+    plant_type = int(ptype)
+    index = get_index_with_offset(i, plant_type)
+    c = validate_confidence(c, index, plant_type)
     return render_template('icbaar/result.html', predictions=icba_html_predictions_ar[index], confidence=c)
 
 @app.route('/icbaar/diseases')
