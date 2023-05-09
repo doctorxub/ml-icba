@@ -17,6 +17,7 @@ from readingModelArch import load_weights_model, create_base_model
 app = Flask(__name__)
 
 url_base =  'https://doctorxub.com'
+#url_base = 'https://79c5-181-55-68-32.ngrok-free.app'
 url_en = url_base + '/icba'
 url_fr = url_base + '/icbafr'
 url_ar = url_base + '/icbaar'
@@ -32,14 +33,13 @@ icba_model_path_pepper = 'static/models/icba/model_v2_pepper-epoch-058-valacc-0.
 def render_main_page():  
     return render_template('index.html', url_en=url_en, url_fr=url_fr, url_ar=url_ar)
 
-#    return render_template('index.html')
 
 @app.route('/privacy', methods=['GET'])
 def render_privacy_page():
     return render_template('privacy-policy.html')
 
 # ----------------------------------------------------------
-# ICBA Base model
+# ICBA Base model|
 # ----------------------------------------------------------
 icba_base_model = ResNet50(weights='imagenet', include_top=False)
 for layer in icba_base_model.layers:
