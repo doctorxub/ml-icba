@@ -80,7 +80,7 @@ icba_model_pepper = load_weights_model(icba_model_pepper, icba_model_path_pepper
 #                   'confidence' of the prediction and 'errorMsg' in case
 #                   of an error ocurr
 #-------------------------------------------------------------------------
-def icba_predict(filename, ptype=0):
+def icba_predict(filename, ptype=""):
     result = {'index': -1, 'confidence': 0, 'errorMsg': ''}
 
     if not filename:
@@ -97,13 +97,13 @@ def icba_predict(filename, ptype=0):
         img = cv2.resize(img, (224, 224))
         img = np.reshape(img, [1, 224, 224, 3])
         
-        if (ptype == 1):
+        if (ptype == "cucumber"):
             # ptype = 1 : Cucumber
             classes = icba_model_cucumber.predict(img, batch_size=1)
-        elif (ptype == 2):
+        elif (ptype == "capsicum"):
             # ptype = 2 : Pepper
             classes = icba_model_pepper.predict(img, batch_size=1)
-        elif (ptype == 3):
+        elif (ptype == "tomato"):
             # ptype = 3 : tomato
             classes = icba_model_tomato.predict(img, batch_size=1)
         else:
@@ -135,7 +135,7 @@ def icba_predict(filename, ptype=0):
 # output: i -> the index with offset from the list of diseases corresponding 
 #              with the predicted
 #-------------------------------------------------------------------------
-def get_index_with_offset(i, ptype):
+def get_index_with_offset(i, ptype=0):
    if ptype == 1:
      return i # This first 5 correspond with cucumber
    elif ptype == 2:
@@ -143,6 +143,7 @@ def get_index_with_offset(i, ptype):
    elif ptype == 3:
      return i+12 # Skip 5 from cucumber + 7 from pepper
    return i
+
 
 def validate_confidence(c, i, ptype):
   if ptype == 1 and i > 4:
@@ -237,13 +238,24 @@ def icba_api_predict_no_ptype(filename):
 @app.route('/api/predict/<filename>/<ptype>')
 def icba_api_predict(filename, ptype):
     plant_type = int(ptype)
-    result = icba_predict(filename, plant_type)
+    
+    if plant_type == 3:
+       plant_type_str = "tomato"
+    elif plant_type == 1:
+       plant_type_str = "cucumber"
+    elif plant_type == 2:
+       plant_type_str = "capsicum"
+    else:
+       result['errorMsg'] = 'Unable to provide a response at the moment. Please check your input and try again'
+       return jsonify(success=0, message=result.get('errorMsg'))
+
+    result = icba_predict(filename, plant_type_str)
     i = result.get('index')
     c = result.get('confidence')
 
     if i < 0:
         return jsonify(success=0, message=result.get('errorMsg'))
-
+    
     index = get_index_with_offset(i, plant_type)
     c = validate_confidence(c, index, plant_type)
     return jsonify(success=1, disease=icba_diseases_list[index], confidence=c)
@@ -367,5 +379,5 @@ def render_icbaar_diseases():
 # ----------------------------------------------------------
 
 
-#if __name__ == '__main__':
-#    app.run(host='0.0.0.0', port=9095)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=9095)
