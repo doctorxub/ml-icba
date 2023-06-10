@@ -222,7 +222,7 @@ def icba_upload_image():
 
 @app.route('/api/predict/<filename>')
 def icba_api_predict_no_ptype(filename):
-    return icba_api_predict(filename, 0)
+    return icba_api_predict(filename, "")
 
 #------------------------------------------------------------------------
 # This method return a json file with the rediction result
@@ -235,21 +235,21 @@ def icba_api_predict_no_ptype(filename):
 #        ptype = 3 : tomato
 # output: json containing the respective disease predicted in details
 #-------------------------------------------------------------------------
-@app.route('/api/predict/<filename>/<ptype>')
-def icba_api_predict(filename, ptype):
-    plant_type = int(ptype)
+@app.route('/api/predict/<filename>/<crop>')
+def icba_api_predict(filename, crop):
+    plant_type = 0
     
-    if plant_type == 3:
-       plant_type_str = "tomato"
-    elif plant_type == 1:
-       plant_type_str = "cucumber"
-    elif plant_type == 2:
-       plant_type_str = "capsicum"
+    if crop == "tomato":
+       plant_type = 3
+    elif crop == "cucumber":
+       plant_type = 1
+    elif crop == "capsicum":
+       plant_type = 2
     else:
        result['errorMsg'] = 'Unable to provide a response at the moment. Please check your input and try again'
        return jsonify(success=0, message=result.get('errorMsg'))
 
-    result = icba_predict(filename, plant_type_str)
+    result = icba_predict(filename, crop)
     i = result.get('index')
     c = result.get('confidence')
 
